@@ -1,0 +1,242 @@
+{
+  "original_project_pdf_count": 33,
+  "cloud_catalog_name_and_byte_count_comparison": "33/33 passed",
+  "original_project_total_bytes": 334202321,
+  "filename_difference": "Some cloud downloads have a trailing (1) before .pdf; local original names are preserved and explicitly mapped.",
+  "original_cloud_per_file_sha256_comparison": "not possible: original manifest unavailable",
+  "supplemental_course": "线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+  "added_workbook": "高数/27高数强化习题册_仅数二.pdf",
+  "matches": [
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化1 第一章 公式大复习&函数极限醒脑1【例1.1】-【例1.10】(1).pdf",
+      "local_and_repository_path": "高数/高数强化1 第一章 公式大复习&函数极限醒脑1【例1.1】-【例1.10】.pdf",
+      "bytes": 9432030,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化2 第一章 函数极限醒脑2【例1.11】-【例1.27】(1).pdf",
+      "local_and_repository_path": "高数/高数强化2 第一章 函数极限醒脑2【例1.11】-【例1.27】.pdf",
+      "bytes": 8807700,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化3 第一章 无穷小&数列极限1【例1.28】-【例1.42】(1).pdf",
+      "local_and_repository_path": "高数/高数强化3 第一章 无穷小&数列极限1【例1.28】-【例1.42】.pdf",
+      "bytes": 9838080,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化4 第一章 数列极限2【例1.40】-【例1.56】(1).pdf",
+      "local_and_repository_path": "高数/高数强化4 第一章 数列极限2【例1.40】-【例1.56】.pdf",
+      "bytes": 7854408,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化5 第一二章 数列极限3+连续间断+导数定义【例1.57】-【例2.4】(1).pdf",
+      "local_and_repository_path": "高数/高数强化5 第一二章 数列极限3+连续间断+导数定义【例1.57】-【例2.4】.pdf",
+      "bytes": 11915491,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化6 第二章 导数计算【例2.5】-【例2.16】(1).pdf",
+      "local_and_repository_path": "高数/高数强化6 第二章 导数计算【例2.5】-【例2.16】.pdf",
+      "bytes": 8621772,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化7 第二章 导数计算【例2.17】-【例2.23】(1).pdf",
+      "local_and_repository_path": "高数/高数强化7 第二章 导数计算【例2.17】-【例2.23】.pdf",
+      "bytes": 3955357,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化8 第二章 中值定理证明题【例2.24】-【例2.36】(1).pdf",
+      "local_and_repository_path": "高数/高数强化8 第二章 中值定理证明题【例2.24】-【例2.36】.pdf",
+      "bytes": 10605309,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化9 第二章 泰勒公式及更多证明题【例2.37】-【例2.47】(1).pdf",
+      "local_and_repository_path": "高数/高数强化9 第二章 泰勒公式及更多证明题【例2.37】-【例2.47】.pdf",
+      "bytes": 10860122,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化10 第二章 零点介值 凹凸性拐点 渐近线【例2.48】-【例2.56】(1).pdf",
+      "local_and_repository_path": "高数/高数强化10 第二章 零点介值 凹凸性拐点 渐近线【例2.48】-【例2.56】.pdf",
+      "bytes": 11344048,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化11 第三章 不定积分【例3.1】-【例3.9】+预习答案(1).pdf",
+      "local_and_repository_path": "高数/高数强化11 第三章 不定积分【例3.1】-【例3.9】+预习答案.pdf",
+      "bytes": 13182450,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化12 第三章 不定积分【例3.10】-【例3(1).pdf",
+      "local_and_repository_path": "高数/高数强化12 第三章 不定积分【例3.10】-【例3.pdf",
+      "bytes": 8679448,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化13 第三章 定积分概念性质计算【例3.18】-【例3.26】(1).pdf",
+      "local_and_repository_path": "高数/高数强化13 第三章 定积分概念性质计算【例3.18】-【例3.26】.pdf",
+      "bytes": 11435126,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化14 第三章 变限积分&反常积分【例3.27】-【例3.37】(1).pdf",
+      "local_and_repository_path": "高数/高数强化14 第三章 变限积分&反常积分【例3.27】-【例3.37】.pdf",
+      "bytes": 10928569,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化15(1-2) 第三章 反常积分2&定积分几何应用(极坐标作图终极讲解)【例3.38】-【例3.42】(1).pdf",
+      "local_and_repository_path": "高数/高数强化15(1-2) 第三章 反常积分2&定积分几何应用(极坐标作图终极讲解)【例3.38】-【例3.42】.pdf",
+      "bytes": 12059071,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化15(3-4) 数一二专项 定积分几何物理应用【例3.43-44】【例3.49-52】(1).pdf",
+      "local_and_repository_path": "高数/高数强化15(3-4) 数一二专项 定积分几何物理应用【例3.43-44】【例3.49-52】.pdf",
+      "bytes": 3013003,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化16 第三四章 定积分证明【例3.45-3.48】& 二重极限与偏导数【例4.1-4(1).pdf",
+      "local_and_repository_path": "高数/高数强化16 第三四章 定积分证明【例3.45-3.48】& 二重极限与偏导数【例4.1-4.pdf",
+      "bytes": 9908854,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化17 第四章 多元微分学综合进阶【例4.4-4.20】(1).pdf",
+      "local_and_repository_path": "高数/高数强化17 第四章 多元微分学综合进阶【例4.4-4.20】.pdf",
+      "bytes": 26021768,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化18 第五章 二重积分定义性质&计算1【例5.1】-【例5.8】(1).pdf",
+      "local_and_repository_path": "高数/高数强化18 第五章 二重积分定义性质&计算1【例5.1】-【例5.8】.pdf",
+      "bytes": 10043719,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化19 第五章 二重积分计算2【例5.9】-【例5.15】(1).pdf",
+      "local_and_repository_path": "高数/高数强化19 第五章 二重积分计算2【例5.9】-【例5.15】.pdf",
+      "bytes": 11050623,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化20 第六章 微分方程1【例6.1】-【例6.8】.pdf",
+      "local_and_repository_path": "高数/高数强化20 第六章 微分方程1【例6.1】-【例6.8】.pdf",
+      "bytes": 11597752,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化21(1)(2) 第六章 微分方程2&微分算子法【例6.9】-【例6.18】.pdf",
+      "local_and_repository_path": "高数/高数强化21(1)(2) 第六章 微分方程2&微分算子法【例6.9】-【例6.18】.pdf",
+      "bytes": 7832117,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/calculus/高数强化21(3) 数一二专项 微分方程物理应用【例6.19】【例6.20】(1).pdf",
+      "local_and_repository_path": "高数/高数强化21(3) 数一二专项 微分方程物理应用【例6.19】【例6.20】.pdf",
+      "bytes": 884906,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化1 第一二章 行列式&矩阵1【例1.1】-【例2.3】.pdf",
+      "local_and_repository_path": "线性代数/线代强化1 第一二章 行列式&矩阵1【例1.1】-【例2.3】.pdf",
+      "bytes": 8463215,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化2 第二章 矩阵2【例2.4】-【例2.13】.pdf",
+      "local_and_repository_path": "线性代数/线代强化2 第二章 矩阵2【例2.4】-【例2.13】.pdf",
+      "bytes": 7910159,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化3 第二章 矩阵初等变换&秩【例2.14】-【例2.23】.pdf",
+      "local_and_repository_path": "线性代数/线代强化3 第二章 矩阵初等变换&秩【例2.14】-【例2.23】.pdf",
+      "bytes": 9000132,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化4 第三章 向量组相关无关&线性表示&等价【例3.1】-【例3.9】.pdf",
+      "local_and_repository_path": "线性代数/线代强化4 第三章 向量组相关无关&线性表示&等价【例3.1】-【例3.9】.pdf",
+      "bytes": 9806454,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化5 第三章 AB=O&广义初等变换&极大无关组【例3.10】-【例3.pdf",
+      "local_and_repository_path": "线性代数/线代强化5 第三章 AB=O&广义初等变换&极大无关组【例3.10】-【例3.pdf",
+      "bytes": 9152799,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化6 第四章 解的判定&解矩阵方程AX=B&基础解系【例4.1】-【例4.5】.pdf",
+      "local_and_repository_path": "线性代数/线代强化6 第四章 解的判定&解矩阵方程AX=B&基础解系【例4.1】-【例4.5】.pdf",
+      "bytes": 11187869,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化7-8(3) 第四章 抽象方程组&公共解同解&解的包含【例4.6】-【例4.18】.pdf",
+      "local_and_repository_path": "线性代数/线代强化7-8(3) 第四章 抽象方程组&公共解同解&解的包含【例4.6】-【例4.18】.pdf",
+      "bytes": 18716431,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化8(4)(5) 数一专项-向量空间&直线与平面【例4.2】【例3.18-例3.21】.pdf",
+      "local_and_repository_path": "线性代数/线代强化8(4)(5) 数一专项-向量空间&直线与平面【例4.2】【例3.18-例3.21】.pdf",
+      "bytes": 7246180,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化9(1-3)  第五章 特征值特征向量&相似【例5.1】-【例5.5】.pdf",
+      "local_and_repository_path": "线性代数/线代强化9(1-3)  第五章 特征值特征向量&相似【例5.1】-【例5.5】.pdf",
+      "bytes": 10068133,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    },
+    {
+      "cloud_catalog_path": "materials/linear-algebra/线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf",
+      "local_and_repository_path": "线性代数/线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf",
+      "bytes": 12779226,
+      "name_match_after_download_suffix_normalization": true,
+      "byte_count_match": true
+    }
+  ]
+}
