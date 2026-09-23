@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-09-23 12:45:05 UTC",
+  "project_url": "https://chatgpt.com/g/g-p-6ab36d62911c8191afec1a4f00558238/project?tab=sources",
+  "conversation_url": "https://chatgpt.com/g/g-p-6ab36d62911c8191afec1a4f00558238/c/6ab38e0c-5780-83e9-a431-57556b7aae36",
+  "original_conversation_turn_id": "36cd0b84-2d7e-4702-baf2-050d2793d7aa",
+  "original_conversation_report_id": "c0410dfc-1062-49a3-b3c3-230b19dad169",
+  "route": "ChatGPT project sources, not GitHub PDF text retrieval",
+  "browser_ui_checks": {
+    "pdf_source_count": 35,
+    "new_files_persist_after_reload": true,
+    "workbook_preview_page_count": 152,
+    "supplemental_linear_preview_page_count": 26,
+    "both_first_pages_visually_inspected": true
+  },
+  "original_conversation_report": {
+    "actual_pdf_open_count": 35,
+    "total_pages": 641,
+    "all_page_objects_loaded": true,
+    "two_pdf_parsers_page_count_check": true,
+    "each_file_first_and_last_page_render_test": true,
+    "specified_pages_rendered_and_visually_read": 5,
+    "unreadable_files": []
+  },
+  "independent_local_comparison": {
+    "all_35_returned_filenames_and_page_counts_match_manifest": true,
+    "new_files_byte_counts_and_sha256_match": true,
+    "returned_page_details_compared_with_local_renders": true
+  },
+  "newly_uploaded_files": [
+    {
+      "project_filename": "27高数强化习题册_仅数二.pdf",
+      "repository_path": "高数/27高数强化习题册_仅数二.pdf",
+      "bytes": 13108395,
+      "pages": 152,
+      "sha256": "5891d8ea2b8eae46b8a335c1988ffcb281d53943574a77145ef45ff45103ad88",
+      "matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】(2).pdf",
+      "repository_path": "线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+      "bytes": 19413260,
+      "pages": 26,
+      "sha256": "925990228b3bb6a8f03aab3f1ba91f948034dcf9a538f3e4d73b1be6d9c01c11",
+      "matches_local_manifest": true
+    }
+  ],
+  "sampled_page_reading": [
+    {
+      "file": "高数/27高数强化习题册_仅数二.pdf",
+      "pdf_page": 37,
+      "printed_page": 285,
+      "matching_detail": "Question 6: f(x)=ln((1-2x)/(1+3x)), n>=2, find f^(n)(0). No handwriting.",
+      "match": true
+    },
+    {
+      "file": "高数/27高数强化习题册_仅数二.pdf",
+      "pdf_page": 152,
+      "printed_page": 458,
+      "matching_detail": "Question 6: particle mass m, initially at rest, driving force k1*t and resisting force k2*v. No handwriting.",
+      "match": true
+    },
+    {
+      "file": "线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+      "pdf_page": 13,
+      "printed_page": 152,
+      "matching_detail": "Continuation: write beta as a linear combination of eigenvectors, then compute A^n*beta; annotations and derivation visible.",
+      "match": true
+    },
+    {
+      "file": "线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+      "pdf_page": 26,
+      "printed_page": 165,
+      "matching_detail": "Continuation with handwritten extension A^99 and circled real-symmetric spectral decomposition.",
+      "match": true
+    },
+    {
+      "file": "高数/高数强化17 第四章 多元微分学综合进阶【例4.4-4.20】.pdf",
+      "pdf_page": 5,
+      "matching_detail": "Pink frame distinguishes differentiating with respect to original variables from solving for derivatives with respect to intermediate variables.",
+      "match": true
+    }
+  ],
+  "files": [
+    {
+      "project_filename": "高数强化1 第一章 公式大复习&函数极限醒脑1【例1.1】-【例1.10】(1).pdf",
+      "repository_path": "高数/高数强化1 第一章 公式大复习&函数极限醒脑1【例1.1】-【例1.10】.pdf",
+      "pages": 18,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化2 第一章 函数极限醒脑2【例1.11】-【例1.27】(1).pdf",
+      "repository_path": "高数/高数强化2 第一章 函数极限醒脑2【例1.11】-【例1.27】.pdf",
+      "pages": 13,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化3 第一章 无穷小&数列极限1【例1.28】-【例1.42】(1).pdf",
+      "repository_path": "高数/高数强化3 第一章 无穷小&数列极限1【例1.28】-【例1.42】.pdf",
+      "pages": 14,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化4 第一章 数列极限2【例1.40】-【例1.56】(1).pdf",
+      "repository_path": "高数/高数强化4 第一章 数列极限2【例1.40】-【例1.56】.pdf",
+      "pages": 13,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化5 第一二章 数列极限3+连续间断+导数定义【例1.57】-【例2.4】(1).pdf",
+      "repository_path": "高数/高数强化5 第一二章 数列极限3+连续间断+导数定义【例1.57】-【例2.4】.pdf",
+      "pages": 16,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化6 第二章 导数计算【例2.5】-【例2.16】(1).pdf",
+      "repository_path": "高数/高数强化6 第二章 导数计算【例2.5】-【例2.16】.pdf",
+      "pages": 16,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化7 第二章 导数计算【例2.17】-【例2.23】(1).pdf",
+      "repository_path": "高数/高数强化7 第二章 导数计算【例2.17】-【例2.23】.pdf",
+      "pages": 5,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化8 第二章 中值定理证明题【例2.24】-【例2.36】(1).pdf",
+      "repository_path": "高数/高数强化8 第二章 中值定理证明题【例2.24】-【例2.36】.pdf",
+      "pages": 14,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化9 第二章 泰勒公式及更多证明题【例2.37】-【例2.47】(1).pdf",
+      "repository_path": "高数/高数强化9 第二章 泰勒公式及更多证明题【例2.37】-【例2.47】.pdf",
+      "pages": 17,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化10 第二章 零点介值 凹凸性拐点 渐近线【例2.48】-【例2.56】(1).pdf",
+      "repository_path": "高数/高数强化10 第二章 零点介值 凹凸性拐点 渐近线【例2.48】-【例2.56】.pdf",
+      "pages": 15,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化11 第三章 不定积分【例3.1】-【例3.9】+预习答案(1).pdf",
+      "repository_path": "高数/高数强化11 第三章 不定积分【例3.1】-【例3.9】+预习答案.pdf",
+      "pages": 26,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化12 第三章 不定积分【例3.10】-【例3(1).pdf",
+      "repository_path": "高数/高数强化12 第三章 不定积分【例3.10】-【例3.pdf",
+      "pages": 14,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化13 第三章 定积分概念性质计算【例3.18】-【例3.26】(1).pdf",
+      "repository_path": "高数/高数强化13 第三章 定积分概念性质计算【例3.18】-【例3.26】.pdf",
+      "pages": 13,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化14 第三章 变限积分&反常积分【例3.27】-【例3.37】(1).pdf",
+      "repository_path": "高数/高数强化14 第三章 变限积分&反常积分【例3.27】-【例3.37】.pdf",
+      "pages": 17,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化15(1-2) 第三章 反常积分2&定积分几何应用(极坐标作图终极讲解)【例3.38】-【例3.42】(1).pdf",
+      "repository_path": "高数/高数强化15(1-2) 第三章 反常积分2&定积分几何应用(极坐标作图终极讲解)【例3.38】-【例3.42】.pdf",
+      "pages": 15,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化15(3-4) 数一二专项 定积分几何物理应用【例3.43-44】【例3.49-52】(1).pdf",
+      "repository_path": "高数/高数强化15(3-4) 数一二专项 定积分几何物理应用【例3.43-44】【例3.49-52】.pdf",
+      "pages": 9,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化16 第三四章 定积分证明【例3.45-3.48】& 二重极限与偏导数【例4.1-4(1).pdf",
+      "repository_path": "高数/高数强化16 第三四章 定积分证明【例3.45-3.48】& 二重极限与偏导数【例4.1-4.pdf",
+      "pages": 12,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化17 第四章 多元微分学综合进阶【例4.4-4.20】(1).pdf",
+      "repository_path": "高数/高数强化17 第四章 多元微分学综合进阶【例4.4-4.20】.pdf",
+      "pages": 28,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化18 第五章 二重积分定义性质&计算1【例5.1】-【例5.8】(1).pdf",
+      "repository_path": "高数/高数强化18 第五章 二重积分定义性质&计算1【例5.1】-【例5.8】.pdf",
+      "pages": 14,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化19 第五章 二重积分计算2【例5.9】-【例5.15】(1).pdf",
+      "repository_path": "高数/高数强化19 第五章 二重积分计算2【例5.9】-【例5.15】.pdf",
+      "pages": 12,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化20 第六章 微分方程1【例6.1】-【例6.8】.pdf",
+      "repository_path": "高数/高数强化20 第六章 微分方程1【例6.1】-【例6.8】.pdf",
+      "pages": 17,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化21(1)(2) 第六章 微分方程2&微分算子法【例6.9】-【例6.18】.pdf",
+      "repository_path": "高数/高数强化21(1)(2) 第六章 微分方程2&微分算子法【例6.9】-【例6.18】.pdf",
+      "pages": 11,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "高数强化21(3) 数一二专项 微分方程物理应用【例6.19】【例6.20】(1).pdf",
+      "repository_path": "高数/高数强化21(3) 数一二专项 微分方程物理应用【例6.19】【例6.20】.pdf",
+      "pages": 3,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化1 第一二章 行列式&矩阵1【例1.1】-【例2.3】.pdf",
+      "repository_path": "线性代数/线代强化1 第一二章 行列式&矩阵1【例1.1】-【例2.3】.pdf",
+      "pages": 19,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化2 第二章 矩阵2【例2.4】-【例2.13】.pdf",
+      "repository_path": "线性代数/线代强化2 第二章 矩阵2【例2.4】-【例2.13】.pdf",
+      "pages": 10,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化3 第二章 矩阵初等变换&秩【例2.14】-【例2.23】.pdf",
+      "repository_path": "线性代数/线代强化3 第二章 矩阵初等变换&秩【例2.14】-【例2.23】.pdf",
+      "pages": 9,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化4 第三章 向量组相关无关&线性表示&等价【例3.1】-【例3.9】.pdf",
+      "repository_path": "线性代数/线代强化4 第三章 向量组相关无关&线性表示&等价【例3.1】-【例3.9】.pdf",
+      "pages": 11,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化5 第三章 AB=O&广义初等变换&极大无关组【例3.10】-【例3.pdf",
+      "repository_path": "线性代数/线代强化5 第三章 AB=O&广义初等变换&极大无关组【例3.10】-【例3.pdf",
+      "pages": 11,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化6 第四章 解的判定&解矩阵方程AX=B&基础解系【例4.1】-【例4.5】.pdf",
+      "repository_path": "线性代数/线代强化6 第四章 解的判定&解矩阵方程AX=B&基础解系【例4.1】-【例4.5】.pdf",
+      "pages": 13,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化7-8(3) 第四章 抽象方程组&公共解同解&解的包含【例4.6】-【例4.18】.pdf",
+      "repository_path": "线性代数/线代强化7-8(3) 第四章 抽象方程组&公共解同解&解的包含【例4.6】-【例4.18】.pdf",
+      "pages": 20,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化8(4)(5) 数一专项-向量空间&直线与平面【例4.2】【例3.18-例3.21】.pdf",
+      "repository_path": "线性代数/线代强化8(4)(5) 数一专项-向量空间&直线与平面【例4.2】【例3.18-例3.21】.pdf",
+      "pages": 9,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化9(1-3)  第五章 特征值特征向量&相似【例5.1】-【例5.5】.pdf",
+      "repository_path": "线性代数/线代强化9(1-3)  第五章 特征值特征向量&相似【例5.1】-【例5.5】.pdf",
+      "pages": 12,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】(2).pdf",
+      "repository_path": "线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+      "pages": 26,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf",
+      "repository_path": "线性代数/线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf",
+      "pages": 17,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    },
+    {
+      "project_filename": "27高数强化习题册_仅数二.pdf",
+      "repository_path": "高数/27高数强化习题册_仅数二.pdf",
+      "pages": 152,
+      "opened": true,
+      "page_count_matches_local_manifest": true
+    }
+  ],
+  "limitations": [
+    "The 35-file parsing and first/last-page render result is reported by the original cloud conversation; this local task independently compared the returned inventory, two hashes, and five page-content descriptions.",
+    "641 pages are accessible and counted, not all mathematically reviewed.",
+    "GitHub binary-to-execution transfer is not the working reading route.",
+    "Original historical cloud SHA-256 manifest remains unavailable; this receipt is a new project-source verification."
+  ]
+}

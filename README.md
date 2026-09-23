@@ -3,9 +3,11 @@
 个人学习用私有资料库。PDF 原件保留中文文件名和原始字节，不公开发布，不重新排版。
 
 - [全部文件目录](CATALOG.md)：逐份打开、下载，包含页数和大小。
-- [网页端访问说明](WEB_ACCESS.md)：区分 GitHub 网页下载与 ChatGPT 实际读取。
+- [ChatGPT 项目来源](https://chatgpt.com/g/g-p-6ab36d62911c8191afec1a4f00558238/project?tab=sources)：35 份 PDF 已接入原“数二 150”项目，直接在网页查看并用于原复习对话。
+- [网页端访问说明](WEB_ACCESS.md)：项目来源用于实际阅读，GitHub 用于备份、索引和下载。
 - [数二强化习题册](高数/27高数强化习题册_仅数二.pdf)：152 页，原讲义习题合订本中分离出的数二适用习题。
 - [文件校验清单](MANIFEST.json)：每份 PDF 的大小、SHA-256、Git blob SHA-1。
+- [网页阅读验收记录](_checks/web-reading-receipt.json)：35 份项目来源的实际打开结果、两份新附件哈希比对及5页公式和手写内容抽检。
 - [原项目目录对照](SOURCE_COMPARISON.json)：33 项文件名与字节数核对结果及云端下载名到本地文件名的映射。
 - [学习衔接说明](STUDY_HANDOFF.md)：继续原有复习方式，不新增整套训练。
 
