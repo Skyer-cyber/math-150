@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "repository": "Skyer-cyber/math-150",
+  "original_count": 33,
+  "added_count": 1,
+  "total_count": 34,
+  "source_cloud_manifest_comparison": "pending",
+  "files": [
+    {
+      "path": "线性代数/线代强化1 第一二章 行列式&矩阵1【例1.1】-【例2.3】.pdf",
+      "bytes": 8463215,
+      "sha256": "bf9f079e112288e705b7aa7d87e6ae8e3bc0aac7724ac43fc5038775bb524802",
+      "git_blob_sha1": "899f3be91ab2965b5766b4583819abc5d60b7ed2",
+      "pages": 19,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "线性代数/线代强化2 第二章 矩阵2【例2.4】-【例2.13】.pdf",
+      "bytes": 7910159,
+      "sha256": "4a692987bf443c853ca70f53d6fcf634374b33bc4915cf64c0b981feedfb0003",
+      "git_blob_sha1": "6cf545cd7cc1af0097d8e2146cfd7d1ab2b73796",
+      "pages": 10,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "线性代数/线代强化3 第二章 矩阵初等变换&秩【例2.14】-【例2.23】.pdf",
+      "bytes": 9000132,
+      "sha256": "ec2f7547e852cc888895a0e518158c3378e080d6104a7bf2a241f9c95f708c7a",
+      "git_blob_sha1": "eb76838df4bb69ebdb23e9a5060895fd1fbfa380",
+      "pages": 9,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "线性代数/线代强化4 第三章 向量组相关无关&线性表示&等价【例3.1】-【例3.9】.pdf",
+      "bytes": 9806454,
+      "sha256": "5c486b975db3416602ce7a15055b998a6f0f08118d1a32d0ec61209288ca0d53",
+      "git_blob_sha1": "194407496c61410a0113eabb55c07636060e5095",
+      "pages": 11,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "线性代数/线代强化5 第三章 AB=O&广义初等变换&极大无关组【例3.10】-【例3.pdf",
+      "bytes": 9152799,
+      "sha256": "5c659f20b2de4a2a190de19405071f66b83ae69d4efb4340a36d20cb76c753f8",
+      "git_blob_sha1": "7d59114d171020435982bc7ba6c02ca7a6bff94f",
+      "pages": 11,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "线性代数/线代强化6 第四章 解的判定&解矩阵方程AX=B&基础解系【例4.1】-【例4.5】.pdf",
+      "bytes": 11187869,
+      "sha256": "ae3dfde358323c889bfe989988d272db3f8e9a49a85c5c28b0dda194f79d5555",
+      "git_blob_sha1": "67a63031fabaedae54c7d1e6a321ab3c6c8d2d9f",
+      "pages": 13,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "线性代数/线代强化7-8(3) 第四章 抽象方程组&公共解同解&解的包含【例4.6】-【例4.18】.pdf",
+      "bytes": 18716431,
+      "sha256": "c668e122da7cb76b22ca710b76982f7dc86d01c1c22d804f17d3d8ba3d94b247",
+      "git_blob_sha1": "f2a49e7c47c7848d6ada732c8c79c78559398b64",
+      "pages": 20,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "线性代数/线代强化9(1-3)  第五章 特征值特征向量&相似【例5.1】-【例5.5】.pdf",
+      "bytes": 10068133,
+      "sha256": "614ac1b3e1b27e7b291c8fa5188fbe2b490e172d7f4c6788b5aff9eb1653b8c5",
+      "git_blob_sha1": "6048bf7305eb82a4b6c1d8927cdf2833f08ba5d3",
+      "pages": 12,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+      "bytes": 19413260,
+      "sha256": "925990228b3bb6a8f03aab3f1ba91f948034dcf9a538f3e4d73b1be6d9c01c11",
+      "git_blob_sha1": "fc592104d55d5a5d1c98682ca719bbf5d7d44cd5",
+      "pages": 26,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "线性代数/线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf",
+      "bytes": 12779226,
+      "sha256": "9c46ec21f6dba4c85fe23745bafc83ad31785a862779361f303745b39185acda",
+      "git_blob_sha1": "230424bc187b8a165ca883c5b8232a172ad2cff0",
+      "pages": 17,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化1 第一章 公式大复习&函数极限醒脑1【例1.1】-【例1.10】.pdf",
+      "bytes": 9432030,
+      "sha256": "9c9220b829be6a2dff0bdc05ba83c6b52e1e123d813a7c528e3469e6ee3dc703",
+      "git_blob_sha1": "95b05802fe36cf365657f9f76df34d0385ee99b9",
+      "pages": 18,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化2 第一章 函数极限醒脑2【例1.11】-【例1.27】.pdf",
+      "bytes": 8807700,
+      "sha256": "c023a5ee95f52931da8221e07a6a3cf8ecf1693bc22145bbc9ca88e000a4108f",
+      "git_blob_sha1": "582b7c861c992c05937a6d3b4782ce09c7b35594",
+      "pages": 13,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化3 第一章 无穷小&数列极限1【例1.28】-【例1.42】.pdf",
+      "bytes": 9838080,
+      "sha256": "ed3ab32605985358d3637e0d7845bd3a06a64114c2c37219a6545f081493303d",
+      "git_blob_sha1": "c1da2d32594b226d15684ce6dcdf5b0232813c2a",
+      "pages": 14,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化4 第一章 数列极限2【例1.40】-【例1.56】.pdf",
+      "bytes": 7854408,
+      "sha256": "1dab3550767d3aaa828b1aaff49cd50b65328339636d75a2c8f60bb246f75c11",
+      "git_blob_sha1": "6c60ed0a8acc479ce3c08ac8435921692e03eec2",
+      "pages": 13,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化5 第一二章 数列极限3+连续间断+导数定义【例1.57】-【例2.4】.pdf",
+      "bytes": 11915491,
+      "sha256": "dbd246e08a331ca17637d29c92e673271c14059aef7c4c2405a70e7c6d1ad982",
+      "git_blob_sha1": "f50eca26792d77f2c8729358c02ef7bad5bcda00",
+      "pages": 16,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化6 第二章 导数计算【例2.5】-【例2.16】.pdf",
+      "bytes": 8621772,
+      "sha256": "2fb6b37b27e2fbf7cee2df97e450fd93c50306be2a6cd0c76bcaa7f9c5390ee0",
+      "git_blob_sha1": "01d64208188b91840d152617e0fed4a35104d812",
+      "pages": 16,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化7 第二章 导数计算【例2.17】-【例2.23】.pdf",
+      "bytes": 3955357,
+      "sha256": "3a13b6e07379ee15b00d68428047a371d97b52c26952c3d757f03bb8e1737f42",
+      "git_blob_sha1": "9ae1db845e77a506fccb0447672cdbe23e66d2d4",
+      "pages": 5,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化8 第二章 中值定理证明题【例2.24】-【例2.36】.pdf",
+      "bytes": 10605309,
+      "sha256": "be94b8f1e182f811a3bc5d203a521df9847dcb201957dea279d0d4c7838fd7b5",
+      "git_blob_sha1": "3dd9bfcc4e27ddf008785de2dfbcdee77c76e551",
+      "pages": 14,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化9 第二章 泰勒公式及更多证明题【例2.37】-【例2.47】.pdf",
+      "bytes": 10860122,
+      "sha256": "6f3d563bf120fe6491487fceca9717f6c220239d298d74f3dc21d794392ea612",
+      "git_blob_sha1": "9fec3b6d1321205da8e83fccce2e3d7c77c6fcdc",
+      "pages": 17,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化10 第二章 零点介值 凹凸性拐点 渐近线【例2.48】-【例2.56】.pdf",
+      "bytes": 11344048,
+      "sha256": "369b0006cfc9d686d76eb09095edd19cdb08cc1147f0eea58af97e4fc50d2b5c",
+      "git_blob_sha1": "4686a36dafbb131a8ef3ef64b609c94b17acff90",
+      "pages": 15,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化11 第三章 不定积分【例3.1】-【例3.9】+预习答案.pdf",
+      "bytes": 13182450,
+      "sha256": "a4dc4baa96479f0fa78b2843e52ca8a312a015691ab9e47b72457d8b3ea4159d",
+      "git_blob_sha1": "306949b9a9e697d850404cb4e8b5eed71d8edc59",
+      "pages": 26,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化12 第三章 不定积分【例3.10】-【例3.pdf",
+      "bytes": 8679448,
+      "sha256": "5cab292600c98f90532dc926cb33b9fafac63fbb13b35c9b186698f88a8da80c",
+      "git_blob_sha1": "b92577ec3394264ca771f714b50f8b31f22222aa",
+      "pages": 14,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化13 第三章 定积分概念性质计算【例3.18】-【例3.26】.pdf",
+      "bytes": 11435126,
+      "sha256": "ff61d9f6051ce0d43b70a7448653daf1fa11ad0b13f8df43b10bc3aea771f453",
+      "git_blob_sha1": "e7f5a88a873efca9cedadd783fdf51560c14a652",
+      "pages": 13,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化14 第三章 变限积分&反常积分【例3.27】-【例3.37】.pdf",
+      "bytes": 10928569,
+      "sha256": "65ebeab8af86ba693948cc65af3616bdee5b858023569b64cdecd1b137d350cd",
+      "git_blob_sha1": "aa6de8aed640bedafd2171e332292a23dd61f1ec",
+      "pages": 17,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化15(1-2) 第三章 反常积分2&定积分几何应用(极坐标作图终极讲解)【例3.38】-【例3.42】.pdf",
+      "bytes": 12059071,
+      "sha256": "88a1ae1af70430a8f649192ef581c7cb29e095333469dd99d38a3c7c102f1c59",
+      "git_blob_sha1": "e2cd49aeb66b50bbface811be336c68789710e45",
+      "pages": 15,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化15(3-4) 数一二专项 定积分几何物理应用【例3.43-44】【例3.49-52】.pdf",
+      "bytes": 3013003,
+      "sha256": "9e23a2f39c6297b5693c7d49183992279bf90636d2a7c80424c6738b4b060967",
+      "git_blob_sha1": "01e382f29e69958ca92858b72823c5311fd6c22a",
+      "pages": 9,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化16 第三四章 定积分证明【例3.45-3.48】& 二重极限与偏导数【例4.1-4.pdf",
+      "bytes": 9908854,
+      "sha256": "85230e5a986e7838030a73a7a92ad4ffd42798d18d83d83fade6dd526faa21f1",
+      "git_blob_sha1": "7d2d7d84725a3dbd06dce2e5a26e6773e1afdd35",
+      "pages": 12,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化17 第四章 多元微分学综合进阶【例4.4-4.20】.pdf",
+      "bytes": 26021768,
+      "sha256": "7fe8d225b786642d02d2f643331aefc2d1514f5b70f583384e140845e5d5c9ba",
+      "git_blob_sha1": "5c9f1479435608495087b6f77eb4904de0544492",
+      "pages": 28,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化18 第五章 二重积分定义性质&计算1【例5.1】-【例5.8】.pdf",
+      "bytes": 10043719,
+      "sha256": "7253f8e57d75bd94005db706fac611f08273027dbc632862a750b7aad8fe858a",
+      "git_blob_sha1": "0dec9d378b2dfa18e8dd81f3c2257b67ed856b06",
+      "pages": 14,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化19 第五章 二重积分计算2【例5.9】-【例5.15】.pdf",
+      "bytes": 11050623,
+      "sha256": "8cc4d5525793fedfa55288ff96d8aeedde66d7c36b51680b4d7d11f246e23d30",
+      "git_blob_sha1": "e5d9f7f4a9156444009743097231f0415a568f7c",
+      "pages": 12,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化20 第六章 微分方程1【例6.1】-【例6.8】.pdf",
+      "bytes": 11597752,
+      "sha256": "62e8fa5c887e8dff5449f48853422d850b4dfd416d45e63caac7f6cc5b9e5b1b",
+      "git_blob_sha1": "5624d1583a54bc619a84f11fa0c3a2cf2dd8916e",
+      "pages": 17,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化21(1)(2) 第六章 微分方程2&微分算子法【例6.9】-【例6.18】.pdf",
+      "bytes": 7832117,
+      "sha256": "639b6647e6dfb299756876f9f99a34ef3bae95d0e4665de86ea45b54301d6ea2",
+      "git_blob_sha1": "90bf713762c9be5607e7d7b726d1505d0126ac07",
+      "pages": 11,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/高数强化21(3) 数一二专项 微分方程物理应用【例6.19】【例6.20】.pdf",
+      "bytes": 884906,
+      "sha256": "6787b237a9f5c439ff130ef584327c2e290c9f57c035865d9565938d2666ab3c",
+      "git_blob_sha1": "b5ea276e8c950b46fca20d4b6c97f2d0436a8a0b",
+      "pages": 3,
+      "role": "original_course_pdf"
+    },
+    {
+      "path": "高数/27高数强化习题册_仅数二.pdf",
+      "bytes": 13108395,
+      "sha256": "5891d8ea2b8eae46b8a335c1988ffcb281d53943574a77145ef45ff45103ad88",
+      "git_blob_sha1": "db61cbc70d98863d8b60498eaf5195f31b032a9a",
+      "pages": 152,
+      "role": "math2_exercises_derivative"
+    }
+  ]
+}
