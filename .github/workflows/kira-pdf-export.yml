@@ -1,0 +1,46 @@
+name: One-time Kira PDF export
+
+on:
+  push:
+    branches:
+      - reading-helper/kira-pdf-export-20261010
+    paths:
+      - .github/workflows/kira-pdf-export.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export-pdf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+          sparse-checkout: |
+            /Kira·27线性代数强化讲义+习题.pdf
+          sparse-checkout-cone-mode: false
+      - name: Verify the original PDF without modifying it
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          p = Path('Kira·27线性代数强化讲义+习题.pdf')
+          data = p.read_bytes()
+          assert data.startswith(b'%PDF-'), 'Unexpected file format'
+          actual = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
+          assert actual == '7400d2432b0e40d3480c44d09900f8672921b3ec', 'The source PDF differs from the verified version'
+          print('Verified PDF bytes:', len(data))
+          print('Git blob SHA:', actual)
+          PY
+      - name: Export the private PDF as a short-lived artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kira-linear-algebra-pdf
+          path: Kira·27线性代数强化讲义+习题.pdf
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
