@@ -336,7 +336,7 @@
       "git_blob_sha1": "aa432852f7ea57269caefea52e87161a82070cb0",
       "pages": 160,
       "role": "added_linear_algebra_lecture_pdf",
-      "version_note": "文件名标注27，PDF文件第3页前言写2026；保留原文件名与字节，不据此认定最新版本。"
+      "version_note": "封面标注27基础阶段，PDF文件第3页可见前言写2027；文字抽取为2026，与原页不一致，年份以可见原页为准。"
     }
   ]
 }
