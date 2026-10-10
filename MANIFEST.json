@@ -4,7 +4,8 @@
   "original_project_count": 33,
   "supplemental_course_count": 1,
   "added_workbook_count": 1,
-  "total_count": 35,
+  "added_linear_algebra_lecture_count": 2,
+  "total_count": 37,
   "source_cloud_manifest_comparison": "Original SHA-256 manifest unavailable; 33/33 cloud catalog names (normalizing trailing download (1)) and byte counts matched.",
   "files": [
     {
@@ -319,6 +320,23 @@
       "git_blob_sha1": "db61cbc70d98863d8b60498eaf5195f31b032a9a",
       "pages": 152,
       "role": "math2_exercises_derivative"
+    },
+    {
+      "path": "Kira·27线性代数强化讲义+习题.pdf",
+      "bytes": 10493749,
+      "sha256": "4cf90f77fc3399c3c9db35b11dbe4cec9b6ca241a58595b29fac5f847a100584",
+      "git_blob_sha1": "7400d2432b0e40d3480c44d09900f8672921b3ec",
+      "pages": 181,
+      "role": "added_linear_algebra_lecture_pdf"
+    },
+    {
+      "path": "讲义/【一高数Kira】27考研线代基础讲义&习题-电子版.pdf",
+      "bytes": 39169161,
+      "sha256": "053f9f91ae6bc44252a41acae728adf97252348ccd160516aa98ea43256b0772",
+      "git_blob_sha1": "aa432852f7ea57269caefea52e87161a82070cb0",
+      "pages": 160,
+      "role": "added_linear_algebra_lecture_pdf",
+      "version_note": "文件名标注27，PDF文件第3页前言写2026；保留原文件名与字节，不据此认定最新版本。"
     }
   ]
 }
