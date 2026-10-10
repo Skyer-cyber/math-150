@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "task": "二次型 Kira 框架题库",
+  "scope": "基础例题/基础习题/强化例题/强化习题/保100二次型",
+  "status": "云端迁移准备，尚未完成题库",
+  "sources": [
+    {
+      "id": "SRC01",
+      "path": "Kira·27线性代数强化讲义+习题.pdf",
+      "archive_path": "sources/Kira·27线性代数强化讲义+习题.pdf",
+      "bytes": 10493749,
+      "pages": 181,
+      "sha256": "4cf90f77fc3399c3c9db35b11dbe4cec9b6ca241a58595b29fac5f847a100584",
+      "repository_path": "Kira·27线性代数强化讲义+习题.pdf",
+      "repository_disposition": "reuse_existing_identical_blob",
+      "git_blob_sha1": "7400d2432b0e40d3480c44d09900f8672921b3ec"
+    },
+    {
+      "id": "SRC02",
+      "path": "讲义/【一高数Kira】27考研线代基础讲义&习题-电子版.pdf",
+      "archive_path": "sources/讲义/【一高数Kira】27考研线代基础讲义&习题-电子版.pdf",
+      "bytes": 39169161,
+      "pages": 160,
+      "sha256": "053f9f91ae6bc44252a41acae728adf97252348ccd160516aa98ea43256b0772",
+      "repository_path": "讲义/【一高数Kira】27考研线代基础讲义&习题-电子版.pdf",
+      "repository_disposition": "reuse_existing_identical_blob",
+      "git_blob_sha1": "aa432852f7ea57269caefea52e87161a82070cb0"
+    },
+    {
+      "id": "SRC03",
+      "path": "讲义/【竖版】27考研Kira线代基础讲义做题本(1).pdf",
+      "archive_path": "sources/讲义/【竖版】27考研Kira线代基础讲义做题本(1).pdf",
+      "bytes": 973448,
+      "pages": 57,
+      "sha256": "1984ee1203252e506cc39bb024e49fcf01155ac9799aa29a42b7edc36ce561c6",
+      "repository_path": "任务/二次型_Kira框架_2026-10-10/sources/讲义/【竖版】27考研Kira线代基础讲义做题本(1).pdf",
+      "repository_disposition": "new_task_source",
+      "git_blob_sha1": "96c1fc0a773c3dc1aed6fba053ec06c691523cbc"
+    },
+    {
+      "id": "SRC04",
+      "path": "讲义/线代基础讲义——所有章节全部例题解析.pdf",
+      "archive_path": "sources/讲义/线代基础讲义——所有章节全部例题解析.pdf",
+      "bytes": 11776007,
+      "pages": 59,
+      "sha256": "b68078a9839c31b4e1377c95da873ab88a35afee2d824febdb98276af8644d98",
+      "repository_path": "任务/二次型_Kira框架_2026-10-10/sources/讲义/线代基础讲义——所有章节全部例题解析.pdf",
+      "repository_disposition": "new_task_source",
+      "git_blob_sha1": "6c11f11b98ebe00e75a48826db8300ae1077ea97"
+    },
+    {
+      "id": "SRC05",
+      "path": "课堂板书/12.11-12.27 线代第二~六章 -板书合并版.pdf",
+      "archive_path": "sources/课堂板书/12.11-12.27 线代第二~六章 -板书合并版.pdf",
+      "bytes": 33222966,
+      "pages": 105,
+      "sha256": "900d6fc1909bc01a56de7024a3f9e8164980db36c3f08d26c5cd3e672ef276a2",
+      "repository_path": "任务/二次型_Kira框架_2026-10-10/sources/课堂板书/12.11-12.27 线代第二~六章 -板书合并版.pdf",
+      "repository_disposition": "new_task_source",
+      "git_blob_sha1": "7b4caf12a8d990c19624e3e78b58aa66ed24f5fa"
+    },
+    {
+      "id": "SRC06",
+      "path": "习题答案/线代基础习题解析-电子版/第六章 二次型(答案解析).pdf",
+      "archive_path": "sources/习题答案/线代基础习题解析-电子版/第六章 二次型(答案解析).pdf",
+      "bytes": 1304494,
+      "pages": 4,
+      "sha256": "3a349fea4c88d71f5aa82b76bcd0be4ab990d23331b6518aa1e2ec5725260257",
+      "repository_path": "任务/二次型_Kira框架_2026-10-10/sources/习题答案/线代基础习题解析-电子版/第六章 二次型(答案解析).pdf",
+      "repository_disposition": "new_task_source",
+      "git_blob_sha1": "e9a6eca5f5772654dff22dbc28aec813590b65d5"
+    },
+    {
+      "id": "SRC07",
+      "path": "习题答案/线代基础习题板书-Kira老师/27基础习题线代-第六章板书.pdf",
+      "archive_path": "sources/习题答案/线代基础习题板书-Kira老师/27基础习题线代-第六章板书.pdf",
+      "bytes": 8435566,
+      "pages": 14,
+      "sha256": "56270c2779572a75489157ad2cffcaa8b83c1f3ff138dba535cd7d3f33f68015",
+      "repository_path": "任务/二次型_Kira框架_2026-10-10/sources/习题答案/线代基础习题板书-Kira老师/27基础习题线代-第六章板书.pdf",
+      "repository_disposition": "new_task_source",
+      "git_blob_sha1": "57ef8a84f69b92f74b89dc541023bb8bbce641b6"
+    },
+    {
+      "id": "SRC08",
+      "path": "线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+      "archive_path": "sources/线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+      "bytes": 19413260,
+      "pages": 26,
+      "sha256": "925990228b3bb6a8f03aab3f1ba91f948034dcf9a538f3e4d73b1be6d9c01c11",
+      "repository_path": "线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+      "repository_disposition": "reuse_existing_identical_blob",
+      "git_blob_sha1": "fc592104d55d5a5d1c98682ca719bbf5d7d44cd5"
+    },
+    {
+      "id": "SRC09",
+      "path": "线性代数/线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf",
+      "archive_path": "sources/线性代数/线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf",
+      "bytes": 12779226,
+      "pages": 17,
+      "sha256": "9c46ec21f6dba4c85fe23745bafc83ad31785a862779361f303745b39185acda",
+      "repository_path": "线性代数/线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf",
+      "repository_disposition": "reuse_existing_identical_blob",
+      "git_blob_sha1": "230424bc187b8a165ca883c5b8232a172ad2cff0"
+    },
+    {
+      "id": "SRC10",
+      "path": "02_专项刷题_保100/线性代数/线性代数专项刷题课14-二次型 讲义.pdf",
+      "archive_path": "sources/02_专项刷题_保100/线性代数/线性代数专项刷题课14-二次型 讲义.pdf",
+      "bytes": 668003,
+      "pages": 8,
+      "sha256": "7491d53bf582506bdbe80e119444f1fcb596e198fddedd780b78a80420cb4b3b",
+      "repository_path": "任务/二次型_Kira框架_2026-10-10/sources/02_专项刷题_保100/线性代数/线性代数专项刷题课14-二次型 讲义.pdf",
+      "repository_disposition": "new_task_source",
+      "git_blob_sha1": "f7937f70ef146c7e49f44b4eab8b14f5c8431b8d"
+    },
+    {
+      "id": "SRC11",
+      "path": "02_专项刷题_保100/线性代数/线性代数专项刷题课14-二次型 详解板书.pdf",
+      "archive_path": "sources/02_专项刷题_保100/线性代数/线性代数专项刷题课14-二次型 详解板书.pdf",
+      "bytes": 7412652,
+      "pages": 11,
+      "sha256": "4ada06f29af09c2b5850bcc98f1727de24259b2ee0271b3f374944564ea9d073",
+      "repository_path": "任务/二次型_Kira框架_2026-10-10/sources/02_专项刷题_保100/线性代数/线性代数专项刷题课14-二次型 详解板书.pdf",
+      "repository_disposition": "new_task_source",
+      "git_blob_sha1": "e4c8034aba557b91119feff6ef4cb0f1ce5b48cd"
+    }
+  ],
+  "repository": "Skyer-cyber/math-150",
+  "repository_task_path": "任务/二次型_Kira框架_2026-10-10",
+  "source_transport": "private_git_repository"
+}
