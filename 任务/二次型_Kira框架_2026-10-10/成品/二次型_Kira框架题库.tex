@@ -1,0 +1,759 @@
+\documentclass[UTF8,fontset=fandol,11pt,a4paper]{ctexart}
+\usepackage[top=20mm,bottom=20mm,left=23mm,right=23mm]{geometry}
+\usepackage{amsmath,amssymb,xcolor,hyperref,fancyhdr,needspace,lastpage}
+\definecolor{Ink}{HTML}{174D3D}
+\definecolor{Muted}{HTML}{626262}
+\hypersetup{unicode=true,colorlinks=true,linkcolor=Ink,urlcolor=Ink,pdfauthor={个人学习整理},pdftitle={二次型 Kira 框架题库},bookmarksnumbered=false}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\headheight}{14pt}
+\xeCJKDeclareCharClass{CJK}{"2460 -> "2473}
+\linespread{1.27}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small 二次型 · Kira 本章框架}
+\fancyhead[R]{\small 现有原题归集}
+\fancyfoot[C]{\small\thepage\ / \pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\setcounter{tocdepth}{3}
+\ctexset{section={format=\Large\bfseries\color{Ink}},subsection={format=\large\bfseries\color{Ink}},subsubsection={format=\normalsize\bfseries\color{Ink}}}
+\newcommand{\source}[1]{{\footnotesize\color{Muted}#1\par}}
+\newcommand{\qtitle}[2]{\par\needspace{5\baselineskip}\hypertarget{#1}{}\label{#1}\textbf{#2}\par}
+\begin{document}
+{\LARGE\bfseries 二次型}\par
+{\large Kira 本章框架题库}\par
+\vspace{5mm}
+本次归集 68 道独立父题，沿强化讲义原框架展开。每支先给方法出处、学习例题和同题板书，再放已有同类题。基础、强化和专项只作为题目来源标签，不另分知识树。\par
+代表题及综合题全文只排一次；其他分支保留可点击的完整题目入口。原讲义前置题单列，不增造本章框架节点。默认数二，明确数一二次曲面题在来源清单中隔离。\par
+本章框架：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=84}{强化讲义与习题 PDF84}（印刷80）。所有来源定位均按从1开始的PDF文件页序；印刷页码另注。\par
+\vspace{4mm}\textbf{原框架主干}\par
+化二次型为标准形\par
+惯性定理、规范形\par
+求二次型f=0的解\par
+二次型的最值问题\par
+判别二次型/矩阵正定性\par
+二次型对应的二次曲面（仅数一）\par
+\vspace{4mm}\source{题本不附答案；原解的符号与量词问题另列在核查说明中。未找到小荷花/小河花的线代二次型同题板书，学习入口采用已核的Kira板书。}
+\newpage\pdfbookmark[0]{分支目录}{contents}\tableofcontents\newpage
+\clearpage
+\section*{原讲义前置}
+\addcontentsline{toc}{section}{原讲义前置}
+\subsection*{二次型的矩阵表示与秩}
+\addcontentsline{toc}{subsection}{二次型的矩阵表示与秩}
+\hypertarget{node-PRE}{}
+方法：考点一 · 二次型的概念；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=85}{强化讲义与习题 PDF85}。\par
+学习例题：\hyperlink{R-EX-01}{Q01 · 强化例 6.1}（题本第\pageref*{R-EX-01}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%969\%284\%29-10\%283\%29\%20\%20\%E7\%AC\%AC\%E4\%BA\%94\%E5\%85\%AD\%E7\%AB\%A0\%20\%E5\%AE\%9E\%E5\%AF\%B9\%E7\%A7\%B0\%E7\%9F\%A9\%E9\%98\%B5\%26\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B1\%E3\%80\%90\%E4\%BE\%8B5.6\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.4\%E3\%80\%91.pdf\#page=18}{强化9(4)-10(3)板书 PDF18}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-01}{Q01 · 强化例 6.1 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=85}{强化讲义与习题 PDF85}}
+（2022）已知二次型 $f(x_1,x_2,x_3)=\displaystyle\sum_{i=1}^{3}\sum_{j=1}^{3}ijx_ix_j$，写出 $f(x_1,x_2,x_3)$ 的矩阵。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-EX-01}{Q02 · 基础例 6.1}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=84}{基础讲义 PDF84}；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E7\%AB\%96\%E7\%89\%88\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94Kira\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%E5\%81\%9A\%E9\%A2\%98\%E6\%9C\%AC\%281\%29.pdf\#page=53}{基础竖版做题本 PDF53}}
+设二次型 $f(x_1,x_2,x_3)=-4x_1x_2+2x_1x_3+2tx_2x_3$ 的秩为 $2$，则 $t=\underline{\qquad}$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-FB-01}{Q03 · 基础填空 1}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=154}{基础讲义 PDF154}}
+$f(x_1,x_2,x_3)=(x_1-2x_2)^2+4x_2x_3$ 的矩阵为 $\underline{\qquad}$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-FB-04}{Q04 · 基础填空 4}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=155}{基础讲义 PDF155}}
+已知二次型 $f(x_1,x_2,x_3)=5x_1^2+5x_2^2+cx_3^2-2x_1x_2+6x_1x_3-6x_2x_3$ 的秩为 $2$，则常数 $c=\underline{\qquad}$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-FB-05}{Q05 · 基础填空 5}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=155}{基础讲义 PDF155}}
+设 $A=\begin{pmatrix}1&1&1&1\\a&b&c&d\\a^2&b^2&c^2&d^2\end{pmatrix}$，$a,b,c,d$ 为互异实数，$x$ 为四维列向量，则二次型 $f=x^T(A^TA)x$ 的秩为 $\underline{\qquad}$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{S-04}{Q06 · 保100 第4题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=4}{保100讲义 PDF4}}
+二次型\[f(x_1,x_2,x_3)=(x_1+x_2)^2+(x_2-x_3)^2+(x_3+x_1)^2\]的秩为 \underline{\hspace{2cm}}。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-LONG-03}{Q12 · 强化习题 解答3}（完整题在第\pageref*{R-LONG-03}页）\par
+\hyperlink{R-FILL-04}{Q37 · 强化习题 填空4}（完整题在第\pageref*{R-FILL-04}页）\par
+\clearpage
+\section*{化二次型为标准形}
+\addcontentsline{toc}{section}{化二次型为标准形}
+\subsection*{正交变换法化二次型为标准形}
+\addcontentsline{toc}{subsection}{正交变换法化二次型为标准形}
+\hypertarget{node-A1}{}
+方法：考点二 · 题型1；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=85}{强化讲义与习题 PDF85-87}。\par
+学习例题：\hyperlink{R-EX-02}{Q07 · 强化例 6.2}（题本第\pageref*{R-EX-02}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%969\%284\%29-10\%283\%29\%20\%20\%E7\%AC\%AC\%E4\%BA\%94\%E5\%85\%AD\%E7\%AB\%A0\%20\%E5\%AE\%9E\%E5\%AF\%B9\%E7\%A7\%B0\%E7\%9F\%A9\%E9\%98\%B5\%26\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B1\%E3\%80\%90\%E4\%BE\%8B5.6\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.4\%E3\%80\%91.pdf\#page=22}{强化9(4)-10(3)板书 PDF22-24}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-02}{Q07 · 强化例 6.2 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=87}{强化讲义与习题 PDF87}}
+设二次型 $f(x_1,x_2,x_3)=x^TAx=2x_1x_2-2x_1x_3-2x_2x_3$，其中 $A$ 为二次型的矩阵，$x=(x_1,x_2,x_3)^T$。
+（I）将二次型经正交变换化为标准形，并写出所用的正交矩阵 $Q$。
+（II）求正定矩阵 $C$，使得 $C^2=3E-A$。
+（III）求 $\displaystyle\min_{x\ne0}\frac{f(x)}{x^Tx}$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-EX-02}{Q08 · 基础例 6.2}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=86}{基础讲义 PDF86}；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E7\%AB\%96\%E7\%89\%88\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94Kira\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%E5\%81\%9A\%E9\%A2\%98\%E6\%9C\%AC\%281\%29.pdf\#page=53}{基础竖版做题本 PDF53}}
+设二次型 $f(x_1,x_2,x_3)=-2x_1x_2+2x_1x_3+2x_2x_3$，试写出二次型的矩阵，并用正交变换法将 $f$ 化为标准形。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-MC-02}{Q09 · 基础选择 2}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=151}{基础讲义 PDF151}}
+设 $A$ 是 $n$ 阶对称矩阵，$B$ 是 $n$ 阶反对称矩阵，则下列矩阵中可用正交变换化为对角形矩阵的是（ ）。
+
+（A）$ABA$；（B）$BAB$；（C）$(AB)^2$；（D）$AB^2$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-SA-01}{Q10 · 基础解答 1}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=156}{基础讲义 PDF156}}
+已知二次型 $f(x_1,x_2,x_3)=4x_2^2-3x_3^2+4x_1x_2-4x_1x_3+8x_2x_3$。用正交变换把二次型 $f$ 化为标准形，并写出相应的正交矩阵。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-LONG-01}{Q11 · 强化习题 解答1}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=169}{强化讲义与习题 PDF169}；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=5}{保100讲义 PDF5}}
+已知二次型 $f(x_1,x_2,x_3)=(1-a)x_1^2+(1-a)x_2^2+2x_3^2+2(1+a)x_1x_2$ 的秩为 2。
+（I）求 $a$ 的值；
+（II）求正交变换 $x=Qy$，把 $f(x_1,x_2,x_3)$ 化成标准形；
+（III）求方程 $f(x_1,x_2,x_3)=0$ 的解。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-LONG-03}{Q12 · 强化习题 解答3}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=170}{强化讲义与习题 PDF170}}
+已知矩阵
+\[A=\begin{pmatrix}2&2&0\\8&2&0\\0&a&6\end{pmatrix}\]
+有三个线性无关的特征向量。
+（I）求参数 $a$ 的值；
+（II）求正交变换 $x=Qy$ 化二次型 $f(x_1,x_2,x_3)=x^TAx$ 为标准形。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-LONG-04}{Q13 · 强化习题 解答4}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=170}{强化讲义与习题 PDF170}}
+已知二次型 $f(x_1,x_2,x_3)=x_1^2+ax_2^2+x_3^2+2x_1x_2-2x_2x_3-2ax_1x_3$ 的正惯性指数为 1，负惯性指数为 0，求正交变换 $x=Qy$ 化此二次型为标准形。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-04}{Q14 · 强化习题 选择4}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=165}{强化讲义与习题 PDF165}}
+设 $A$ 为 4 阶实对称矩阵，且 $A^2+2A-3E=O$。若 $r(A-E)=1$，则二次型 $x^TAx$ 在正交变换下的标准形是（\quad）。
+（A）$y_1^2+y_2^2+y_3^2-3y_4^2$；（B）$y_1^2-3y_2^2-3y_3^2-3y_4^2$；
+（C）$y_1^2+y_2^2-3y_3^2-3y_4^2$；（D）$y_1^2+y_2^2+y_3^2-y_4^2$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{S-01}{Q15 · 保100 第1题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=1}{保100讲义 PDF1}}
+求一个正交变换化二次型\[f=x_1^2+4x_2^2+4x_3^2-4x_1x_2+4x_1x_3-8x_2x_3\]成标准形。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{S-02}{Q16 · 保100 第2题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=2}{保100讲义 PDF2}}
+已知二次型\[f(x_1,x_2,x_3)=2x_1^2+3x_2^2+3x_3^2+2ax_2x_3\quad(a>0),\]通过正交变换化为标准\[f=y_1^2+2y_2^2+5y_3^2,\]求参数 \(a\) 及所用的正交变换矩阵。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{S-03}{Q17 · 保100 第3题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=3}{保100讲义 PDF3}}
+设二次型\[f(x_1,x_2,x_3)=X^TAX=ax_1^2+2x_2^2-2x_3^2+2bx_1x_3\quad(b>0),\]其中二次型的矩阵 \(A\) 的特征值之和为 \(1\)，特征值之积为 \(-12\)。\par (1) 求 \(a,b\) 的值；\par (2) 利用正交变换将二次型 \(f\) 化为标准型，并写出所用的正交变换和对应的正交矩阵。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{S-08}{Q18 · 保100 第8题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=7}{保100讲义 PDF7}}
+设二次型 \(f(x_1,x_2,x_3)\) 在正交变换 \(x=Py\) 下的标准形为\[2y_1^2+y_2^2-y_3^2,\]其中 \(P=(e_1,e_2,e_3)\)。若 \(Q=(e_1,-e_3,e_2)\)，则 \(f(x_1,x_2,x_3)\) 在正交变换 \(x=Qy\) 下的标准形为（\hspace{1em}）。\par A. \(2y_1^2-y_2^2+y_3^2\)\qquad B. \(2y_1^2+y_2^2-y_3^2\)\par C. \(2y_1^2-y_2^2-y_3^2\)\qquad D. \(2y_1^2+y_2^2+y_3^2\)
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-LONG-06}{Q20 · 强化习题 解答6}（完整题在第\pageref*{R-LONG-06}页）\par
+\hyperlink{R-EX-03}{Q27 · 强化例 6.3}（完整题在第\pageref*{R-EX-03}页）\par
+\hyperlink{R-LONG-09}{Q30 · 强化习题 解答9}（完整题在第\pageref*{R-LONG-09}页）\par
+\hyperlink{R-EX-09}{Q34 · 强化例 6.9}（完整题在第\pageref*{R-EX-09}页）\par
+\hyperlink{S-06}{Q38 · 保100 第6题}（完整题在第\pageref*{S-06}页）\par
+\hyperlink{R-LONG-05}{Q52 · 强化习题 解答5}（完整题在第\pageref*{R-LONG-05}页）\par
+\clearpage
+\source{化二次型为标准形 / 正交变化法}
+\subsubsection*{合同考法}
+\addcontentsline{toc}{subsubsection}{合同考法}
+\hypertarget{node-A1C}{}
+方法：考点二 · 正交变换的矩阵表述；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=86}{强化讲义与习题 PDF86-87}。\par
+学习例题：\hyperlink{R-EX-02}{Q07 · 强化例 6.2}（题本第\pageref*{R-EX-02}页）。\par
+\source{把正交变换及对应矩阵表述合起来回看。}
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%969\%284\%29-10\%283\%29\%20\%20\%E7\%AC\%AC\%E4\%BA\%94\%E5\%85\%AD\%E7\%AB\%A0\%20\%E5\%AE\%9E\%E5\%AF\%B9\%E7\%A7\%B0\%E7\%9F\%A9\%E9\%98\%B5\%26\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B1\%E3\%80\%90\%E4\%BE\%8B5.6\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.4\%E3\%80\%91.pdf\#page=22}{强化9(4)-10(3)板书 PDF22-24}。\par
+\vspace{3mm}
+\source{代表题全文在上述入口；此处不重复排题。}
+\begin{minipage}{\linewidth}
+\qtitle{R-FILL-03}{Q19 · 强化习题 填空3}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=168}{强化讲义与习题 PDF168}}
+已知
+\[A=\begin{pmatrix}0&0&1\\0&1&0\\1&0&0\end{pmatrix},\qquad B=\begin{pmatrix}2&0&0\\0&1&0\\0&0&-2\end{pmatrix}\]
+合同，那么使 $C^TAC=B$ 的可逆阵 $C=$\underline{\hspace{4cm}}。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-LONG-06}{Q20 · 强化习题 解答6}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=172}{强化讲义与习题 PDF172}}
+设 $A=(a_{ij})_{3\times3}$ 是实对称矩阵，$a_{ii}=0$（$i=1,2,3$）。$\alpha=(-1,1,1)^T$ 满足 $(A+2E)\alpha=0$。
+（I）求正交矩阵 $Q$，使得 $Q^TAQ=\Lambda$；
+（II）求正定矩阵 $B$，使得 $A=B^2-3E$。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-EX-02}{Q07 · 强化例 6.2}（完整题在第\pageref*{R-EX-02}页）\par
+\clearpage
+\subsection*{可逆线性变换化二次型为标准形}
+\addcontentsline{toc}{subsection}{可逆线性变换化二次型为标准形}
+\hypertarget{node-A2}{}
+方法：考点二 · 题型5；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=89}{强化讲义与习题 PDF89-91}。\par
+学习例题：\hyperlink{R-EX-05}{Q21 · 强化例 6.5}（题本第\pageref*{R-EX-05}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=1}{强化10(4-6)板书 PDF1-5}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-05}{Q21 · 强化例 6.5 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=90}{强化讲义与习题 PDF90-91}}
+设二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2-x_1x_2-x_1x_3-x_2x_3$ 经可逆线性变换
+\[\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}=P\begin{pmatrix}y_1\\y_2\\y_3\end{pmatrix}\]
+化为 $g(y_1,y_2,y_3)=y_1^2+y_2^2$，求可逆阵 $P$。
+\par\textbf{例6.5 换一种问法1}\par
+设实对称矩阵
+\[A=\begin{pmatrix}1&-\frac12&-\frac12\\-\frac12&1&-\frac12\\-\frac12&-\frac12&1\end{pmatrix},\]
+求可逆矩阵 $P$，使 $P^TAP=\operatorname{diag}(1,1,0)$ 为对角阵。
+\par\textbf{例6.5 换一种问法2}\par
+设实对称矩阵
+\[A=\begin{pmatrix}1&-\frac12&-\frac12\\-\frac12&1&-\frac12\\-\frac12&-\frac12&1\end{pmatrix},\]
+求可逆矩阵 $P$，使 $A$ 合同于对角阵 $\operatorname{diag}(1,1,0)$。
+\par\textbf{例6.5 换一种问法3}\par
+求 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2-x_1x_2-x_1x_3-x_2x_3$ 的规范形，并写出所用的可逆线性变换。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-EX-03}{Q22 · 基础例 6.3}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=87}{基础讲义 PDF87}；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E7\%AB\%96\%E7\%89\%88\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94Kira\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%E5\%81\%9A\%E9\%A2\%98\%E6\%9C\%AC\%281\%29.pdf\#page=54}{基础竖版做题本 PDF54}}
+用配方法将二次型 $f=2x_1^2+x_2^2-4x_1x_2-4x_2x_3$ 化为标准形，并写出所用的可逆线性变换矩阵。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-SA-02}{Q23 · 基础解答 2}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=156}{基础讲义 PDF156}}
+用配方法分别化二次型 $f(x_1,x_2,x_3)=x_1^2+3x_2^2+5x_3^2+2x_1x_2-4x_1x_3$ 为标准形和规范形。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-08}{Q24 · 强化例 6.8 [2027]}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=93}{强化讲义与习题 PDF93}}
+[2027] 设二次型 $f(x_1,x_2)=x_1^2+2x_2^2+2x_1x_2$，$g(x_1,x_2)=x_1^2+x_2^2-2x_1x_2$。
+（I）证明二次型 $f(x_1,x_2)$ 正定；
+（II）求可逆线性变换 $x=Py$ 将二者同时化为标准形。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-LONG-01}{Q11 · 强化习题 解答1}（完整题在第\pageref*{R-LONG-01}页）\par
+\hyperlink{R-LONG-08}{Q25 · 强化习题 解答8}（完整题在第\pageref*{R-LONG-08}页）\par
+\hyperlink{R-EX-06}{Q28 · 强化例 6.6}（完整题在第\pageref*{R-EX-06}页）\par
+\hyperlink{S-07}{Q39 · 保100 第7题}（完整题在第\pageref*{S-07}页）\par
+\clearpage
+\source{化二次型为标准形 / 配方法}
+\subsubsection*{化规范形}
+\addcontentsline{toc}{subsubsection}{化规范形}
+\hypertarget{node-A2N}{}
+方法：规范形定义；题型5；例6.5换一种问法3；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=86}{强化讲义与习题 PDF86-91}。\par
+学习例题：\hyperlink{R-EX-05}{Q21 · 强化例 6.5}（题本第\pageref*{R-EX-05}页）。\par
+\source{对应本题原有的“换一种问法3”。}
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=1}{强化10(4-6)板书 PDF1-5}。\par
+\vspace{3mm}
+\source{代表题全文在上述入口；此处不重复排题。}
+\begin{minipage}{\linewidth}
+\qtitle{R-LONG-08}{Q25 · 强化习题 解答8}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=173}{强化讲义与习题 PDF173}}
+（I）设 $f(x_1,x_2,x_3)=x^TAx=x_1^2+2x_2^2+6x_3^2-2x_1x_2+2x_1x_3-6x_2x_3$，求可逆线性变换将 $f$ 化为规范形，并说明二次型的对应矩阵 $A$ 是否为正定矩阵。
+（II）求可逆矩阵 $D$，使 $A=D^TD$。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-EX-05}{Q21 · 强化例 6.5}（完整题在第\pageref*{R-EX-05}页）\par
+\hyperlink{B-SA-02}{Q23 · 基础解答 2}（完整题在第\pageref*{B-SA-02}页）\par
+\hyperlink{R-EX-08}{Q24 · 强化例 6.8 [2027]}（完整题在第\pageref*{R-EX-08}页）\par
+\hyperlink{R-EX-10}{Q31 · 强化例 6.10}（完整题在第\pageref*{R-EX-10}页）\par
+\hyperlink{B-EX-04}{Q32 · 基础例 6.4}（完整题在第\pageref*{B-EX-04}页）\par
+\clearpage
+\source{化二次型为标准形 / 配方法}
+\subsubsection*{合同考法}
+\addcontentsline{toc}{subsubsection}{合同考法}
+\hypertarget{node-A2C}{}
+方法：例6.5换一种问法1、2；套路一、套路二；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=90}{强化讲义与习题 PDF90-91}。\par
+学习例题：\hyperlink{R-EX-05}{Q21 · 强化例 6.5}（题本第\pageref*{R-EX-05}页）。\par
+\source{对应本题原有的“换一种问法1、2”，及成对初等变换板书。}
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=1}{强化10(4-6)板书 PDF1-5}。\par
+\vspace{3mm}
+\source{代表题全文在上述入口；此处不重复排题。}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-FILL-03}{Q19 · 强化习题 填空3}（完整题在第\pageref*{R-FILL-03}页）\par
+\hyperlink{R-EX-05}{Q21 · 强化例 6.5}（完整题在第\pageref*{R-EX-05}页）\par
+\hyperlink{R-EX-08}{Q24 · 强化例 6.8 [2027]}（完整题在第\pageref*{R-EX-08}页）\par
+\hyperlink{R-LONG-08}{Q25 · 强化习题 解答8}（完整题在第\pageref*{R-LONG-08}页）\par
+\hyperlink{R-EX-06}{Q28 · 强化例 6.6}（完整题在第\pageref*{R-EX-06}页）\par
+\hyperlink{R-LONG-09}{Q30 · 强化习题 解答9}（完整题在第\pageref*{R-LONG-09}页）\par
+\hyperlink{B-MC-07}{Q46 · 基础选择 7}（完整题在第\pageref*{B-MC-07}页）\par
+\hyperlink{R-MC-01}{Q47 · 强化习题 选择1}（完整题在第\pageref*{R-MC-01}页）\par
+\clearpage
+\subsection*{已知正交变换下的标准形，反求原二次型}
+\addcontentsline{toc}{subsection}{已知正交变换下的标准形，反求原二次型}
+\hypertarget{node-A3}{}
+方法：考点二 · 题型4；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=89}{强化讲义与习题 PDF89}。\par
+学习例题：\hyperlink{R-EX-04}{Q26 · 强化例 6.4}（题本第\pageref*{R-EX-04}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%969\%284\%29-10\%283\%29\%20\%20\%E7\%AC\%AC\%E4\%BA\%94\%E5\%85\%AD\%E7\%AB\%A0\%20\%E5\%AE\%9E\%E5\%AF\%B9\%E7\%A7\%B0\%E7\%9F\%A9\%E9\%98\%B5\%26\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B1\%E3\%80\%90\%E4\%BE\%8B5.6\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.4\%E3\%80\%91.pdf\#page=25}{强化9(4)-10(3)板书 PDF25-26}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-04}{Q26 · 强化例 6.4 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=89}{强化讲义与习题 PDF89}}
+（2010 一）已知二次型 $f(x_1,x_2,x_3)=x^TAx$ 在正交变换 $x=Qy$ 下的标准形为 $y_1^2+y_2^2$，且 $Q$ 的第 3 列为 $\left(\frac{\sqrt2}{2},0,\frac{\sqrt2}{2}\right)^T$，求此二次型的表达式。
+\end{minipage}\par\vspace{7mm}
+\clearpage
+\subsection*{进阶：化二次型为非标准形}
+\addcontentsline{toc}{subsection}{进阶：化二次型为非标准形}
+\subsubsection*{正交变换法}
+\addcontentsline{toc}{subsubsection}{正交变换法}
+\hypertarget{node-A4O}{}
+方法：考点二 · 题型3；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=88}{强化讲义与习题 PDF88}。\par
+学习例题：\hyperlink{R-EX-03}{Q27 · 强化例 6.3}（题本第\pageref*{R-EX-03}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%969\%284\%29-10\%283\%29\%20\%20\%E7\%AC\%AC\%E4\%BA\%94\%E5\%85\%AD\%E7\%AB\%A0\%20\%E5\%AE\%9E\%E5\%AF\%B9\%E7\%A7\%B0\%E7\%9F\%A9\%E9\%98\%B5\%26\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B1\%E3\%80\%90\%E4\%BE\%8B5.6\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.4\%E3\%80\%91.pdf\#page=25}{强化9(4)-10(3)板书 PDF25}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-03}{Q27 · 强化例 6.3 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=88}{强化讲义与习题 PDF88}}
+（2020）设二次型 $f(x_1,x_2)=x_1^2-4x_1x_2+4x_2^2$ 经正交变换
+\[\begin{pmatrix}x_1\\x_2\end{pmatrix}=Q\begin{pmatrix}y_1\\y_2\end{pmatrix}\]
+化为二次型 $g(y_1,y_2)=4y_1^2+4y_1y_2+y_2^2$，求正交矩阵 $Q$。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-LONG-07}{Q29 · 强化习题 解答7}（完整题在第\pageref*{R-LONG-07}页）\par
+\clearpage
+\source{化二次型为标准形 / 进阶：化二次型为非标准形}
+\subsubsection*{配方法}
+\addcontentsline{toc}{subsubsection}{配方法}
+\hypertarget{node-A4C}{}
+方法：考点二 · 更一般地的合同变换；例6.6；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=89}{强化讲义与习题 PDF89-91}。\par
+学习例题：\hyperlink{R-EX-06}{Q28 · 强化例 6.6}（题本第\pageref*{R-EX-06}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=5}{强化10(4-6)板书 PDF5-7}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-06}{Q28 · 强化例 6.6 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=91}{强化讲义与习题 PDF91}}
+（2020）设二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2ax_1x_3+2ax_2x_3$ 经可逆线性变换
+\[\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}=P\begin{pmatrix}y_1\\y_2\\y_3\end{pmatrix}\]
+化为二次型 $g(y_1,y_2,y_3)=y_1^2+y_2^2+4y_3^2+2y_1y_2$。
+（I）求 $a$ 的值；（II）求可逆矩阵 $P$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-LONG-07}{Q29 · 强化习题 解答7}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=173}{强化讲义与习题 PDF173}}
+设二次型 $f(x_1,x_2,x_3)=x_1^2+3x_2^2+5x_3^2+2x_1x_2-4x_1x_3$，
+$g(y_1,y_2,y_3)=y_1^2+2y_3^2+2y_1y_3+2y_2y_3$。
+（I）求可逆变换 $x=Py$ 将 $f(x_1,x_2,x_3)$ 化为 $g(y_1,y_2,y_3)$；
+（II）是否存在正交变换 $x=Qy$ 将 $f(x_1,x_2,x_3)$ 化为 $g(y_1,y_2,y_3)$？
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-LONG-09}{Q30 · 强化习题 解答9}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=174}{强化讲义与习题 PDF174}}
+设二次型 $f(x_1,x_2,x_3)=x^TAx=x_1^2+x_2^2+x_3^2+2ax_1x_2+2ax_1x_3+2ax_2x_3$ 经过可逆线性变换 $x=Cy$ 化为 $g(y_1,y_2,y_3)=y^TBy=y_1^2+y_2^2+3y_3^2+2y_1y_2$，其中
+\[C=\begin{pmatrix}1&2&1\\0&1&2\\0&1&0\end{pmatrix},\]
+$A,B$ 均为实对称矩阵。
+（I）求 $a$ 的值；
+（II）求正交变换 $x=Qz$ 与可逆线性变换 $y=Pz$ 分别将二次型 $f$ 与 $g$ 化为同一标准形。
+\end{minipage}\par\vspace{7mm}
+\clearpage
+\section*{惯性定理、规范形}
+\addcontentsline{toc}{section}{惯性定理、规范形}
+\subsection*{求惯性指数、规范形}
+\addcontentsline{toc}{subsection}{求惯性指数、规范形}
+\hypertarget{node-B1}{}
+方法：考点三 · 题型1；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=93}{强化讲义与习题 PDF93-94}。\par
+学习例题：\hyperlink{R-EX-10}{Q31 · 强化例 6.10}（题本第\pageref*{R-EX-10}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=11}{强化10(4-6)板书 PDF11-12}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-10}{Q31 · 强化例 6.10 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=94}{强化讲义与习题 PDF94}}
+（2023 二三）二次型 $f(x_1,x_2,x_3)=(x_1+x_2)^2+(x_1+x_3)^2-4(x_2-x_3)^2$ 的规范形为（\quad）。
+（A）$y_1^2+y_2^2$；（B）$y_1^2-y_2^2$；
+（C）$y_1^2+y_2^2-4y_3^2$；（D）$y_1^2+y_2^2-y_3^2$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-EX-04}{Q32 · 基础例 6.4}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=88}{基础讲义 PDF88}；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E7\%AB\%96\%E7\%89\%88\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94Kira\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%E5\%81\%9A\%E9\%A2\%98\%E6\%9C\%AC\%281\%29.pdf\#page=54}{基础竖版做题本 PDF54}}
+二次型 $f=2x_1^2+x_2^2-4x_1x_2-4x_2x_3$ 的规范形 $f=\underline{\qquad}$，秩是 $\underline{\qquad}$，正惯性指数是 $\underline{\qquad}$，负惯性指数是 $\underline{\qquad}$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-MC-03}{Q33 · 基础选择 3}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=151}{基础讲义 PDF151}}
+下列说法正确的是（ ）。
+
+（A）任一个二次型的标准形是唯一的。
+
+（B）若两个二次型的标准形相同，则两个二次型对应的矩阵的特征值相同。
+
+（C）若一个二次型的标准形系数中没有负数，则该二次型为正定二次型。
+
+（D）二次型的标准形不唯一，但规范形是唯一的。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-09}{Q34 · 强化例 6.9}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=94}{强化讲义与习题 PDF94}}
+设 $\alpha,\beta$ 为 3 维单位列向量且正交，二次型 $f(x_1,x_2,x_3)=x^TAx$，其中 $A=\alpha\beta^T+\beta\alpha^T$，则 $f$ 在正交变换下的标准形为\underline{\hspace{3cm}}，符号差为\underline{\hspace{1.5cm}}。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-FILL-01}{Q35 · 强化习题 填空1}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=167}{强化讲义与习题 PDF167}}
+设二次型 $f(x_1,x_2,x_3,x_4)=x^TAx$，$A^T=A$ 的正惯性指数为 $p=1$，又矩阵 $A$ 满足 $A^2-2A=3E$，则二次型的规范形为\underline{\hspace{4cm}}。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-FILL-02}{Q36 · 强化习题 填空2}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=167}{强化讲义与习题 PDF167}}
+若实对称矩阵 $A$ 与
+\[B=\begin{pmatrix}1&0&0\\0&0&2\\0&2&0\end{pmatrix}\]
+合同，则二次型 $x^TAx$ 的规范形为\underline{\hspace{4cm}}。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-FILL-04}{Q37 · 强化习题 填空4}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=168}{强化讲义与习题 PDF168}}
+设 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)(b_1x_1+b_2x_2+b_3x_3)$ 为非零二次型，二次型所对应的矩阵为\underline{\hspace{4cm}}。
+当 $a_1b_1+a_2b_2+a_3b_3=0$，二次型的正惯性指数为\underline{\hspace{1.5cm}}，负惯性指数为\underline{\hspace{1.5cm}}。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{S-06}{Q38 · 保100 第6题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=6}{保100讲义 PDF6}}
+设二次型\[f(x_1,x_2,x_3)=ax_1^2+ax_2^2+(a-1)x_3^2+2x_1x_3-2x_2x_3.\]\par (1) 求二次型 \(f\) 的矩阵的所有特征值；\par (2) 若二次型 \(f\) 的规范形为 \(y_1^2+y_2^2\)，求 \(a\) 的值。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{S-07}{Q39 · 保100 第7题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=7}{保100讲义 PDF7}}
+设二次型\[f(x_1,x_2,x_3)=x_1^2-x_2^2+2ax_1x_3+4x_2x_3\]的负惯性指数为 \(1\)，则 \(a\) 的取值范围是 \underline{\hspace{2cm}}。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-LONG-01}{Q11 · 强化习题 解答1}（完整题在第\pageref*{R-LONG-01}页）\par
+\hyperlink{R-LONG-04}{Q13 · 强化习题 解答4}（完整题在第\pageref*{R-LONG-04}页）\par
+\hyperlink{R-MC-04}{Q14 · 强化习题 选择4}（完整题在第\pageref*{R-MC-04}页）\par
+\hyperlink{R-EX-05}{Q21 · 强化例 6.5}（完整题在第\pageref*{R-EX-05}页）\par
+\hyperlink{R-EX-06}{Q28 · 强化例 6.6}（完整题在第\pageref*{R-EX-06}页）\par
+\hyperlink{R-EX-11}{Q40 · 强化例 6.11}（完整题在第\pageref*{R-EX-11}页）\par
+\hyperlink{B-FB-03}{Q42 · 基础填空 3}（完整题在第\pageref*{B-FB-03}页）\par
+\hyperlink{R-MC-02}{Q48 · 强化习题 选择2}（完整题在第\pageref*{R-MC-02}页）\par
+\hyperlink{R-MC-07}{Q50 · 强化习题 选择7}（完整题在第\pageref*{R-MC-07}页）\par
+\hyperlink{R-MC-09}{Q61 · 强化习题 选择9}（完整题在第\pageref*{R-MC-09}页）\par
+\clearpage
+\subsection*{矩阵合同}
+\addcontentsline{toc}{subsection}{矩阵合同}
+\subsubsection*{等价、相似、合同}
+\addcontentsline{toc}{subsubsection}{等价、相似、合同}
+\hypertarget{node-B2}{}
+方法：考点四 · 等价、相似、合同；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=94}{强化讲义与习题 PDF94-95}。\par
+学习例题：\hyperlink{R-EX-11}{Q40 · 强化例 6.11}（题本第\pageref*{R-EX-11}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=12}{强化10(4-6)板书 PDF12-13}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-11}{Q40 · 强化例 6.11 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=95}{强化讲义与习题 PDF95}}
+已知 $A,B$ 为 3 阶方阵，其中 $A$ 特征值为 $0,-1,2$，$B$ 特征值为 $0,-2,5$，则下列命题：
+① $r(A)=r(B)$；② $A$ 与 $B$ 等价；③ $A$ 与 $B$ 相似；
+④ 行列式 $|A-E|=|E-B|$；⑤ 若 $A,B$ 为实对称阵，则 $A$ 与 $B$ 合同。
+正确的个数为（\quad）。
+（A）2；（B）3；（C）4；（D）5。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-EX-05}{Q41 · 基础例 6.5}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=88}{基础讲义 PDF88}；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E7\%AB\%96\%E7\%89\%88\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94Kira\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%E5\%81\%9A\%E9\%A2\%98\%E6\%9C\%AC\%281\%29.pdf\#page=55}{基础竖版做题本 PDF55}}
+矩阵 $A=\begin{pmatrix}1&0\\0&-2\end{pmatrix}$ 与 $B=\begin{pmatrix}-1&0\\0&3\end{pmatrix}$ 是否等价、相似、合同？
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-FB-03}{Q42 · 基础填空 3}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=154}{基础讲义 PDF154}}
+已知矩阵 $A=\begin{pmatrix}1&1&-2\\1&-2&1\\-2&1&1\end{pmatrix}$ 与二次型 $x^TBx=3x_1^2+ax_3^2$ 的矩阵 $B$ 合同，则 $a$ 的取值范围是 $\underline{\qquad}$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-MC-01}{Q43 · 基础选择 1}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=151}{基础讲义 PDF151}}
+设 $A,B$ 为 $n$ 阶可逆矩阵，则（ ）。
+
+（A）存在可逆矩阵 $P_1,P_2$，使得 $P_1^{-1}AP_1,P_2^{-1}BP_2$ 为对角矩阵。
+
+（B）存在正交矩阵 $Q_1,Q_2$，使得 $Q_1^TAQ_1,Q_2^TBQ_2$ 为对角矩阵。
+
+（C）存在可逆矩阵 $P$，使得 $P^{-1}(A+B)P$ 为对角矩阵。
+
+（D）存在可逆矩阵 $P,Q$，使得 $PAQ=B$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-MC-04}{Q44 · 基础选择 4}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=152}{基础讲义 PDF152}}
+设 $A=\begin{pmatrix}2&-1&0\\-1&2&0\\0&0&-5\end{pmatrix}$，$B=\begin{pmatrix}1&0&0\\0&0&1\\0&1&0\end{pmatrix}$，则 $A$ 与 $B$（ ）。
+
+（A）相似且合同；（B）相似不合同；（C）合同不相似；（D）不合同也不相似。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-MC-05}{Q45 · 基础选择 5}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=152}{基础讲义 PDF152}}
+设 $A,B$ 为 $n$ 阶实对称矩阵，则 $A$ 与 $B$ 合同的充分必要条件是（ ）。
+
+（A）$r(A)=r(B)$；（B）$|A|=|B|$；（C）$A\sim B$；（D）$A,B$ 与同一个实对称矩阵合同。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-MC-07}{Q46 · 基础选择 7}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=153}{基础讲义 PDF153}}
+设 $A$ 是 $n$ 阶实对称矩阵，将 $A$ 的 $i$ 列和 $j$ 列对换得到 $B$，再将 $B$ 的 $i$ 行和 $j$ 行对换得到 $C$，则 $A$ 与 $C$（ ）。
+
+（A）等价但不相似；（B）合同但不相似；（C）相似但不合同；（D）等价、合同且相似。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-01}{Q47 · 强化习题 选择1}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=164}{强化讲义与习题 PDF164}}
+设二次型 $f=x^TAx$ 经可逆变换 $x=Cy$ 化为 $f=y^TBy$，则 $A$ 与 $B$ 必定（\quad）。
+（A）相等；（B）相似；（C）合同；（D）具有相同的特征值。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-02}{Q48 · 强化习题 选择2}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=164}{强化讲义与习题 PDF164}}
+下列矩阵中与
+\[A=\begin{pmatrix}1&1&0\\1&0&0\\0&0&1\end{pmatrix}\]
+合同的矩阵是（\quad）。
+（A）$\operatorname{diag}(1,1,1)$；（B）$\operatorname{diag}(1,1,-1)$；
+（C）$\operatorname{diag}(1,-1,-1)$；（D）$\operatorname{diag}(-1,-1,-1)$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-05}{Q49 · 强化习题 选择5}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=165}{强化讲义与习题 PDF165}}
+设 $A,B$ 为 $n$ 阶实对称矩阵，$\lambda$ 为实数，$E$ 为 $n$ 阶单位矩阵，以下三个命题：
+① $A,B$ 等价，则 $\lambda E-A$ 与 $\lambda E-B$ 等价；
+② $A,B$ 相似，则 $\lambda E-A$ 与 $\lambda E-B$ 相似；
+③ $A,B$ 合同，则 $\lambda E-A$ 与 $\lambda E-B$ 合同。
+正确的个数为（\quad）。
+（A）0；（B）1；（C）2；（D）3。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-07}{Q50 · 强化习题 选择7}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=166}{强化讲义与习题 PDF166}}
+设 $A$ 为三阶实对称矩阵，二次型 $f=x^TAx$ 的规范形为 $y_1^2-y_2^2+y_3^2$。
+① $A$ 的特征值必为 $1,-1,1$；② $A$ 的秩为 2；③ $A$ 的行列式小于 0；
+④ $A$ 必相似于对角矩阵 $\operatorname{diag}(1,-1,1)$；
+⑤ $A$ 合同于对角矩阵 $\operatorname{diag}(1,1,-1)$；
+⑥ $A$ 合同于对角矩阵 $\operatorname{diag}(-1,2,3)$。
+则以上结论中正确的个数为（\quad）。
+（A）1个；（B）2个；（C）3个；（D）4个。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-EX-06}{Q28 · 强化例 6.6}（完整题在第\pageref*{R-EX-06}页）\par
+\hyperlink{R-LONG-07}{Q29 · 强化习题 解答7}（完整题在第\pageref*{R-LONG-07}页）\par
+\hyperlink{R-LONG-09}{Q30 · 强化习题 解答9}（完整题在第\pageref*{R-LONG-09}页）\par
+\hyperlink{R-FILL-02}{Q36 · 强化习题 填空2}（完整题在第\pageref*{R-FILL-02}页）\par
+\hyperlink{R-MC-08}{Q60 · 强化习题 选择8}（完整题在第\pageref*{R-MC-08}页）\par
+\hyperlink{R-MC-10}{Q62 · 强化习题 选择10}（完整题在第\pageref*{R-MC-10}页）\par
+\clearpage
+\section*{求二次型f=0的解}
+\addcontentsline{toc}{section}{求二次型f=0的解}
+\hypertarget{node-C}{}
+方法：考点二 · 题型6；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=92}{强化讲义与习题 PDF92}。\par
+学习例题：\hyperlink{R-EX-07}{Q51 · 强化例 6.7}（题本第\pageref*{R-EX-07}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=7}{强化10(4-6)板书 PDF7-9}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-07}{Q51 · 强化例 6.7 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=92}{强化讲义与习题 PDF92}}
+设实二次型 $f(x_1,x_2,x_3)=(x_1-x_2+x_3)^2+(x_2+x_3)^2+(x_1+ax_3)^2$，其中 $a$ 是参数。
+（I）求 $f(x_1,x_2,x_3)=0$ 的解；（II）试判断二次型的正定性。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-LONG-01}{Q11 · 强化习题 解答1}（完整题在第\pageref*{R-LONG-01}页）\par
+\hyperlink{R-MC-03}{Q66 · 强化习题 选择3}（完整题在第\pageref*{R-MC-03}页）\par
+\hyperlink{R-MC-06}{Q67 · 强化习题 选择6}（完整题在第\pageref*{R-MC-06}页）\par
+\clearpage
+\section*{二次型的最值问题}
+\addcontentsline{toc}{section}{二次型的最值问题}
+\hypertarget{node-D}{}
+方法：考点二 · 二次型的最值问题；题型2；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=87}{强化讲义与习题 PDF87}。\par
+学习例题：\hyperlink{R-EX-02}{Q07 · 强化例 6.2}（题本第\pageref*{R-EX-02}页）。\par
+\source{学习例题看第（III）问；完整共同条件与前两问保留在该题入口。}
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%969\%284\%29-10\%283\%29\%20\%20\%E7\%AC\%AC\%E4\%BA\%94\%E5\%85\%AD\%E7\%AB\%A0\%20\%E5\%AE\%9E\%E5\%AF\%B9\%E7\%A7\%B0\%E7\%9F\%A9\%E9\%98\%B5\%26\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B1\%E3\%80\%90\%E4\%BE\%8B5.6\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.4\%E3\%80\%91.pdf\#page=22}{强化9(4)-10(3)板书 PDF22-24}。\par
+\vspace{3mm}
+\source{代表题全文在上述入口；此处不重复排题。}
+\begin{minipage}{\linewidth}
+\qtitle{R-LONG-05}{Q52 · 强化习题 解答5}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=171}{强化讲义与习题 PDF171}}
+设二次型 $f(x_1,x_2,x_3)=x^TAx=3x_1^2+ax_2^2+3x_3^2-4x_1x_2-8x_1x_3-4x_2x_3$，其中 $-2$ 是二次型矩阵 $A$ 的一个特征值。
+（I）求 $a$，并用正交变换将二次型化为标准形，写出所用的正交变换。
+（II）求二次型 $f$ 在条件 $x_1^2+x_2^2+x_3^2=1$ 的最小值。
+（III）若 $x^T(A+kE)x$ 是正定二次型，求 $k$ 的取值。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-EX-02}{Q07 · 强化例 6.2}（完整题在第\pageref*{R-EX-02}页）\par
+\clearpage
+\section*{判别二次型/矩阵正定性}
+\addcontentsline{toc}{section}{判别二次型/矩阵正定性}
+\subsection*{确定使二次型正定的参数a/判别正定性（抽象二次型）}
+\addcontentsline{toc}{subsection}{确定使二次型正定的参数a/判别正定性（抽象二次型）}
+\hypertarget{node-E1}{}
+方法：考点七 · 题型1；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=95}{强化讲义与习题 PDF95-96}。\par
+学习例题：\hyperlink{R-EX-12}{Q53 · 强化例 6.12}（题本第\pageref*{R-EX-12}页）。\par
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=14}{强化10(4-6)板书 PDF14-15}。\par
+\vspace{3mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-EX-12}{Q53 · 强化例 6.12 · 学习例题}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=96}{强化讲义与习题 PDF96}}
+设 $A$ 为 $m$ 阶实对称矩阵且正定，$B$ 为 $m\times n$ 实矩阵，$B^T$ 为 $B$ 的转置矩阵，试证：$B^TAB$ 为正定矩阵的充分必要条件是 $B$ 的秩 $r(B)=n$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-EX-07}{Q54 · 基础例 6.7}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=89}{基础讲义 PDF89}；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E7\%AB\%96\%E7\%89\%88\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94Kira\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%E5\%81\%9A\%E9\%A2\%98\%E6\%9C\%AC\%281\%29.pdf\#page=57}{基础竖版做题本 PDF57}}
+设 $A$ 是 $n$ 阶实对称阵，且 $A^3+3A-2E=0$。试证：$A$ 正定。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-MC-08}{Q55 · 基础选择 8}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=153}{基础讲义 PDF153}}
+设二次型 $f(x_1,x_2,x_3)=x^TAx$，其中 $A^T=A$，$|A|=a$，$r(A+bE)=1$，则（ ）。
+
+（A）对任意的 $a>0,b>0$，$f$ 正定；（B）对任意的 $a>0,b<0$，$f$ 正定；（C）对任意的 $a<0,b>0$，$f$ 正定；（D）对任意的 $a<0,b<0$，$f$ 正定。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-MC-09}{Q56 · 基础选择 9}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=153}{基础讲义 PDF153}}
+$A$ 为 $n$ 阶对称矩阵，则有（ ）。
+
+（A）$A$ 正定为 $A^*$ 正定的充分非必要条件；（B）$A$ 正定为 $A^*$ 正定的必要非充分条件；（C）$A$ 正定为 $A^*$ 正定的充分必要条件；（D）$A$ 正定为 $A^*$ 正定的既非充分也非必要条件。
+\source{原题的n阶表述存在阶数边界，保留原文；此题不宜不加说明地当作唯一答案的验收题，见另存核查说明。}
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-SA-04}{Q57 · 基础解答 4}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=157}{基础讲义 PDF157}}
+设 $A$ 既是正交矩阵，又是正定矩阵，证明：$A$ 必为单位矩阵。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-SA-05}{Q58 · 基础解答 5}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=158}{基础讲义 PDF158}}
+设实对称矩阵 $A$ 满足 $A^2-3A+2E=O$，证明：$A$ 为正定矩阵。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-LONG-02}{Q59 · 强化习题 解答2}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=169}{强化讲义与习题 PDF169}}
+已知 $A$ 是 $m\times n$ 矩阵，$m<n$，证明 $AA^T$ 正定的充要条件是 $r(A)=m$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-08}{Q60 · 强化习题 选择8}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=166}{强化讲义与习题 PDF166}}
+设 $A$ 为 $m\times n$ 阶矩阵，$E_m$ 为 $m$ 阶单位矩阵，$m<n$，$r(A)=m$，则下列结论：
+① $A$ 可以经过初等行变换为 $(E_m,O)$；② $A$ 可以经过初等列变换为 $(E_m,O)$；
+③ $A^TA$ 正交；④ $AA^T$ 正定；⑤ $Ax=b$ 有解；⑥ $Ax=0$ 只有零解。
+中正确的个数为（\quad）。
+（A）1；（B）2；（C）3；（D）4。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-09}{Q61 · 强化习题 选择9}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=166}{强化讲义与习题 PDF166}}
+设 $A$ 为 4 阶实对称矩阵，其正、负惯性指数均为 1，$A^3-A=O$，则（\quad）。
+（A）$|A+E|=1$；（B）$2E+A$ 为正定矩阵；
+（C）$r(E-A)=2$；（D）$Ax=0$ 有 1 个无关解向量。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-10}{Q62 · 强化习题 选择10}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=167}{强化讲义与习题 PDF167}}
+设 $A,B$ 为正定矩阵，$C$ 是可逆矩阵，下列矩阵不是正定矩阵的是（\quad）。
+（A）$C^TAC$；（B）$A^{-1}+B^{-1}$；（C）$A^*+B^*$；（D）$A-B$。
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-EX-02}{Q07 · 强化例 6.2}（完整题在第\pageref*{R-EX-02}页）\par
+\hyperlink{R-LONG-06}{Q20 · 强化习题 解答6}（完整题在第\pageref*{R-LONG-06}页）\par
+\hyperlink{B-MC-03}{Q33 · 基础选择 3}（完整题在第\pageref*{B-MC-03}页）\par
+\hyperlink{R-EX-07}{Q51 · 强化例 6.7}（完整题在第\pageref*{R-EX-07}页）\par
+\hyperlink{R-LONG-05}{Q52 · 强化习题 解答5}（完整题在第\pageref*{R-LONG-05}页）\par
+\hyperlink{R-MC-03}{Q66 · 强化习题 选择3}（完整题在第\pageref*{R-MC-03}页）\par
+\hyperlink{R-MC-06}{Q67 · 强化习题 选择6}（完整题在第\pageref*{R-MC-06}页）\par
+\clearpage
+\subsection*{确定使二次型正定的参数a/判别正定性（具体二次型）}
+\addcontentsline{toc}{subsection}{确定使二次型正定的参数a/判别正定性（具体二次型）}
+\hypertarget{node-E2}{}
+方法：考点七 · 题型2；原讲义回指例6.7、例6.8；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=95}{强化讲义与习题 PDF95-96}。\par
+学习例题：\hyperlink{R-EX-07}{Q51 · 强化例 6.7}（题本第\pageref*{R-EX-07}页）。\par
+\source{学习例题看第（II）问，沿平方和与零点条件判断正定性。}
+同题完整板书：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=7}{强化10(4-6)板书 PDF7-9}。\par
+\vspace{3mm}
+\source{代表题全文在上述入口；此处不重复排题。}
+\begin{minipage}{\linewidth}
+\qtitle{B-EX-06}{Q63 · 基础例 6.6}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=89}{基础讲义 PDF89}；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E7\%AB\%96\%E7\%89\%88\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94Kira\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%E5\%81\%9A\%E9\%A2\%98\%E6\%9C\%AC\%281\%29.pdf\#page=56}{基础竖版做题本 PDF56}}
+下列矩阵为正定的是（ ）。
+
+\[
+\text{(A)}\ \begin{pmatrix}1&2&0\\2&3&0\\0&0&2\end{pmatrix},\quad
+\text{(B)}\ \begin{pmatrix}1&2&0\\2&4&0\\0&0&2\end{pmatrix},\quad
+\text{(C)}\ \begin{pmatrix}1&-2&0\\-2&5&0\\0&0&-2\end{pmatrix},\quad
+\text{(D)}\ \begin{pmatrix}2&0&0\\0&1&2\\0&2&5\end{pmatrix}.
+\]
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-FB-02}{Q64 · 基础填空 2}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=154}{基础讲义 PDF154}}
+设 $5x_1^2+x_2^2+tx_3^2+4x_1x_2-2x_1x_3-2x_2x_3$ 为正定二次型，则 $t$ 的取值范围是 $\underline{\qquad}$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{B-MC-06}{Q65 · 基础选择 6}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=152}{基础讲义 PDF152}}
+下列矩阵中为正定矩阵的是（ ）。
+
+\[
+\text{(A)}\ \begin{pmatrix}1&2&-3\\2&7&5\\-3&5&0\end{pmatrix},\quad
+\text{(B)}\ \begin{pmatrix}1&-2&-3\\2&7&5\\-3&5&3\end{pmatrix},\quad
+\text{(C)}\ \begin{pmatrix}5&2&0\\2&6&-3\\0&-3&-1\end{pmatrix},\quad
+\text{(D)}\ \begin{pmatrix}5&-2&0\\-2&6&-2\\0&-2&4\end{pmatrix}.
+\]
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-03}{Q66 · 强化习题 选择3}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=164}{强化讲义与习题 PDF164}}
+下列二次型中正定二次型是（\quad）。
+（A）$f_1=(x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_1)^2$；
+（B）$f_2=(x_1+x_2)^2+(x_2-x_3)^2+(x_3+x_1)^2$；
+（C）$f_3=(x_1+x_2)^2+(x_2+x_3)^2+(x_3-x_4)^2+(x_4-x_1)^2$；
+（D）$f_3=(x_1+x_2)^2+(x_2+x_3)^2+(x_3+x_4)^2+(x_4-x_1)^2$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{R-MC-06}{Q67 · 强化习题 选择6}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=165}{强化讲义与习题 PDF165}}
+二次型 $f(x_1,x_2,x_3)=(x_1+ax_2-2x_3)^2+(2x_2+3x_3)^2+(x_1+3x_2+ax_3)^2$ 正定的充要条件是（\quad）。
+（A）任意 $a$；（B）$a\ne1$；（C）$a\ne-1$；（D）$a>1$。
+\end{minipage}\par\vspace{7mm}
+\begin{minipage}{\linewidth}
+\qtitle{S-09}{Q68 · 保100 第9题 [2025年数三]}
+\source{\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=7}{保100讲义 PDF7}}
+[2025 年数三] 设矩阵\[A=\begin{pmatrix}1&2\\-2&-a\end{pmatrix},\qquad B=\begin{pmatrix}1&0\\1&a\end{pmatrix},\]若 \(f(x,y)=\lvert xA+yB\rvert\) 为正定二次型，则 \(a\) 的取值范围是（\hspace{1em}）。\par A. \((0,2-\sqrt{3})\)\qquad B. \((2-\sqrt{3},2+\sqrt{3})\)\par C. \((2+\sqrt{3},4)\)\qquad D. \((0,4)\)
+\end{minipage}\par\vspace{7mm}
+\needspace{4\baselineskip}\textbf{关联原题}\par
+\hyperlink{R-EX-08}{Q24 · 强化例 6.8 [2027]}（完整题在第\pageref*{R-EX-08}页）\par
+\hyperlink{R-LONG-08}{Q25 · 强化习题 解答8}（完整题在第\pageref*{R-LONG-08}页）\par
+\hyperlink{R-EX-07}{Q51 · 强化例 6.7}（完整题在第\pageref*{R-EX-07}页）\par
+\clearpage\section*{二次型对应的二次曲面（仅数一）}\addcontentsline{toc}{section}{二次曲面（数一隔离）}
+原框架保留此支；默认数二正文不收录。已确认的数一曲面题逐题登记，不删掉父题的数一小问再伪造为数二题。\par
+基础填空 6：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=155}{基础讲义 PDF155}。\par
+基础解答 3：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=157}{基础讲义 PDF157}。\par
+强化例 6.13（数一隔离）：\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=97}{强化讲义与习题 PDF97}。\par
+\clearpage\section*{原件对照}\addcontentsline{toc}{section}{原件对照}
+\needspace{4\baselineskip}\textbf{基础讲义}\par
+讲义/【一高数Kira】27考研线代基础讲义\&习题-电子版.pdf\par
+\source{160页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E4\%B8\%80\%E9\%AB\%98\%E6\%95\%B0Kira\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%26\%E4\%B9\%A0\%E9\%A2\%98-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88.pdf\#page=1}{基础讲义 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{基础竖版做题本}\par
+讲义/【竖版】27考研Kira线代基础讲义做题本(1).pdf\par
+\source{57页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E3\%80\%90\%E7\%AB\%96\%E7\%89\%88\%E3\%80\%9127\%E8\%80\%83\%E7\%A0\%94Kira\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%E5\%81\%9A\%E9\%A2\%98\%E6\%9C\%AC\%281\%29.pdf\#page=1}{基础竖版做题本 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{基础例题解析}\par
+讲义/线代基础讲义——所有章节全部例题解析.pdf\par
+\source{59页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AE\%B2\%E4\%B9\%89/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E8\%AE\%B2\%E4\%B9\%89\%E2\%80\%94\%E2\%80\%94\%E6\%89\%80\%E6\%9C\%89\%E7\%AB\%A0\%E8\%8A\%82\%E5\%85\%A8\%E9\%83\%A8\%E4\%BE\%8B\%E9\%A2\%98\%E8\%A7\%A3\%E6\%9E\%90.pdf\#page=1}{基础例题解析 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{基础课堂板书}\par
+课堂板书/12.11-12.27 线代第二\textasciitilde{}六章 -板书合并版.pdf\par
+\source{105页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E8\%AF\%BE\%E5\%A0\%82\%E6\%9D\%BF\%E4\%B9\%A6/12.11-12.27\%20\%E7\%BA\%BF\%E4\%BB\%A3\%E7\%AC\%AC\%E4\%BA\%8C~\%E5\%85\%AD\%E7\%AB\%A0\%20-\%E6\%9D\%BF\%E4\%B9\%A6\%E5\%90\%88\%E5\%B9\%B6\%E7\%89\%88.pdf\#page=1}{基础课堂板书 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{基础习题解析}\par
+习题答案/线代基础习题解析-电子版/第六章 二次型(答案解析).pdf\par
+\source{4页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E4\%B9\%A0\%E9\%A2\%98\%E7\%AD\%94\%E6\%A1\%88/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E4\%B9\%A0\%E9\%A2\%98\%E8\%A7\%A3\%E6\%9E\%90-\%E7\%94\%B5\%E5\%AD\%90\%E7\%89\%88/\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%28\%E7\%AD\%94\%E6\%A1\%88\%E8\%A7\%A3\%E6\%9E\%90\%29.pdf\#page=1}{基础习题解析 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{基础习题板书}\par
+习题答案/线代基础习题板书-Kira老师/27基础习题线代-第六章板书.pdf\par
+\source{14页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E4\%B9\%A0\%E9\%A2\%98\%E7\%AD\%94\%E6\%A1\%88/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%9F\%BA\%E7\%A1\%80\%E4\%B9\%A0\%E9\%A2\%98\%E6\%9D\%BF\%E4\%B9\%A6-Kira\%E8\%80\%81\%E5\%B8\%88/27\%E5\%9F\%BA\%E7\%A1\%80\%E4\%B9\%A0\%E9\%A2\%98\%E7\%BA\%BF\%E4\%BB\%A3-\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%E6\%9D\%BF\%E4\%B9\%A6.pdf\#page=1}{基础习题板书 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{强化讲义与习题}\par
+Kira·27线性代数强化讲义+习题.pdf\par
+\source{181页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/Kira\%C2\%B727\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E5\%BC\%BA\%E5\%8C\%96\%E8\%AE\%B2\%E4\%B9\%89\%2B\%E4\%B9\%A0\%E9\%A2\%98.pdf\#page=1}{强化讲义与习题 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{强化9(4)-10(3)板书}\par
+线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵\&二次型1【例5.6】-【例6.4】.pdf\par
+\source{26页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%969\%284\%29-10\%283\%29\%20\%20\%E7\%AC\%AC\%E4\%BA\%94\%E5\%85\%AD\%E7\%AB\%A0\%20\%E5\%AE\%9E\%E5\%AF\%B9\%E7\%A7\%B0\%E7\%9F\%A9\%E9\%98\%B5\%26\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B1\%E3\%80\%90\%E4\%BE\%8B5.6\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.4\%E3\%80\%91.pdf\#page=1}{强化9(4)-10(3)板书 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{强化10(4-6)板书}\par
+线性代数/线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf\par
+\source{17页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E4\%BB\%A3\%E5\%BC\%BA\%E5\%8C\%9610\%284-6\%29\%20\%20\%E7\%AC\%AC\%E5\%85\%AD\%E7\%AB\%A0\%20\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B2\%E3\%80\%90\%E4\%BE\%8B6.5\%E3\%80\%91-\%E3\%80\%90\%E4\%BE\%8B6.13\%E3\%80\%91.pdf\#page=1}{强化10(4-6)板书 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{保100讲义}\par
+02\_专项刷题\_保100/线性代数/线性代数专项刷题课14-二次型 讲义.pdf\par
+\source{8页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AE\%B2\%E4\%B9\%89.pdf\#page=1}{保100讲义 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\needspace{4\baselineskip}\textbf{保100详解板书}\par
+02\_专项刷题\_保100/线性代数/线性代数专项刷题课14-二次型 详解板书.pdf\par
+\source{11页；\href{file:///Users/skyintelligence/Desktop/\%E5\%BE\%97\%E8\%AF\%BB\%E4\%B8\%AA\%E7\%A0\%94-\%E5\%8C\%97\%E5\%A4\%A7\%E8\%BD\%AF\%E5\%BE\%AE/\%E6\%95\%B0\%E5\%AD\%A6\%20150/02\_\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\_\%E4\%BF\%9D100/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0/\%E7\%BA\%BF\%E6\%80\%A7\%E4\%BB\%A3\%E6\%95\%B0\%E4\%B8\%93\%E9\%A1\%B9\%E5\%88\%B7\%E9\%A2\%98\%E8\%AF\%BE14-\%E4\%BA\%8C\%E6\%AC\%A1\%E5\%9E\%8B\%20\%E8\%AF\%A6\%E8\%A7\%A3\%E6\%9D\%BF\%E4\%B9\%A6.pdf\#page=1}{保100详解板书 PDF1}。完整哈希、题号、配套页序及归位理由见来源与归位清单。}
+\end{document}

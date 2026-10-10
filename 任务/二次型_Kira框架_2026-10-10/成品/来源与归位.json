@@ -1,0 +1,4798 @@
+{
+  "schema_version": 1,
+  "scope": "二次型：Kira基础例题/基础习题/强化例题/强化习题/保100专项",
+  "framework": {
+    "source_path": "Kira·27线性代数强化讲义+习题.pdf",
+    "framework_pdf_page": 84,
+    "framework_printed_page": 80,
+    "basis": "本章框架原图及正文已有题型；保持原层级和顺序，不按来源重分大组。",
+    "groups": [
+      {
+        "id": "A",
+        "name": "化二次型为标准形",
+        "nodes": [
+          {
+            "id": "A1",
+            "name": "正交变化法",
+            "body_name": "正交变换法化二次型为标准形",
+            "method_pages": [
+              85,
+              86,
+              87
+            ],
+            "part": "考点二 · 题型1",
+            "preferred_rep": "R-EX-02"
+          },
+          {
+            "id": "A1C",
+            "name": "合同考法",
+            "parent": "A1",
+            "body_name": "正交变换法的合同考法",
+            "method_pages": [
+              86,
+              87
+            ],
+            "part": "考点二 · 正交变换的矩阵表述",
+            "preferred_rep": "R-EX-02"
+          },
+          {
+            "id": "A2",
+            "name": "配方法",
+            "body_name": "可逆线性变换化二次型为标准形",
+            "method_pages": [
+              89,
+              90,
+              91
+            ],
+            "part": "考点二 · 题型5",
+            "preferred_rep": "R-EX-05"
+          },
+          {
+            "id": "A2N",
+            "name": "化规范形",
+            "parent": "A2",
+            "body_name": "配方法化规范形",
+            "method_pages": [
+              86,
+              89,
+              90,
+              91
+            ],
+            "part": "规范形定义；题型5；例6.5换一种问法3",
+            "preferred_rep": "R-EX-05"
+          },
+          {
+            "id": "A2C",
+            "name": "合同考法",
+            "parent": "A2",
+            "body_name": "配方法与成对初等变换的合同考法",
+            "method_pages": [
+              90,
+              91
+            ],
+            "part": "例6.5换一种问法1、2；套路一、套路二",
+            "preferred_rep": "R-EX-05"
+          },
+          {
+            "id": "A3",
+            "name": "已知标准形，反求原二次型",
+            "body_name": "已知正交变换下的标准形，反求原二次型",
+            "method_pages": [
+              89
+            ],
+            "part": "考点二 · 题型4",
+            "preferred_rep": "R-EX-04"
+          },
+          {
+            "id": "A4O",
+            "name": "正交变换法",
+            "parent_label": "进阶：化二次型为非标准形",
+            "body_name": "进阶：化二次型为非标准形 · 正交变换法",
+            "method_pages": [
+              88
+            ],
+            "part": "考点二 · 题型3",
+            "preferred_rep": "R-EX-03"
+          },
+          {
+            "id": "A4C",
+            "name": "配方法",
+            "parent_label": "进阶：化二次型为非标准形",
+            "body_name": "进阶：化二次型为非标准形 · 配方法",
+            "method_pages": [
+              89,
+              91
+            ],
+            "part": "考点二 · 更一般地的合同变换；例6.6",
+            "preferred_rep": "R-EX-06"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "name": "惯性定理、规范形",
+        "nodes": [
+          {
+            "id": "B1",
+            "name": "求惯性指数、规范形",
+            "body_name": "求惯性指数、规范形",
+            "method_pages": [
+              93,
+              94
+            ],
+            "part": "考点三 · 题型1",
+            "preferred_rep": "R-EX-10"
+          },
+          {
+            "id": "B2",
+            "name": "等价、相似、合同",
+            "parent_label": "矩阵合同",
+            "body_name": "矩阵合同 · 等价、相似、合同",
+            "method_pages": [
+              94,
+              95
+            ],
+            "part": "考点四 · 等价、相似、合同",
+            "preferred_rep": "R-EX-11"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "name": "求二次型f=0的解",
+        "nodes": [
+          {
+            "id": "C",
+            "name": "求二次型f=0的解",
+            "body_name": "求二次型f=0的解",
+            "method_pages": [
+              92
+            ],
+            "part": "考点二 · 题型6",
+            "preferred_rep": "R-EX-07"
+          }
+        ]
+      },
+      {
+        "id": "D",
+        "name": "二次型的最值问题",
+        "nodes": [
+          {
+            "id": "D",
+            "name": "二次型的最值问题",
+            "body_name": "二次型的最值问题",
+            "method_pages": [
+              87
+            ],
+            "part": "考点二 · 二次型的最值问题；题型2",
+            "preferred_rep": "R-EX-02"
+          }
+        ]
+      },
+      {
+        "id": "E",
+        "name": "判别二次型/矩阵正定性",
+        "nodes": [
+          {
+            "id": "E1",
+            "name": "判别正定性（抽象二次型）",
+            "body_name": "确定使二次型正定的参数a/判别正定性（抽象二次型）",
+            "method_pages": [
+              95,
+              96
+            ],
+            "part": "考点七 · 题型1",
+            "preferred_rep": "R-EX-12"
+          },
+          {
+            "id": "E2",
+            "name": "判别正定性（具体二次型）",
+            "body_name": "确定使二次型正定的参数a/判别正定性（具体二次型）",
+            "method_pages": [
+              95,
+              96
+            ],
+            "part": "考点七 · 题型2；原讲义回指例6.7、例6.8",
+            "preferred_rep": "R-EX-07"
+          }
+        ]
+      },
+      {
+        "id": "F",
+        "name": "二次型对应的二次曲面（仅数一）",
+        "scope": "隔离，不纳入数二正文",
+        "method_pages": [
+          97
+        ],
+        "nodes": []
+      }
+    ],
+    "prelude": {
+      "id": "PRE",
+      "name": "原讲义前置：二次型的概念",
+      "body_name": "二次型的矩阵表示与秩",
+      "method_pages": [
+        85
+      ],
+      "part": "考点一 · 二次型的概念",
+      "preferred_rep": "R-EX-01"
+    },
+    "naming_notes": [
+      "框架原图写正交变化法，正文写正交变换法；保留原图名称与正文名称。",
+      "正定性下的抽象/具体两支来自正文已有题型，不是另造part。",
+      "原框架没有part英文编号，本题本不增加part。",
+      "矩阵表示与秩属于正文前置，不冒称原框架新增主干。"
+    ]
+  },
+  "sources": [
+    {
+      "id": "B0",
+      "path": "讲义/【一高数Kira】27考研线代基础讲义&习题-电子版.pdf",
+      "sha256": "053f9f91ae6bc44252a41acae728adf97252348ccd160516aa98ea43256b0772",
+      "pages": 160,
+      "read_pages": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158
+      ],
+      "read_status": "所列页序已视觉核读；不推广到全文件",
+      "notes": "第六章讲义83-89；基础习题151-158；本任务题干主来源",
+      "short_label": "基础讲义"
+    },
+    {
+      "id": "BV",
+      "path": "讲义/【竖版】27考研Kira线代基础讲义做题本(1).pdf",
+      "sha256": "1984ee1203252e506cc39bb024e49fcf01155ac9799aa29a42b7edc36ce561c6",
+      "pages": 57,
+      "read_pages": [
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "read_status": "所列页序已视觉核读；不推广到全文件",
+      "notes": "第六章53-57，7题逐题视觉比对均为同问法排版副本",
+      "short_label": "基础竖版做题本"
+    },
+    {
+      "id": "BS",
+      "path": "讲义/线代基础讲义——所有章节全部例题解析.pdf",
+      "sha256": "b68078a9839c31b4e1377c95da873ab88a35afee2d824febdb98276af8644d98",
+      "pages": 59,
+      "read_pages": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "read_status": "所列页序已视觉核读；不推广到全文件",
+      "notes": "第六章完整解析55-59；50-54仅章节边界定位",
+      "short_label": "基础例题解析"
+    },
+    {
+      "id": "BB",
+      "path": "课堂板书/12.11-12.27 线代第二~六章 -板书合并版.pdf",
+      "sha256": "900d6fc1909bc01a56de7024a3f9e8164980db36c3f08d26c5cd3e672ef276a2",
+      "pages": 105,
+      "read_pages": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "read_status": "所列页序已视觉核读；不推广到全文件",
+      "notes": "第六章92-103；91第五章尾页；104-105向量空间数一补充，不入二次型题域",
+      "short_label": "基础课堂板书"
+    },
+    {
+      "id": "BH-S",
+      "path": "习题答案/线代基础习题解析-电子版/第六章 二次型(答案解析).pdf",
+      "sha256": "3a349fea4c88d71f5aa82b76bcd0be4ab990d23331b6518aa1e2ec5725260257",
+      "pages": 4,
+      "read_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "read_status": "所列页序已视觉核读；不推广到全文件",
+      "notes": "20题全部解析视觉核读",
+      "short_label": "基础习题解析"
+    },
+    {
+      "id": "BH-B",
+      "path": "习题答案/线代基础习题板书-Kira老师/27基础习题线代-第六章板书.pdf",
+      "sha256": "56270c2779572a75489157ad2cffcaa8b83c1f3ff138dba535cd7d3f33f68015",
+      "pages": 14,
+      "read_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "read_status": "所列页序已视觉核读；不推广到全文件",
+      "notes": "20题全部板书视觉核读，题干与全部问法配对",
+      "short_label": "基础习题板书"
+    },
+    {
+      "id": "R-LECTURE",
+      "short_label": "强化讲义与习题",
+      "path": "Kira·27线性代数强化讲义+习题.pdf",
+      "read_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174
+      ],
+      "sha256": "4cf90f77fc3399c3c9db35b11dbe4cec9b6ca241a58595b29fac5f847a100584",
+      "pages": 181,
+      "read_status": "原页渲染核读；板书逐题比对；非全书人工校对"
+    },
+    {
+      "id": "F0296",
+      "short_label": "强化9(4)-10(3)板书",
+      "path": "线性代数/线代强化9(4)-10(3)  第五六章 实对称矩阵&二次型1【例5.6】-【例6.4】.pdf",
+      "read_pages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "sha256": "925990228b3bb6a8f03aab3f1ba91f948034dcf9a538f3e4d73b1be6d9c01c11",
+      "pages": 26,
+      "read_status": "原页渲染核读；板书逐题比对；非全书人工校对"
+    },
+    {
+      "id": "F0287",
+      "short_label": "强化10(4-6)板书",
+      "path": "线性代数/线代强化10(4-6)  第六章 二次型2【例6.5】-【例6.13】.pdf",
+      "read_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "sha256": "9c46ec21f6dba4c85fe23745bafc83ad31785a862779361f303745b39185acda",
+      "pages": 17,
+      "read_status": "原页渲染核读；板书逐题比对；非全书人工校对"
+    },
+    {
+      "id": "SPC-Q",
+      "short_label": "保100讲义",
+      "path": "02_专项刷题_保100/线性代数/线性代数专项刷题课14-二次型 讲义.pdf",
+      "sha256": "7491d53bf582506bdbe80e119444f1fcb596e198fddedd780b78a80420cb4b3b",
+      "pages": 8,
+      "read_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "read_status": "全部原页已渲染并视觉核读；第8页为简明答案",
+      "aliases": [
+        {
+          "path": "保100分专题训练-配套讲义板书/线性代数专项刷题课14-二次型 讲义.pdf",
+          "sha256": "7491d53bf582506bdbe80e119444f1fcb596e198fddedd780b78a80420cb4b3b",
+          "relation": "byte_identical_copy",
+          "read_status": "完整SHA-256相同，共用canonical原页核读；副本不是新题"
+        }
+      ]
+    },
+    {
+      "id": "SPC-K",
+      "short_label": "保100详解板书",
+      "path": "02_专项刷题_保100/线性代数/线性代数专项刷题课14-二次型 详解板书.pdf",
+      "sha256": "4ada06f29af09c2b5850bcc98f1727de24259b2ee0271b3f374944564ea9d073",
+      "pages": 11,
+      "read_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "read_status": "全部原页已渲染并视觉核读；数学与手写无可靠原生文字层，依据原页核对",
+      "aliases": [
+        {
+          "path": "保100分专题训练-配套讲义板书/线性代数专项刷题课14-二次型 详解板书.pdf",
+          "sha256": "4ada06f29af09c2b5850bcc98f1727de24259b2ee0271b3f374944564ea9d073",
+          "relation": "byte_identical_copy",
+          "read_status": "完整SHA-256相同，共用canonical原页核读"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "B-EX-01",
+      "original_label": "基础例 6.1",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3)=-4x_1x_2+2x_1x_3+2tx_2x_3$ 的秩为 $2$，则 $t=\\underline{\\qquad}$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 84,
+          "page_end": 84
+        },
+        {
+          "source_id": "BV",
+          "page_start": 53,
+          "page_end": 53
+        }
+      ],
+      "primary_node": "PRE",
+      "related_nodes": [],
+      "classification_reason": "写出实对称二次型矩阵，再由秩为2求参数；矩阵与秩是前置内容，不另造强化分支。",
+      "solution_reference": [
+        {
+          "source_id": "BS",
+          "page_start": 55,
+          "page_end": 55,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BB",
+          "page_start": 94,
+          "page_end": 94,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工检验A=[[0,-2,1],[-2,0,t],[1,t,0]]，det=-4t，固定二阶子式-4非0；t=0确为秩2。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-EX-01",
+      "printed_node": "PRE",
+      "display_number": "Q02"
+    },
+    {
+      "id": "B-EX-02",
+      "original_label": "基础例 6.2",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3)=-2x_1x_2+2x_1x_3+2x_2x_3$，试写出二次型的矩阵，并用正交变换法将 $f$ 化为标准形。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 86,
+          "page_end": 86
+        },
+        {
+          "source_id": "BV",
+          "page_start": 53,
+          "page_end": 53
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [],
+      "classification_reason": "原小节正交变换化标准形；矩阵特征值与正交特征向量构造Q。",
+      "solution_reference": [
+        {
+          "source_id": "BS",
+          "page_start": 55,
+          "page_end": 56,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BB",
+          "page_start": 96,
+          "page_end": 98,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "有理数精确脚本检验特征多项式、特征向量方程和Gram矩阵；单位化后Q^TQ=E且Q^TAQ=diag(1,1,-2)。",
+          "machine_check_keys": [
+            "ex02_charpoly",
+            "ex02_gram",
+            "ex02_eigenvectors"
+          ]
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-EX-02",
+      "printed_node": "A1",
+      "display_number": "Q08"
+    },
+    {
+      "id": "B-EX-03",
+      "original_label": "基础例 6.3",
+      "body_latex": "用配方法将二次型 $f=2x_1^2+x_2^2-4x_1x_2-4x_2x_3$ 化为标准形，并写出所用的可逆线性变换矩阵。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 87,
+          "page_end": 87
+        },
+        {
+          "source_id": "BV",
+          "page_start": 54,
+          "page_end": 54
+        }
+      ],
+      "primary_node": "A2",
+      "related_nodes": [],
+      "classification_reason": "原小节配方法化标准形，要求逆向写x=Cy的可逆变换。",
+      "solution_reference": [
+        {
+          "source_id": "BS",
+          "page_start": 57,
+          "page_end": 57,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BB",
+          "page_start": 99,
+          "page_end": 99,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本代回C^TAC=diag(2,-1,4)，det C=1；手工展开配方与原式同一。",
+          "machine_check_keys": [
+            "ex03_congruence"
+          ]
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-EX-03",
+      "printed_node": "A2",
+      "display_number": "Q22"
+    },
+    {
+      "id": "B-EX-04",
+      "original_label": "基础例 6.4",
+      "body_latex": "二次型 $f=2x_1^2+x_2^2-4x_1x_2-4x_2x_3$ 的规范形 $f=\\underline{\\qquad}$，秩是 $\\underline{\\qquad}$，正惯性指数是 $\\underline{\\qquad}$，负惯性指数是 $\\underline{\\qquad}$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 88,
+          "page_end": 88
+        },
+        {
+          "source_id": "BV",
+          "page_start": 54,
+          "page_end": 54
+        }
+      ],
+      "primary_node": "B1",
+      "related_nodes": [
+        "A2N"
+      ],
+      "classification_reason": "所问是规范形、秩与正负惯性指数；完整解析同时用配方和特征值验证惯性。",
+      "solution_reference": [
+        {
+          "source_id": "BS",
+          "page_start": 57,
+          "page_end": 58,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BB",
+          "page_start": 99,
+          "page_end": 101,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本验特征多项式[1,-3,-6,8]；配方合同对角阵diag(2,-1,4)故秩3、p=2、q=1。",
+          "machine_check_keys": [
+            "ex04_charpoly"
+          ]
+        }
+      ],
+      "notes": [
+        "与例6.3同式不同问，保留独立父题。",
+        "BS58和BB100中间因子+8为原解笔误；BB101长除法正确写-8，最终特征值及惯性不变。"
+      ],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-EX-04",
+      "printed_node": "B1",
+      "display_number": "Q32"
+    },
+    {
+      "id": "B-EX-05",
+      "original_label": "基础例 6.5",
+      "body_latex": "矩阵 $A=\\begin{pmatrix}1&0\\\\0&-2\\end{pmatrix}$ 与 $B=\\begin{pmatrix}-1&0\\\\0&3\\end{pmatrix}$ 是否等价、相似、合同？",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 88,
+          "page_end": 88
+        },
+        {
+          "source_id": "BV",
+          "page_start": 55,
+          "page_end": 55
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [],
+      "classification_reason": "由秩、特征值和正负惯性指数分别判定等价、相似、合同。",
+      "solution_reference": [
+        {
+          "source_id": "BS",
+          "page_start": 58,
+          "page_end": 58,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BB",
+          "page_start": 101,
+          "page_end": 102,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工：两阵秩2、谱分别1,-2与-1,3，正负惯性均1,1；等价且合同、不相似。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-EX-05",
+      "printed_node": "B2",
+      "display_number": "Q41"
+    },
+    {
+      "id": "B-EX-06",
+      "original_label": "基础例 6.6",
+      "body_latex": "下列矩阵为正定的是（ ）。\n\n\\[\n\\text{(A)}\\ \\begin{pmatrix}1&2&0\\\\2&3&0\\\\0&0&2\\end{pmatrix},\\quad\n\\text{(B)}\\ \\begin{pmatrix}1&2&0\\\\2&4&0\\\\0&0&2\\end{pmatrix},\\quad\n\\text{(C)}\\ \\begin{pmatrix}1&-2&0\\\\-2&5&0\\\\0&0&-2\\end{pmatrix},\\quad\n\\text{(D)}\\ \\begin{pmatrix}2&0&0\\\\0&1&2\\\\0&2&5\\end{pmatrix}.\n\\]",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 89,
+          "page_end": 89
+        },
+        {
+          "source_id": "BV",
+          "page_start": 56,
+          "page_end": 56
+        }
+      ],
+      "primary_node": "E2",
+      "related_nodes": [],
+      "classification_reason": "具体矩阵用必要条件筛选及顺序主子式判正定。",
+      "solution_reference": [
+        {
+          "source_id": "BS",
+          "page_start": 58,
+          "page_end": 59,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BB",
+          "page_start": 103,
+          "page_end": 103,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本验全部四选项顺序主子式，只有D全正；没有把必要条件误作充分。",
+          "machine_check_keys": [
+            "ex06_leading_minors"
+          ]
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-EX-06",
+      "printed_node": "E2",
+      "display_number": "Q63"
+    },
+    {
+      "id": "B-EX-07",
+      "original_label": "基础例 6.7",
+      "body_latex": "设 $A$ 是 $n$ 阶实对称阵，且 $A^3+3A-2E=0$。试证：$A$ 正定。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 89,
+          "page_end": 89
+        },
+        {
+          "source_id": "BV",
+          "page_start": 57,
+          "page_end": 57
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [],
+      "classification_reason": "抽象实对称矩阵多项式条件，证明所有特征值正。",
+      "solution_reference": [
+        {
+          "source_id": "BS",
+          "page_start": 59,
+          "page_end": 59,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BB",
+          "page_start": 103,
+          "page_end": 103,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工逻辑核验：A实对称使lambda实；lambda<=0时lambda^3+3lambda-2<=-2，矛盾，所以每根正。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-EX-07",
+      "printed_node": "E1",
+      "display_number": "Q54"
+    },
+    {
+      "id": "B-MC-01",
+      "original_label": "基础选择 1",
+      "body_latex": "设 $A,B$ 为 $n$ 阶可逆矩阵，则（ ）。\n\n（A）存在可逆矩阵 $P_1,P_2$，使得 $P_1^{-1}AP_1,P_2^{-1}BP_2$ 为对角矩阵。\n\n（B）存在正交矩阵 $Q_1,Q_2$，使得 $Q_1^TAQ_1,Q_2^TBQ_2$ 为对角矩阵。\n\n（C）存在可逆矩阵 $P$，使得 $P^{-1}(A+B)P$ 为对角矩阵。\n\n（D）存在可逆矩阵 $P,Q$，使得 $PAQ=B$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 151,
+          "page_end": 151
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [],
+      "classification_reason": "对比等价与相似/正交对角化，不以可逆代替实对称条件。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 1,
+          "page_end": 1,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 1,
+          "page_end": 1,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工存在构造P=B A^{-1},Q=E给PAQ=B；可逆不保证相似对角化，反例可用非平凡Jordan块。非全选项机器枚举。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-MC-01",
+      "printed_node": "B2",
+      "display_number": "Q43"
+    },
+    {
+      "id": "B-MC-02",
+      "original_label": "基础选择 2",
+      "body_latex": "设 $A$ 是 $n$ 阶对称矩阵，$B$ 是 $n$ 阶反对称矩阵，则下列矩阵中可用正交变换化为对角形矩阵的是（ ）。\n\n（A）$ABA$；（B）$BAB$；（C）$(AB)^2$；（D）$AB^2$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 151,
+          "page_end": 151
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [],
+      "classification_reason": "先用转置验证BAB为实对称，从而可正交对角化。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 1,
+          "page_end": 1,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 1,
+          "page_end": 2,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工转置恒等式(BAB)^T=(-B)A(-B)=BAB；其余形式不普遍对称。未枚举所有反例。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-MC-02",
+      "printed_node": "A1",
+      "display_number": "Q09"
+    },
+    {
+      "id": "B-MC-03",
+      "original_label": "基础选择 3",
+      "body_latex": "下列说法正确的是（ ）。\n\n（A）任一个二次型的标准形是唯一的。\n\n（B）若两个二次型的标准形相同，则两个二次型对应的矩阵的特征值相同。\n\n（C）若一个二次型的标准形系数中没有负数，则该二次型为正定二次型。\n\n（D）二次型的标准形不唯一，但规范形是唯一的。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 151,
+          "page_end": 151
+        }
+      ],
+      "primary_node": "B1",
+      "related_nodes": [
+        "E1"
+      ],
+      "classification_reason": "标准形与规范形的唯一性、惯性指数，而非具体求变换。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 1,
+          "page_end": 1,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 2,
+          "page_end": 2,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工核惯性定理：规范形按正、负、零顺序约定唯一；普通可逆标准形系数可缩放；无负项仅半正定。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-MC-03",
+      "printed_node": "B1",
+      "display_number": "Q33"
+    },
+    {
+      "id": "B-MC-04",
+      "original_label": "基础选择 4",
+      "body_latex": "设 $A=\\begin{pmatrix}2&-1&0\\\\-1&2&0\\\\0&0&-5\\end{pmatrix}$，$B=\\begin{pmatrix}1&0&0\\\\0&0&1\\\\0&1&0\\end{pmatrix}$，则 $A$ 与 $B$（ ）。\n\n（A）相似且合同；（B）相似不合同；（C）合同不相似；（D）不合同也不相似。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 152,
+          "page_end": 152
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [],
+      "classification_reason": "实对称矩阵以特征值判断相似、以惯性判断合同。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 1,
+          "page_end": 1,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 2,
+          "page_end": 3,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本分别验A和B特征多项式；A谱1,3,-5，B谱1,1,-1，惯性同但谱不同，C正确。",
+          "machine_check_keys": [
+            "mc04_A_charpoly",
+            "mc04_B_charpoly"
+          ]
+        }
+      ],
+      "notes": [
+        "BH-S1把B负特征值印为-2；BH-B3及独立检验为-1，原答案C仍正确。"
+      ],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-MC-04",
+      "printed_node": "B2",
+      "display_number": "Q44"
+    },
+    {
+      "id": "B-MC-05",
+      "original_label": "基础选择 5",
+      "body_latex": "设 $A,B$ 为 $n$ 阶实对称矩阵，则 $A$ 与 $B$ 合同的充分必要条件是（ ）。\n\n（A）$r(A)=r(B)$；（B）$|A|=|B|$；（C）$A\\sim B$；（D）$A,B$ 与同一个实对称矩阵合同。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 152,
+          "page_end": 152
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [],
+      "classification_reason": "合同的等价判据与传递性，比较同秩、同行列式、相似的条件强弱。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 1,
+          "page_end": 1,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 3,
+          "page_end": 4,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工核合同传递性与惯性判据；同秩/同行列式不充分，相似对实对称是充分但非必要。未机器枚举全部反例。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-MC-05",
+      "printed_node": "B2",
+      "display_number": "Q45"
+    },
+    {
+      "id": "B-MC-06",
+      "original_label": "基础选择 6",
+      "body_latex": "下列矩阵中为正定矩阵的是（ ）。\n\n\\[\n\\text{(A)}\\ \\begin{pmatrix}1&2&-3\\\\2&7&5\\\\-3&5&0\\end{pmatrix},\\quad\n\\text{(B)}\\ \\begin{pmatrix}1&-2&-3\\\\2&7&5\\\\-3&5&3\\end{pmatrix},\\quad\n\\text{(C)}\\ \\begin{pmatrix}5&2&0\\\\2&6&-3\\\\0&-3&-1\\end{pmatrix},\\quad\n\\text{(D)}\\ \\begin{pmatrix}5&-2&0\\\\-2&6&-2\\\\0&-2&4\\end{pmatrix}.\n\\]",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 152,
+          "page_end": 152
+        }
+      ],
+      "primary_node": "E2",
+      "related_nodes": [],
+      "classification_reason": "具体矩阵的对称性、对角元及顺序主子式正定判据。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 1,
+          "page_end": 1,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 4,
+          "page_end": 4,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本验D顺序主子式5,26,84；A,C对角元非正，B不对称，故D唯一。",
+          "machine_check_keys": [
+            "mc06_D_leading_minors"
+          ]
+        }
+      ],
+      "notes": [
+        "选项B原题不对称，保留(1,2)=-2、(2,1)=2，不自行改题。"
+      ],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-MC-06",
+      "printed_node": "E2",
+      "display_number": "Q65"
+    },
+    {
+      "id": "B-MC-07",
+      "original_label": "基础选择 7",
+      "body_latex": "设 $A$ 是 $n$ 阶实对称矩阵，将 $A$ 的 $i$ 列和 $j$ 列对换得到 $B$，再将 $B$ 的 $i$ 行和 $j$ 行对换得到 $C$，则 $A$ 与 $C$（ ）。\n\n（A）等价但不相似；（B）合同但不相似；（C）相似但不合同；（D）等价、合同且相似。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 153,
+          "page_end": 153
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [
+        "A2C"
+      ],
+      "classification_reason": "配对交换写C=Eij^T A Eij，同时为相似与等价；主要问三种关系，关联成对初等变换。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 1,
+          "page_end": 1,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 5,
+          "page_end": 5,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工矩阵恒等式：交换矩阵R满足R^T=R=R^{-1}，C=RAR；所以同时相似、合同、等价。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-MC-07",
+      "printed_node": "B2",
+      "display_number": "Q46"
+    },
+    {
+      "id": "B-MC-08",
+      "original_label": "基础选择 8",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3)=x^TAx$，其中 $A^T=A$，$|A|=a$，$r(A+bE)=1$，则（ ）。\n\n（A）对任意的 $a>0,b>0$，$f$ 正定；（B）对任意的 $a>0,b<0$，$f$ 正定；（C）对任意的 $a<0,b>0$，$f$ 正定；（D）对任意的 $a<0,b<0$，$f$ 正定。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 153,
+          "page_end": 153
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [],
+      "classification_reason": "秩条件给重复特征值-b，行列式求第三根，抽象判断正定。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 1,
+          "page_end": 1,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 5,
+          "page_end": 6,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工谱推导：A+bE对称且秩1，有两根0，A两根-b，第三根a/b^2；a>0,b<0时全正，其余符号组合不正定。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-MC-08",
+      "printed_node": "E1",
+      "display_number": "Q55"
+    },
+    {
+      "id": "B-MC-09",
+      "original_label": "基础选择 9",
+      "body_latex": "$A$ 为 $n$ 阶对称矩阵，则有（ ）。\n\n（A）$A$ 正定为 $A^*$ 正定的充分非必要条件；（B）$A$ 正定为 $A^*$ 正定的必要非充分条件；（C）$A$ 正定为 $A^*$ 正定的充分必要条件；（D）$A$ 正定为 $A^*$ 正定的既非充分也非必要条件。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 153,
+          "page_end": 153
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [],
+      "classification_reason": "抽象矩阵与伴随矩阵的正定关系，以特征值乘积和反例判断；保留阶数边界提示。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 2,
+          "page_end": 2,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 6,
+          "page_end": 6,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工谱推导及三阶反例A=-E3、A*=E3；脚本验反例余子式。固定偶数阶时逆推亦成立，原题n的解释边界需保留。",
+          "machine_check_keys": [
+            "mc09_three_dimensional_counterexample"
+          ]
+        }
+      ],
+      "notes": [
+        "老师答案A采用一般阶数命题及三阶反例；若固定偶数阶n，关系实际上充要。保留原题并加原题边界审计，不作为无歧义首选代表题。"
+      ],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-MC-09",
+      "study_warning": "原题的n阶表述存在阶数边界，保留原文；此题不宜不加说明地当作唯一答案的验收题，见另存核查说明。",
+      "printed_node": "E1",
+      "display_number": "Q56"
+    },
+    {
+      "id": "B-FB-01",
+      "original_label": "基础填空 1",
+      "body_latex": "$f(x_1,x_2,x_3)=(x_1-2x_2)^2+4x_2x_3$ 的矩阵为 $\\underline{\\qquad}$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 154,
+          "page_end": 154
+        }
+      ],
+      "primary_node": "PRE",
+      "related_nodes": [],
+      "classification_reason": "展开后交叉项系数均分，写矩阵；纯矩阵表示前置。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 2,
+          "page_end": 2,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 6,
+          "page_end": 7,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工展开得到A=[[1,-2,0],[-2,4,2],[0,2,0]]；交叉项系数按二分之一进入矩阵。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-FB-01",
+      "printed_node": "PRE",
+      "display_number": "Q03"
+    },
+    {
+      "id": "B-FB-02",
+      "original_label": "基础填空 2",
+      "body_latex": "设 $5x_1^2+x_2^2+tx_3^2+4x_1x_2-2x_1x_3-2x_2x_3$ 为正定二次型，则 $t$ 的取值范围是 $\\underline{\\qquad}$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 154,
+          "page_end": 154
+        }
+      ],
+      "primary_node": "E2",
+      "related_nodes": [],
+      "classification_reason": "具体参数矩阵以顺序主子式均正确定参数范围。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 2,
+          "page_end": 2,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 7,
+          "page_end": 7,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本求det在t=0、1时-2、-1，结合行列式对单一对角参数线性得det=t-2；前两顺序主子式5,1，故t>2。",
+          "machine_check_keys": [
+            "fb02_det_t0_t1"
+          ]
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-FB-02",
+      "printed_node": "E2",
+      "display_number": "Q64"
+    },
+    {
+      "id": "B-FB-03",
+      "original_label": "基础填空 3",
+      "body_latex": "已知矩阵 $A=\\begin{pmatrix}1&1&-2\\\\1&-2&1\\\\-2&1&1\\end{pmatrix}$ 与二次型 $x^TBx=3x_1^2+ax_3^2$ 的矩阵 $B$ 合同，则 $a$ 的取值范围是 $\\underline{\\qquad}$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 154,
+          "page_end": 154
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [
+        "B1"
+      ],
+      "classification_reason": "合同要求正负惯性指数相同，由A特征值符号与B标准形符号确定参数。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 2,
+          "page_end": 2,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 7,
+          "page_end": 8,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本验特征多项式lambda(lambda^2-9)，惯性1,1；B=diag(3,0,a)，故a<0。",
+          "machine_check_keys": [
+            "fb03_charpoly"
+          ]
+        }
+      ],
+      "notes": [
+        "BH-S2解析局部把ax3^2印成ax2^2；本题干依B0与BH-B7保留ax3^2。"
+      ],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-FB-03",
+      "printed_node": "B2",
+      "display_number": "Q42"
+    },
+    {
+      "id": "B-FB-04",
+      "original_label": "基础填空 4",
+      "body_latex": "已知二次型 $f(x_1,x_2,x_3)=5x_1^2+5x_2^2+cx_3^2-2x_1x_2+6x_1x_3-6x_2x_3$ 的秩为 $2$，则常数 $c=\\underline{\\qquad}$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 155,
+          "page_end": 155
+        }
+      ],
+      "primary_node": "PRE",
+      "related_nodes": [],
+      "classification_reason": "二次型秩转矩阵秩，用三阶行列式为0及二阶子式非0；前置题。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 2,
+          "page_end": 2,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 8,
+          "page_end": 8,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本det在c=0、1时-72、-48，结合参数线性得24(c-3)，固定二阶子式24；c=3确为秩2。",
+          "machine_check_keys": [
+            "fb04_det_c0_c1",
+            "fb04_nonzero_minor"
+          ]
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-FB-04",
+      "printed_node": "PRE",
+      "display_number": "Q04"
+    },
+    {
+      "id": "B-FB-05",
+      "original_label": "基础填空 5",
+      "body_latex": "设 $A=\\begin{pmatrix}1&1&1&1\\\\a&b&c&d\\\\a^2&b^2&c^2&d^2\\end{pmatrix}$，$a,b,c,d$ 为互异实数，$x$ 为四维列向量，则二次型 $f=x^T(A^TA)x$ 的秩为 $\\underline{\\qquad}$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 155,
+          "page_end": 155
+        }
+      ],
+      "primary_node": "PRE",
+      "related_nodes": [],
+      "classification_reason": "实Gram矩阵秩等于A秩，以范德蒙德子式非0判秩；前置题。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 2,
+          "page_end": 2,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 8,
+          "page_end": 8,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工范德蒙德三阶子式(b-a)(c-a)(c-b)非0；A为3x4故rank=3；实域Ker(A^TA)=Ker A所以rank(A^TA)=3。未做符号机验。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-FB-05",
+      "printed_node": "PRE",
+      "display_number": "Q05"
+    },
+    {
+      "id": "B-FB-06",
+      "original_label": "基础填空 6",
+      "body_latex": "若二次曲面 $x^2+4y^2+2z^2+2txy+2xz=1$ 是椭球面，则 $t$ 的取值范围是 $\\underline{\\qquad}$。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 155,
+          "page_end": 155
+        }
+      ],
+      "primary_node": "F",
+      "related_nodes": [],
+      "classification_reason": "原注明数一，问椭球面，整题隔离于默认数二域。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 2,
+          "page_end": 2,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 9,
+          "page_end": 9,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "隔离题，仅手工核正定条件：二阶4-t^2，三阶4-2t^2；范围(-sqrt2,sqrt2)。不纳入数二训练。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [
+        "原注明数一；完整题干保留在隔离清单，不出现在数二训练正文。"
+      ],
+      "disposition": "excluded",
+      "exam_scope": "原注明数一",
+      "alternative_formulations": [],
+      "canonical_id": "B-FB-06",
+      "display_number": null
+    },
+    {
+      "id": "B-SA-01",
+      "original_label": "基础解答 1",
+      "body_latex": "已知二次型 $f(x_1,x_2,x_3)=4x_2^2-3x_3^2+4x_1x_2-4x_1x_3+8x_2x_3$。用正交变换把二次型 $f$ 化为标准形，并写出相应的正交矩阵。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 156,
+          "page_end": 156
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [],
+      "classification_reason": "求特征值、单位正交特征向量，以x=Qy化标准形。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 3,
+          "page_end": 3,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 10,
+          "page_end": 11,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本验特征多项式[1,-1,-36,36]、V的特征向量方程与V^TV=diag(5,30,6)；单位化得标准形y1^2+6y2^2-6y3^2。",
+          "machine_check_keys": [
+            "sa01_charpoly",
+            "sa01_gram",
+            "sa01_eigenvectors"
+          ]
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-SA-01",
+      "printed_node": "A1",
+      "display_number": "Q10"
+    },
+    {
+      "id": "B-SA-02",
+      "original_label": "基础解答 2",
+      "body_latex": "用配方法分别化二次型 $f(x_1,x_2,x_3)=x_1^2+3x_2^2+5x_3^2+2x_1x_2-4x_1x_3$ 为标准形和规范形。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 156,
+          "page_end": 156
+        }
+      ],
+      "primary_node": "A2",
+      "related_nodes": [
+        "A2N"
+      ],
+      "classification_reason": "配方先化标准形，再缩放非零系数到±1化规范形；完整父题只保留一份。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 3,
+          "page_end": 4,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 11,
+          "page_end": 12,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验；部分公式有理数精确机器检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "精确脚本代回修正的C^TAC=diag(1,2,-1)，错号C所得非对角；规范形把第二列缩放1/sqrt2故diag(1,1,-1)。平方根缩放由手工推导核验，不假称机器符号验证。",
+          "machine_check_keys": [
+            "sa02_corrected_C_congruence",
+            "sa02_board_C_wrong",
+            "sa02_Q_scaled_before_normalizing"
+          ]
+        }
+      ],
+      "notes": [
+        "BH-S4规范形Q(1,2)印为+1/sqrt2，应为负；BH-B12规范形矩阵正确。",
+        "BH-B12标准形C(1,2)手写+1，应为-1；同页逆变换方程和BH-S3正确。"
+      ],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-SA-02",
+      "printed_node": "A2",
+      "display_number": "Q23"
+    },
+    {
+      "id": "B-SA-03",
+      "original_label": "基础解答 3",
+      "body_latex": "二次型 $f(x_1,x_2,x_3)=2x_1^2+3x_2^2+3x_3^2+2ax_1x_2$，已知 $\\lambda_1=1$ 是二次型矩阵 $A$ 的一个特征值，试确定参数 $a$，并试问 $f(x_1,x_2,x_3)=1$ 时，方程表示什么二次曲面。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 157,
+          "page_end": 157
+        }
+      ],
+      "primary_node": "F",
+      "related_nodes": [],
+      "classification_reason": "原注明数一且含二次曲面辨认小问，完整父题隔离，不割掉数一小问。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 4,
+          "page_end": 4,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 13,
+          "page_end": 13,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "隔离题，手工核E-A行列式=-2(2-a^2)，a=±sqrt2后谱1,3,4全正，曲面为椭球面。不纳入数二训练。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [
+        "原注明数一；包括曲面小问的完整父题隔离，不把公共特征值小问独立复制入数二正文。"
+      ],
+      "disposition": "excluded",
+      "exam_scope": "原注明数一",
+      "alternative_formulations": [],
+      "canonical_id": "B-SA-03",
+      "display_number": null
+    },
+    {
+      "id": "B-SA-04",
+      "original_label": "基础解答 4",
+      "body_latex": "设 $A$ 既是正交矩阵，又是正定矩阵，证明：$A$ 必为单位矩阵。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 157,
+          "page_end": 157
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [],
+      "classification_reason": "正定实对称矩阵的特征值正，与正交特征值模1合用推出A=E。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 4,
+          "page_end": 4,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 14,
+          "page_end": 14,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工逻辑核验：正定使A实对称且lambda>0，正交使lambda^2=1，故全部lambda=1，实对称可对角化所以A=E。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-SA-04",
+      "printed_node": "E1",
+      "display_number": "Q57"
+    },
+    {
+      "id": "B-SA-05",
+      "original_label": "基础解答 5",
+      "body_latex": "设实对称矩阵 $A$ 满足 $A^2-3A+2E=O$，证明：$A$ 为正定矩阵。",
+      "sources": [
+        {
+          "source_id": "B0",
+          "page_start": 158,
+          "page_end": 158
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [],
+      "classification_reason": "抽象实对称矩阵由多项式推出全部特征值在1、2中，故正定。",
+      "solution_reference": [
+        {
+          "source_id": "BH-S",
+          "page_start": 4,
+          "page_end": 4,
+          "match_status": "同题完整"
+        },
+        {
+          "source_id": "BH-B",
+          "page_start": 14,
+          "page_end": 14,
+          "match_status": "同题完整"
+        }
+      ],
+      "math_checks": [
+        {
+          "layer": "原页题干与全部选项视觉核验；同题完整讲解核读；独立手工逻辑/代回检验",
+          "status": "已执行，按detail限定范围",
+          "detail": "手工逻辑核验：任一实lambda满足(lambda-1)(lambda-2)=0，全部lambda>0，A实对称所以正定。",
+          "machine_check_keys": []
+        }
+      ],
+      "notes": [],
+      "disposition": "included",
+      "exam_scope": "数二公共方法（不把未标考种的文件名当考种证据）",
+      "alternative_formulations": [],
+      "canonical_id": "B-SA-05",
+      "printed_node": "E1",
+      "display_number": "Q58"
+    },
+    {
+      "id": "R-EX-01",
+      "original_label": "强化例 6.1",
+      "body_latex": "（2022）已知二次型 $f(x_1,x_2,x_3)=\\displaystyle\\sum_{i=1}^{3}\\sum_{j=1}^{3}ijx_ix_j$，写出 $f(x_1,x_2,x_3)$ 的矩阵。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 85,
+          "page_end": 85,
+          "printed_page_start": 81,
+          "printed_page_end": 81
+        }
+      ],
+      "primary_node": "PRE",
+      "related_nodes": [],
+      "classification_reason": "原讲义考点一二次型的概念；系数由双重求和直接识别为对称矩阵。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 18,
+          "page_end": 18,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "矩阵为 (ij)_{3×3}，即 [1,2,3]^T[1,2,3]，交叉项计数一致。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-01",
+      "printed_node": "PRE",
+      "display_number": "Q01"
+    },
+    {
+      "id": "R-EX-02",
+      "original_label": "强化例 6.2",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3)=x^TAx=2x_1x_2-2x_1x_3-2x_2x_3$，其中 $A$ 为二次型的矩阵，$x=(x_1,x_2,x_3)^T$。\n（I）将二次型经正交变换化为标准形，并写出所用的正交矩阵 $Q$。\n（II）求正定矩阵 $C$，使得 $C^2=3E-A$。\n（III）求 $\\displaystyle\\min_{x\\ne0}\\frac{f(x)}{x^Tx}$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 87,
+          "page_end": 87,
+          "printed_page_start": 83,
+          "printed_page_end": 83
+        }
+      ],
+      "primary_node": "D",
+      "related_nodes": [
+        "A1",
+        "A1C",
+        "E1"
+      ],
+      "classification_reason": "原讲义题型2求最值；完整父题兼有正交对角化与利用谱构造正定平方根。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 22,
+          "page_end": 24,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "A=[[0,1,-1],[1,0,-1],[-1,-1,0]]，特征值 -1,-1,2；Rayleigh商下界 -1。",
+        "C=(5E-A)/3 为正定，代回 C²=3E-A。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-02",
+      "printed_node": "A1",
+      "display_number": "Q07"
+    },
+    {
+      "id": "R-EX-03",
+      "original_label": "强化例 6.3",
+      "body_latex": "（2020）设二次型 $f(x_1,x_2)=x_1^2-4x_1x_2+4x_2^2$ 经正交变换\n\\[\\begin{pmatrix}x_1\\\\x_2\\end{pmatrix}=Q\\begin{pmatrix}y_1\\\\y_2\\end{pmatrix}\\]\n化为二次型 $g(y_1,y_2)=4y_1^2+4y_1y_2+y_2^2$，求正交矩阵 $Q$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 88,
+          "page_end": 88,
+          "printed_page_start": 84,
+          "printed_page_end": 84
+        }
+      ],
+      "primary_node": "A4O",
+      "related_nodes": [
+        "A1"
+      ],
+      "classification_reason": "原讲义题型3正交变换化非标准形；两边同谱后用各自正交对角化矩阵拼接。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 25,
+          "page_end": 25,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "A=[[1,-2],[-2,4]]，B=[[4,2],[2,1]]，共同特征值0,5。",
+        "板书所取Q=[[4,-3],[-3,-4]]/5；核验Q^TQ=E及Q^TAQ=B。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-03",
+      "printed_node": "A4O",
+      "display_number": "Q27"
+    },
+    {
+      "id": "R-EX-04",
+      "original_label": "强化例 6.4",
+      "body_latex": "（2010 一）已知二次型 $f(x_1,x_2,x_3)=x^TAx$ 在正交变换 $x=Qy$ 下的标准形为 $y_1^2+y_2^2$，且 $Q$ 的第 3 列为 $\\left(\\frac{\\sqrt2}{2},0,\\frac{\\sqrt2}{2}\\right)^T$，求此二次型的表达式。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 89,
+          "page_end": 89,
+          "printed_page_start": 85,
+          "printed_page_end": 85
+        }
+      ],
+      "primary_node": "A3",
+      "related_nodes": [],
+      "classification_reason": "原讲义题型4已知正交标准形反求二次型；重根为1和已知零特征向量给A=E-qq^T。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 25,
+          "page_end": 26,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "由谱分解A=E-qq^T；核验Aq=0，q⊥方向特征值1。"
+      ],
+      "notes": [
+        "真题来源标数一，但内容是数二共同二次型方法，按完整题目收录。"
+      ],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-04",
+      "printed_node": "A3",
+      "display_number": "Q26"
+    },
+    {
+      "id": "R-EX-05",
+      "original_label": "强化例 6.5",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2-x_1x_2-x_1x_3-x_2x_3$ 经可逆线性变换\n\\[\\begin{pmatrix}x_1\\\\x_2\\\\x_3\\end{pmatrix}=P\\begin{pmatrix}y_1\\\\y_2\\\\y_3\\end{pmatrix}\\]\n化为 $g(y_1,y_2,y_3)=y_1^2+y_2^2$，求可逆阵 $P$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 90,
+          "page_end": 91,
+          "printed_page_start": 86,
+          "printed_page_end": 87
+        }
+      ],
+      "primary_node": "A2",
+      "related_nodes": [
+        "A2N",
+        "A2C",
+        "B1"
+      ],
+      "classification_reason": "原讲义配方法题型5；板书完整配方、反解变换、三问法及成对初等变换。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 1,
+          "page_end": 5,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "配方为 (x1-x2/2-x3/2)^2+3(x2-x3)^2/4。",
+        "板书P=[[1,1/√3,1],[0,2/√3,1],[0,0,1]]；核验P^TAP=diag(1,1,0)、detP≠0。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [
+        {
+          "id": "R-EX-05-V1",
+          "original_label": "例6.5 换一种问法1",
+          "body_latex": "设实对称矩阵\n\\[A=\\begin{pmatrix}1&-\\frac12&-\\frac12\\\\-\\frac12&1&-\\frac12\\\\-\\frac12&-\\frac12&1\\end{pmatrix},\\]\n求可逆矩阵 $P$，使 $P^TAP=\\operatorname{diag}(1,1,0)$ 为对角阵。",
+          "sources": [
+            {
+              "source_id": "R-LECTURE",
+              "page_start": 90,
+              "page_end": 90
+            }
+          ],
+          "related_nodes": [
+            "A2C"
+          ],
+          "solution_reference": [
+            {
+              "source_id": "F0287",
+              "page_start": 3,
+              "page_end": 5,
+              "match_status": "同题完整",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "R-EX-05-V2",
+          "original_label": "例6.5 换一种问法2",
+          "body_latex": "设实对称矩阵\n\\[A=\\begin{pmatrix}1&-\\frac12&-\\frac12\\\\-\\frac12&1&-\\frac12\\\\-\\frac12&-\\frac12&1\\end{pmatrix},\\]\n求可逆矩阵 $P$，使 $A$ 合同于对角阵 $\\operatorname{diag}(1,1,0)$。",
+          "sources": [
+            {
+              "source_id": "R-LECTURE",
+              "page_start": 91,
+              "page_end": 91
+            }
+          ],
+          "related_nodes": [
+            "A2C"
+          ],
+          "solution_reference": [
+            {
+              "source_id": "F0287",
+              "page_start": 5,
+              "page_end": 5,
+              "match_status": "同题完整",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "R-EX-05-V3",
+          "original_label": "例6.5 换一种问法3",
+          "body_latex": "求 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2-x_1x_2-x_1x_3-x_2x_3$ 的规范形，并写出所用的可逆线性变换。",
+          "sources": [
+            {
+              "source_id": "R-LECTURE",
+              "page_start": 91,
+              "page_end": 91
+            }
+          ],
+          "related_nodes": [
+            "A2N"
+          ],
+          "solution_reference": [
+            {
+              "source_id": "F0287",
+              "page_start": 1,
+              "page_end": 2,
+              "match_status": "同题完整",
+              "note": ""
+            },
+            {
+              "source_id": "F0287",
+              "page_start": 5,
+              "page_end": 5,
+              "match_status": "同题完整",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "canonical_id": "R-EX-05",
+      "printed_node": "A2",
+      "display_number": "Q21"
+    },
+    {
+      "id": "R-EX-06",
+      "original_label": "强化例 6.6",
+      "body_latex": "（2020）设二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2ax_1x_3+2ax_2x_3$ 经可逆线性变换\n\\[\\begin{pmatrix}x_1\\\\x_2\\\\x_3\\end{pmatrix}=P\\begin{pmatrix}y_1\\\\y_2\\\\y_3\\end{pmatrix}\\]\n化为二次型 $g(y_1,y_2,y_3)=y_1^2+y_2^2+4y_3^2+2y_1y_2$。\n（I）求 $a$ 的值；（II）求可逆矩阵 $P$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 91,
+          "page_end": 91,
+          "printed_page_start": 87,
+          "printed_page_end": 87
+        }
+      ],
+      "primary_node": "A4C",
+      "related_nodes": [
+        "A2",
+        "A2C",
+        "B1",
+        "B2"
+      ],
+      "classification_reason": "原讲义仍在配方法题型5；先合同惯性确定参数，再分别配方到公共标准形并反解P。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 5,
+          "page_end": 7,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "A特征值1-a(二重)、1+2a；目标秩2且正惯性2，a=-1/2，a=1时秩1须排除。",
+        "板书P=[[1,2,2/√3],[0,1,4/√3],[0,1,0]]；可逆且P^TAP=目标B。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-06",
+      "printed_node": "A4C",
+      "display_number": "Q28"
+    },
+    {
+      "id": "R-EX-07",
+      "original_label": "强化例 6.7",
+      "body_latex": "设实二次型 $f(x_1,x_2,x_3)=(x_1-x_2+x_3)^2+(x_2+x_3)^2+(x_1+ax_3)^2$，其中 $a$ 是参数。\n（I）求 $f(x_1,x_2,x_3)=0$ 的解；（II）试判断二次型的正定性。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 92,
+          "page_end": 92,
+          "printed_page_start": 88,
+          "printed_page_end": 88
+        }
+      ],
+      "primary_node": "C",
+      "related_nodes": [
+        "E2",
+        "E1"
+      ],
+      "classification_reason": "原讲义题型6；平方和为零转为齐次方程组，系数矩阵满列秩与正定性联动。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 7,
+          "page_end": 9,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "线性形式系数矩阵T=[[1,-1,1],[0,1,1],[1,0,a]]，detT=a-2。",
+        "a≠2时仅零解且正定；a=2时核为span{(-2,-1,1)^T}且半正定非正定。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-07",
+      "printed_node": "C",
+      "display_number": "Q51"
+    },
+    {
+      "id": "R-EX-08",
+      "original_label": "强化例 6.8 [2027]",
+      "body_latex": "[2027] 设二次型 $f(x_1,x_2)=x_1^2+2x_2^2+2x_1x_2$，$g(x_1,x_2)=x_1^2+x_2^2-2x_1x_2$。\n（I）证明二次型 $f(x_1,x_2)$ 正定；\n（II）求可逆线性变换 $x=Py$ 将二者同时化为标准形。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 93,
+          "page_end": 93,
+          "printed_page_start": 89,
+          "printed_page_end": 89
+        }
+      ],
+      "primary_node": "A2",
+      "related_nodes": [
+        "A2N",
+        "A2C",
+        "E2"
+      ],
+      "classification_reason": "新版例题是同时合同标准化；先配方把正定f化为单位阵，再正交对角化变换后的g。不是给单独新框架造节点。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 9,
+          "page_end": 10,
+          "match_status": "同题完整",
+          "note": "[2027] 两式、全部小问一致，已核原页，不是旧同号换题。"
+        }
+      ],
+      "math_checks": [
+        "A顺序主子式1,1均正。",
+        "P=[[3,1],[-2,1]]/√5给P^TAP=E、P^TBP=diag(5,0)，detP=1。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-08",
+      "printed_node": "A2",
+      "display_number": "Q24"
+    },
+    {
+      "id": "R-EX-09",
+      "original_label": "强化例 6.9",
+      "body_latex": "设 $\\alpha,\\beta$ 为 3 维单位列向量且正交，二次型 $f(x_1,x_2,x_3)=x^TAx$，其中 $A=\\alpha\\beta^T+\\beta\\alpha^T$，则 $f$ 在正交变换下的标准形为\\underline{\\hspace{3cm}}，符号差为\\underline{\\hspace{1.5cm}}。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 94,
+          "page_end": 94,
+          "printed_page_start": 90,
+          "printed_page_end": 90
+        }
+      ],
+      "primary_node": "B1",
+      "related_nodes": [
+        "A1"
+      ],
+      "classification_reason": "原讲义求惯性指数规范形题型1；利用A作用于alpha±beta确定正负谱及零空间。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 11,
+          "page_end": 11,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "A(alpha+beta)=alpha+beta；A(alpha-beta)=-(alpha-beta)；rankA=2，因此惯性(1,1,1)，符号差0。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-09",
+      "printed_node": "B1",
+      "display_number": "Q34"
+    },
+    {
+      "id": "R-EX-10",
+      "original_label": "强化例 6.10",
+      "body_latex": "（2023 二三）二次型 $f(x_1,x_2,x_3)=(x_1+x_2)^2+(x_1+x_3)^2-4(x_2-x_3)^2$ 的规范形为（\\quad）。\n（A）$y_1^2+y_2^2$；（B）$y_1^2-y_2^2$；\n（C）$y_1^2+y_2^2-4y_3^2$；（D）$y_1^2+y_2^2-y_3^2$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 94,
+          "page_end": 94,
+          "printed_page_start": 90,
+          "printed_page_end": 90
+        }
+      ],
+      "primary_node": "B1",
+      "related_nodes": [
+        "A2N"
+      ],
+      "classification_reason": "原讲义惯性题型1；三线性形式相关，不能把三个平方项当可逆变换。板书给特征值符号判别。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 11,
+          "page_end": 12,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "矩阵[[2,1,1],[1,-3,4],[1,4,-3]]特征值 -7,0,3，惯性(1,1,1)，规范形B。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-10",
+      "printed_node": "B1",
+      "display_number": "Q31"
+    },
+    {
+      "id": "R-EX-11",
+      "original_label": "强化例 6.11",
+      "body_latex": "已知 $A,B$ 为 3 阶方阵，其中 $A$ 特征值为 $0,-1,2$，$B$ 特征值为 $0,-2,5$，则下列命题：\n① $r(A)=r(B)$；② $A$ 与 $B$ 等价；③ $A$ 与 $B$ 相似；\n④ 行列式 $|A-E|=|E-B|$；⑤ 若 $A,B$ 为实对称阵，则 $A$ 与 $B$ 合同。\n正确的个数为（\\quad）。\n（A）2；（B）3；（C）4；（D）5。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 95,
+          "page_end": 95,
+          "printed_page_start": 91,
+          "printed_page_end": 91
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [
+        "B1"
+      ],
+      "classification_reason": "原讲义等价相似合同考点；不同特征值确保可对角化，等价看秩，相似看谱，实对称合同看惯性。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 12,
+          "page_end": 13,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "①②⑤成立；rank各为2；谱不同不相似；det(A-E)=2而det(E-B)=-12；同惯性(1,1,1)。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-11",
+      "printed_node": "B2",
+      "display_number": "Q40"
+    },
+    {
+      "id": "R-EX-12",
+      "original_label": "强化例 6.12",
+      "body_latex": "设 $A$ 为 $m$ 阶实对称矩阵且正定，$B$ 为 $m\\times n$ 实矩阵，$B^T$ 为 $B$ 的转置矩阵，试证：$B^TAB$ 为正定矩阵的充分必要条件是 $B$ 的秩 $r(B)=n$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 96,
+          "page_end": 96,
+          "printed_page_start": 92,
+          "printed_page_end": 92
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [],
+      "classification_reason": "原讲义抽象正定题型1；以x^TB^TABx=(Bx)^TA(Bx)结合满列秩定义。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 14,
+          "page_end": 15,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "B满列秩iff任意x≠0有Bx≠0；A正定即得到正定充要条件；B^TAB对称。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-12",
+      "printed_node": "E1",
+      "display_number": "Q53"
+    },
+    {
+      "id": "R-EX-13",
+      "original_label": "强化例 6.13（数一隔离）",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3)$ 的标准形如下，试分别写出 $f(x_1,x_2,x_3)=2$ 在空间直角坐标系下表示的二次曲面。\n（1）$f=y_1^2+2y_2^2+y_3^2$；（2）$f=2y_1^2-y_2^2+y_3^2$；\n（3）$f=y_1^2-y_2^2-y_3^2$；（4）$f=2y_1^2+y_2^2$；（5）$f=y_1^2-2y_2^2$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 97,
+          "page_end": 97,
+          "printed_page_start": 93,
+          "printed_page_end": 93
+        }
+      ],
+      "primary_node": "F",
+      "related_nodes": [],
+      "classification_reason": "原件明确考点八二次曲面（数一），不纳数二练习。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 15,
+          "page_end": 15,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "仅考种隔离；曲面分类不属于本轮数二数学验收。"
+      ],
+      "notes": [],
+      "disposition": "excluded",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-EX-13",
+      "display_number": null
+    },
+    {
+      "id": "R-MC-01",
+      "original_label": "强化习题 选择1",
+      "body_latex": "设二次型 $f=x^TAx$ 经可逆变换 $x=Cy$ 化为 $f=y^TBy$，则 $A$ 与 $B$ 必定（\\quad）。\n（A）相等；（B）相似；（C）合同；（D）具有相同的特征值。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 164,
+          "page_end": 164,
+          "printed_page_start": 160,
+          "printed_page_end": 160
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [
+        "A2C"
+      ],
+      "classification_reason": "可逆变量代入得B=C^TAC，是合同定义，不要求谱保持。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 19,
+          "page_end": 20,
+          "match_status": "仅方法参考",
+          "note": "合同定义与变量代入，不是该习题同题讲解。"
+        }
+      ],
+      "math_checks": [
+        "B=C^TAC，C正确。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-01",
+      "printed_node": "B2",
+      "display_number": "Q47"
+    },
+    {
+      "id": "R-MC-02",
+      "original_label": "强化习题 选择2",
+      "body_latex": "下列矩阵中与\n\\[A=\\begin{pmatrix}1&1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}\\]\n合同的矩阵是（\\quad）。\n（A）$\\operatorname{diag}(1,1,1)$；（B）$\\operatorname{diag}(1,1,-1)$；\n（C）$\\operatorname{diag}(1,-1,-1)$；（D）$\\operatorname{diag}(-1,-1,-1)$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 164,
+          "page_end": 164,
+          "printed_page_start": 160,
+          "printed_page_end": 160
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [
+        "B1"
+      ],
+      "classification_reason": "判别实对称合同看惯性；左上二阶行列式为-1给一正一负，第三方向正。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 12,
+          "page_end": 13,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "A惯性(2,1,0)，选B。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-02",
+      "printed_node": "B2",
+      "display_number": "Q48"
+    },
+    {
+      "id": "R-MC-03",
+      "original_label": "强化习题 选择3",
+      "body_latex": "下列二次型中正定二次型是（\\quad）。\n（A）$f_1=(x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_1)^2$；\n（B）$f_2=(x_1+x_2)^2+(x_2-x_3)^2+(x_3+x_1)^2$；\n（C）$f_3=(x_1+x_2)^2+(x_2+x_3)^2+(x_3-x_4)^2+(x_4-x_1)^2$；\n（D）$f_3=(x_1+x_2)^2+(x_2+x_3)^2+(x_3+x_4)^2+(x_4-x_1)^2$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 164,
+          "page_end": 164,
+          "printed_page_start": 160,
+          "printed_page_end": 160
+        }
+      ],
+      "primary_node": "E2",
+      "related_nodes": [
+        "C",
+        "E1"
+      ],
+      "classification_reason": "平方和用线性形式共同零点或系数阵列满秩判正定。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 7,
+          "page_end": 9,
+          "match_status": "仅方法参考",
+          "note": "例6.7平方和方法，非同题。"
+        }
+      ],
+      "math_checks": [
+        "A/B/C线性形式矩阵秩分别2,2,3；D四阶满秩，正定。"
+      ],
+      "notes": [
+        "原件D选项也写f3，保留此原文命名，不自行改为f4。"
+      ],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-03",
+      "printed_node": "E2",
+      "display_number": "Q66"
+    },
+    {
+      "id": "R-MC-04",
+      "original_label": "强化习题 选择4",
+      "body_latex": "设 $A$ 为 4 阶实对称矩阵，且 $A^2+2A-3E=O$。若 $r(A-E)=1$，则二次型 $x^TAx$ 在正交变换下的标准形是（\\quad）。\n（A）$y_1^2+y_2^2+y_3^2-3y_4^2$；（B）$y_1^2-3y_2^2-3y_3^2-3y_4^2$；\n（C）$y_1^2+y_2^2-3y_3^2-3y_4^2$；（D）$y_1^2+y_2^2+y_3^2-y_4^2$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 165,
+          "page_end": 165,
+          "printed_page_start": 161,
+          "printed_page_end": 161
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [
+        "B1"
+      ],
+      "classification_reason": "矩阵多项式给特征值1,-3，rank(A-E)给-3重数1；标准形平方系数是谱。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 21,
+          "page_end": 21,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "谱1,1,1,-3，A正确。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-04",
+      "printed_node": "A1",
+      "display_number": "Q14"
+    },
+    {
+      "id": "R-MC-05",
+      "original_label": "强化习题 选择5",
+      "body_latex": "设 $A,B$ 为 $n$ 阶实对称矩阵，$\\lambda$ 为实数，$E$ 为 $n$ 阶单位矩阵，以下三个命题：\n① $A,B$ 等价，则 $\\lambda E-A$ 与 $\\lambda E-B$ 等价；\n② $A,B$ 相似，则 $\\lambda E-A$ 与 $\\lambda E-B$ 相似；\n③ $A,B$ 合同，则 $\\lambda E-A$ 与 $\\lambda E-B$ 合同。\n正确的个数为（\\quad）。\n（A）0；（B）1；（C）2；（D）3。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 165,
+          "page_end": 165,
+          "printed_page_start": 161,
+          "printed_page_end": 161
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [],
+      "classification_reason": "相似在减标量阵下保持；等价/合同一般不保持此操作，用实对称标量阵反例。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 12,
+          "page_end": 13,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "仅②成立。①③反例取A=E、B=2E、lambda=1：A/B等价且合同，但0与-E既不等价也不合同。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-05",
+      "printed_node": "B2",
+      "display_number": "Q49"
+    },
+    {
+      "id": "R-MC-06",
+      "original_label": "强化习题 选择6",
+      "body_latex": "二次型 $f(x_1,x_2,x_3)=(x_1+ax_2-2x_3)^2+(2x_2+3x_3)^2+(x_1+3x_2+ax_3)^2$ 正定的充要条件是（\\quad）。\n（A）任意 $a$；（B）$a\\ne1$；（C）$a\\ne-1$；（D）$a>1$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 165,
+          "page_end": 165,
+          "printed_page_start": 161,
+          "printed_page_end": 161
+        }
+      ],
+      "primary_node": "E2",
+      "related_nodes": [
+        "E1",
+        "C"
+      ],
+      "classification_reason": "平方和对应系数阵T满秩iffT^TT正定。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 7,
+          "page_end": 9,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "T=[[1,a,-2],[0,2,3],[1,3,a]]，detT=5(a-1)；B正确。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-06",
+      "printed_node": "E2",
+      "display_number": "Q67"
+    },
+    {
+      "id": "R-MC-07",
+      "original_label": "强化习题 选择7",
+      "body_latex": "设 $A$ 为三阶实对称矩阵，二次型 $f=x^TAx$ 的规范形为 $y_1^2-y_2^2+y_3^2$。\n① $A$ 的特征值必为 $1,-1,1$；② $A$ 的秩为 2；③ $A$ 的行列式小于 0；\n④ $A$ 必相似于对角矩阵 $\\operatorname{diag}(1,-1,1)$；\n⑤ $A$ 合同于对角矩阵 $\\operatorname{diag}(1,1,-1)$；\n⑥ $A$ 合同于对角矩阵 $\\operatorname{diag}(-1,2,3)$。\n则以上结论中正确的个数为（\\quad）。\n（A）1个；（B）2个；（C）3个；（D）4个。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 166,
+          "page_end": 166,
+          "printed_page_start": 162,
+          "printed_page_end": 162
+        }
+      ],
+      "primary_node": "B2",
+      "related_nodes": [
+        "B1"
+      ],
+      "classification_reason": "规范形固定惯性不固定特征值数值；合同只要求正负惯性一致。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 11,
+          "page_end": 13,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "惯性(2,1,0)，③⑤⑥成立，共3。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-07",
+      "printed_node": "B2",
+      "display_number": "Q50"
+    },
+    {
+      "id": "R-MC-08",
+      "original_label": "强化习题 选择8",
+      "body_latex": "设 $A$ 为 $m\\times n$ 阶矩阵，$E_m$ 为 $m$ 阶单位矩阵，$m<n$，$r(A)=m$，则下列结论：\n① $A$ 可以经过初等行变换为 $(E_m,O)$；② $A$ 可以经过初等列变换为 $(E_m,O)$；\n③ $A^TA$ 正交；④ $AA^T$ 正定；⑤ $Ax=b$ 有解；⑥ $Ax=0$ 只有零解。\n中正确的个数为（\\quad）。\n（A）1；（B）2；（C）3；（D）4。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 166,
+          "page_end": 166,
+          "printed_page_start": 162,
+          "printed_page_end": 162
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [
+        "B2"
+      ],
+      "classification_reason": "父题横跨秩与方程组，但正定AA^T是本章主要入口；保留完整六条不拆条件。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 14,
+          "page_end": 15,
+          "match_status": "仅方法参考",
+          "note": "例6.12换置矩阵方向。"
+        }
+      ],
+      "math_checks": [
+        "②④⑤成立；AA^T满秩且半正定；A^TA秩m<n不可能正交；Ax=0有n-m维非零解。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-08",
+      "printed_node": "E1",
+      "display_number": "Q60"
+    },
+    {
+      "id": "R-MC-09",
+      "original_label": "强化习题 选择9",
+      "body_latex": "设 $A$ 为 4 阶实对称矩阵，其正、负惯性指数均为 1，$A^3-A=O$，则（\\quad）。\n（A）$|A+E|=1$；（B）$2E+A$ 为正定矩阵；\n（C）$r(E-A)=2$；（D）$Ax=0$ 有 1 个无关解向量。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 166,
+          "page_end": 166,
+          "printed_page_start": 162,
+          "printed_page_end": 162
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [
+        "B1"
+      ],
+      "classification_reason": "惯性与多项式联立先得完整谱，再判断平移矩阵正定、秩、零空间。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 11,
+          "page_end": 14,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "谱为1,-1,0,0；2E+A谱3,1,2,2全正；det(A+E)=0；rank(E-A)=3；零空间维2。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-09",
+      "printed_node": "E1",
+      "display_number": "Q61"
+    },
+    {
+      "id": "R-MC-10",
+      "original_label": "强化习题 选择10",
+      "body_latex": "设 $A,B$ 为正定矩阵，$C$ 是可逆矩阵，下列矩阵不是正定矩阵的是（\\quad）。\n（A）$C^TAC$；（B）$A^{-1}+B^{-1}$；（C）$A^*+B^*$；（D）$A-B$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 167,
+          "page_end": 167,
+          "printed_page_start": 163,
+          "printed_page_end": 163
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [
+        "B2"
+      ],
+      "classification_reason": "正定在可逆合同、逆/伴随及求和下保持，作差不保证正定。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 14,
+          "page_end": 14,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "A/B/C选项恒正定。D不保证；如A=B则为零阵。"
+      ],
+      "notes": [
+        "原题用“不是正定”，严格说D是“不一定正定”，因为例如A=2E,B=E时A-B正定。保留原文问法并在审计标明，不伪造恒不正定结论。"
+      ],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-MC-10",
+      "printed_node": "E1",
+      "display_number": "Q62"
+    },
+    {
+      "id": "R-FILL-01",
+      "original_label": "强化习题 填空1",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3,x_4)=x^TAx$，$A^T=A$ 的正惯性指数为 $p=1$，又矩阵 $A$ 满足 $A^2-2A=3E$，则二次型的规范形为\\underline{\\hspace{4cm}}。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 167,
+          "page_end": 167,
+          "printed_page_start": 163,
+          "printed_page_end": 163
+        }
+      ],
+      "primary_node": "B1",
+      "related_nodes": [],
+      "classification_reason": "矩阵多项式根为3,-1且无零特征值，惯性由给定p与阶数确定。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 11,
+          "page_end": 11,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "谱3,-1,-1,-1；规范形一正三负。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-FILL-01",
+      "printed_node": "B1",
+      "display_number": "Q35"
+    },
+    {
+      "id": "R-FILL-02",
+      "original_label": "强化习题 填空2",
+      "body_latex": "若实对称矩阵 $A$ 与\n\\[B=\\begin{pmatrix}1&0&0\\\\0&0&2\\\\0&2&0\\end{pmatrix}\\]\n合同，则二次型 $x^TAx$ 的规范形为\\underline{\\hspace{4cm}}。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 167,
+          "page_end": 167,
+          "printed_page_start": 163,
+          "printed_page_end": 163
+        }
+      ],
+      "primary_node": "B1",
+      "related_nodes": [
+        "B2"
+      ],
+      "classification_reason": "合同保持惯性，先从B的二阶块读取一正一负及额外正方向。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 11,
+          "page_end": 12,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "B谱1,2,-2；惯性(2,1,0)。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-FILL-02",
+      "printed_node": "B1",
+      "display_number": "Q36"
+    },
+    {
+      "id": "R-FILL-03",
+      "original_label": "强化习题 填空3",
+      "body_latex": "已知\n\\[A=\\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix},\\qquad B=\\begin{pmatrix}2&0&0\\\\0&1&0\\\\0&0&-2\\end{pmatrix}\\]\n合同，那么使 $C^TAC=B$ 的可逆阵 $C=$\\underline{\\hspace{4cm}}。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 168,
+          "page_end": 168,
+          "printed_page_start": 164,
+          "printed_page_end": 164
+        }
+      ],
+      "primary_node": "A1C",
+      "related_nodes": [
+        "A2C"
+      ],
+      "classification_reason": "显式构造合同阵：正交对角化A后按目标对角数值缩放特征向量，或配方。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 21,
+          "page_end": 23,
+          "match_status": "仅方法参考",
+          "note": "正交对角化/按谱构造矩阵思路，非同题。"
+        },
+        {
+          "source_id": "F0287",
+          "page_start": 3,
+          "page_end": 5,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "C=[[1,0,1],[0,1,0],[1,0,-1]]可逆且C^TAC=diag(2,1,-2)。"
+      ],
+      "notes": [
+        "题目只求一个可逆阵，答案不唯一。"
+      ],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-FILL-03",
+      "printed_node": "A1C",
+      "display_number": "Q19"
+    },
+    {
+      "id": "R-FILL-04",
+      "original_label": "强化习题 填空4",
+      "body_latex": "设 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)(b_1x_1+b_2x_2+b_3x_3)$ 为非零二次型，二次型所对应的矩阵为\\underline{\\hspace{4cm}}。\n当 $a_1b_1+a_2b_2+a_3b_3=0$，二次型的正惯性指数为\\underline{\\hspace{1.5cm}}，负惯性指数为\\underline{\\hspace{1.5cm}}。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 168,
+          "page_end": 168,
+          "printed_page_start": 164,
+          "printed_page_end": 164
+        }
+      ],
+      "primary_node": "B1",
+      "related_nodes": [
+        "PRE"
+      ],
+      "classification_reason": "矩阵取外积对称部分；非零且系数向量正交后，正负方向各一。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 18,
+          "page_end": 19,
+          "match_status": "仅方法参考",
+          "note": "非对称表达式取对称部分。"
+        },
+        {
+          "source_id": "F0287",
+          "page_start": 11,
+          "page_end": 11,
+          "match_status": "仅方法参考",
+          "note": "例6.9单位正交外积的谱参考。"
+        }
+      ],
+      "math_checks": [
+        "矩阵(αβ^T+βα^T)/2；α·β=0且f非零保证α,β均非零、独立；非零谱±||α||||β||/2，惯性p=q=1。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-FILL-04",
+      "printed_node": "B1",
+      "display_number": "Q37"
+    },
+    {
+      "id": "R-LONG-01",
+      "original_label": "强化习题 解答1",
+      "body_latex": "已知二次型 $f(x_1,x_2,x_3)=(1-a)x_1^2+(1-a)x_2^2+2x_3^2+2(1+a)x_1x_2$ 的秩为 2。\n（I）求 $a$ 的值；\n（II）求正交变换 $x=Qy$，把 $f(x_1,x_2,x_3)$ 化成标准形；\n（III）求方程 $f(x_1,x_2,x_3)=0$ 的解。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 169,
+          "page_end": 169,
+          "printed_page_start": 165,
+          "printed_page_end": 165
+        },
+        {
+          "source_id": "SPC-Q",
+          "page_start": 5,
+          "page_end": 5
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [
+        "C",
+        "B1",
+        "A1",
+        "A2"
+      ],
+      "classification_reason": "参数由矩阵秩确定；正交标准化之后从非负标准形求零点。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 22,
+          "page_end": 24,
+          "match_status": "仅方法参考",
+          "note": "例6.2正交标准化。"
+        },
+        {
+          "source_id": "F0287",
+          "page_start": 7,
+          "page_end": 9,
+          "match_status": "仅方法参考",
+          "note": "例6.7零点思路，非同题。"
+        },
+        {
+          "source_id": "SPC-K",
+          "page_start": 6,
+          "page_end": 7,
+          "match_status": "同题完整",
+          "matched_label": "5"
+        }
+      ],
+      "math_checks": [
+        "A谱2,-2a,2，rank2强制a=0；标准形两项系数2；零空间span{(-1,1,0)^T}。"
+      ],
+      "notes": [
+        "与保100第5题是否同题由主代理按完整题干、系数及小问对照；当前只保存本来源。"
+      ],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-01",
+      "merged_ids": [
+        "S-05"
+      ],
+      "merged_labels": [
+        "保100 第5题"
+      ],
+      "printed_node": "A1",
+      "display_number": "Q11"
+    },
+    {
+      "id": "R-LONG-02",
+      "original_label": "强化习题 解答2",
+      "body_latex": "已知 $A$ 是 $m\\times n$ 矩阵，$m<n$，证明 $AA^T$ 正定的充要条件是 $r(A)=m$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 169,
+          "page_end": 169,
+          "printed_page_start": 165,
+          "printed_page_end": 165
+        }
+      ],
+      "primary_node": "E1",
+      "related_nodes": [],
+      "classification_reason": "与抽象正定例6.12同方法，方向为满行秩；不是同一道题。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 14,
+          "page_end": 15,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "x^TAA^Tx=||A^Tx||²；A^T满列秩iffA满行秩，得充要条件。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-02",
+      "printed_node": "E1",
+      "display_number": "Q59"
+    },
+    {
+      "id": "R-LONG-03",
+      "original_label": "强化习题 解答3",
+      "body_latex": "已知矩阵\n\\[A=\\begin{pmatrix}2&2&0\\\\8&2&0\\\\0&a&6\\end{pmatrix}\\]\n有三个线性无关的特征向量。\n（I）求参数 $a$ 的值；\n（II）求正交变换 $x=Qy$ 化二次型 $f(x_1,x_2,x_3)=x^TAx$ 为标准形。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 170,
+          "page_end": 170,
+          "printed_page_start": 166,
+          "printed_page_end": 166
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [
+        "PRE"
+      ],
+      "classification_reason": "第一问是原非对称矩阵可对角化，第二问必须改用二次型的对称矩阵再做正交变换；完整父题保留。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 18,
+          "page_end": 19,
+          "match_status": "仅方法参考",
+          "note": "二次型非对称表示取对称部分。"
+        },
+        {
+          "source_id": "F0296",
+          "page_start": 21,
+          "page_end": 24,
+          "match_status": "仅方法参考",
+          "note": "正交标准化。"
+        }
+      ],
+      "math_checks": [
+        "det(λE-A)=(λ-6)²(λ+2)；λ=6有二维特征空间须rank(A-6E)=1，得a=0。",
+        "此时S=(A+A^T)/2=[[2,5,0],[5,2,0],[0,0,6]]，谱7,-3,6。",
+        "Q的列可取(1,1,0)/√2、(1,-1,0)/√2、(0,0,1)，Q^TAQ对称部分为diag(7,-3,6)；Q^TAQ本身仍可能含反对称部分，二次型以S为准。"
+      ],
+      "notes": [
+        "不能把给定A的特征值6,-2,6直接写成二次型标准形系数。原题有效，非错误。"
+      ],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-03",
+      "printed_node": "A1",
+      "display_number": "Q12"
+    },
+    {
+      "id": "R-LONG-04",
+      "original_label": "强化习题 解答4",
+      "body_latex": "已知二次型 $f(x_1,x_2,x_3)=x_1^2+ax_2^2+x_3^2+2x_1x_2-2x_2x_3-2ax_1x_3$ 的正惯性指数为 1，负惯性指数为 0，求正交变换 $x=Qy$ 化此二次型为标准形。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 170,
+          "page_end": 170,
+          "printed_page_start": 166,
+          "printed_page_end": 166
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [
+        "B1"
+      ],
+      "classification_reason": "给惯性即秩1半正定；由秩确定参数，再正交对角化。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 11,
+          "page_end": 11,
+          "match_status": "仅方法参考",
+          "note": ""
+        },
+        {
+          "source_id": "F0296",
+          "page_start": 21,
+          "page_end": 24,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "秩1须主二阶子式a-1=0，a=1；A=(1,1,-1)^T(1,1,-1)，谱3,0,0。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-04",
+      "printed_node": "A1",
+      "display_number": "Q13"
+    },
+    {
+      "id": "R-LONG-05",
+      "original_label": "强化习题 解答5",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3)=x^TAx=3x_1^2+ax_2^2+3x_3^2-4x_1x_2-8x_1x_3-4x_2x_3$，其中 $-2$ 是二次型矩阵 $A$ 的一个特征值。\n（I）求 $a$，并用正交变换将二次型化为标准形，写出所用的正交变换。\n（II）求二次型 $f$ 在条件 $x_1^2+x_2^2+x_3^2=1$ 的最小值。\n（III）若 $x^T(A+kE)x$ 是正定二次型，求 $k$ 的取值。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 171,
+          "page_end": 171,
+          "printed_page_start": 167,
+          "printed_page_end": 167
+        }
+      ],
+      "primary_node": "D",
+      "related_nodes": [
+        "A1",
+        "E1"
+      ],
+      "classification_reason": "完整父题沿谱分解连通正交标准形、单位球最值和平移矩阵正定；归最值分支。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 21,
+          "page_end": 24,
+          "match_status": "仅方法参考",
+          "note": "例6.2同类谱/最值方法。"
+        },
+        {
+          "source_id": "F0287",
+          "page_start": 14,
+          "page_end": 14,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "det(A+2E)=9(a-6)，a=6后谱 -2,7,7；最小值-2；正定参数k>2。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-05",
+      "printed_node": "D",
+      "display_number": "Q52"
+    },
+    {
+      "id": "R-LONG-06",
+      "original_label": "强化习题 解答6",
+      "body_latex": "设 $A=(a_{ij})_{3\\times3}$ 是实对称矩阵，$a_{ii}=0$（$i=1,2,3$）。$\\alpha=(-1,1,1)^T$ 满足 $(A+2E)\\alpha=0$。\n（I）求正交矩阵 $Q$，使得 $Q^TAQ=\\Lambda$；\n（II）求正定矩阵 $B$，使得 $A=B^2-3E$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 172,
+          "page_end": 172,
+          "printed_page_start": 168,
+          "printed_page_end": 168
+        }
+      ],
+      "primary_node": "A1C",
+      "related_nodes": [
+        "A1",
+        "E1"
+      ],
+      "classification_reason": "对称、零对角与特征向量先确定A；正交对角化和正定平方根由同一谱。",
+      "solution_reference": [
+        {
+          "source_id": "F0296",
+          "page_start": 22,
+          "page_end": 24,
+          "match_status": "仅方法参考",
+          "note": "例6.2平方根矩阵方法，条件及A不同，非同题。"
+        }
+      ],
+      "math_checks": [
+        "A=[[0,1,1],[1,0,-1],[1,-1,0]]，谱1,1,-2；B=(A+5E)/3正定，B²=A+3E。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-06",
+      "printed_node": "A1C",
+      "display_number": "Q20"
+    },
+    {
+      "id": "R-LONG-07",
+      "original_label": "强化习题 解答7",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3)=x_1^2+3x_2^2+5x_3^2+2x_1x_2-4x_1x_3$，\n$g(y_1,y_2,y_3)=y_1^2+2y_3^2+2y_1y_3+2y_2y_3$。\n（I）求可逆变换 $x=Py$ 将 $f(x_1,x_2,x_3)$ 化为 $g(y_1,y_2,y_3)$；\n（II）是否存在正交变换 $x=Qy$ 将 $f(x_1,x_2,x_3)$ 化为 $g(y_1,y_2,y_3)$？",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 173,
+          "page_end": 173,
+          "printed_page_start": 169,
+          "printed_page_end": 169
+        }
+      ],
+      "primary_node": "A4C",
+      "related_nodes": [
+        "A4O",
+        "B2"
+      ],
+      "classification_reason": "两个非标准形分别配方到共同规范形可合同；是否正交需检查谱，迹不同即否。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 5,
+          "page_end": 7,
+          "match_status": "仅方法参考",
+          "note": "例6.6非标准形合同方法。"
+        },
+        {
+          "source_id": "F0296",
+          "page_start": 25,
+          "page_end": 25,
+          "match_status": "仅方法参考",
+          "note": "例6.3非标准形正交方法。"
+        }
+      ],
+      "math_checks": [
+        "A=[[1,1,-2],[1,3,0],[-2,0,5]]顺序主子式1,2,-2，惯性(2,1,0)。",
+        "B=[[1,0,1],[0,0,1],[1,1,2]]，det=-1且有正方向，惯性(2,1,0)，可合同；traceA=9、traceB=3，不可能正交合同。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-07",
+      "printed_node": "A4C",
+      "display_number": "Q29"
+    },
+    {
+      "id": "R-LONG-08",
+      "original_label": "强化习题 解答8",
+      "body_latex": "（I）设 $f(x_1,x_2,x_3)=x^TAx=x_1^2+2x_2^2+6x_3^2-2x_1x_2+2x_1x_3-6x_2x_3$，求可逆线性变换将 $f$ 化为规范形，并说明二次型的对应矩阵 $A$ 是否为正定矩阵。\n（II）求可逆矩阵 $D$，使 $A=D^TD$。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 173,
+          "page_end": 173,
+          "printed_page_start": 169,
+          "printed_page_end": 169
+        }
+      ],
+      "primary_node": "A2N",
+      "related_nodes": [
+        "A2",
+        "A2C",
+        "E2"
+      ],
+      "classification_reason": "完整配方到单位阵同时获得正定判别和A=D^TD矩阵分解。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 1,
+          "page_end": 5,
+          "match_status": "仅方法参考",
+          "note": ""
+        },
+        {
+          "source_id": "F0287",
+          "page_start": 14,
+          "page_end": 14,
+          "match_status": "仅方法参考",
+          "note": ""
+        }
+      ],
+      "math_checks": [
+        "f=(x1-x2+x3)²+(x2-2x3)²+x3²；T=[[1,-1,1],[0,1,-2],[0,0,1]]，A=T^TT，detT=1；正定。"
+      ],
+      "notes": [],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-08",
+      "printed_node": "A2N",
+      "display_number": "Q25"
+    },
+    {
+      "id": "R-LONG-09",
+      "original_label": "强化习题 解答9",
+      "body_latex": "设二次型 $f(x_1,x_2,x_3)=x^TAx=x_1^2+x_2^2+x_3^2+2ax_1x_2+2ax_1x_3+2ax_2x_3$ 经过可逆线性变换 $x=Cy$ 化为 $g(y_1,y_2,y_3)=y^TBy=y_1^2+y_2^2+3y_3^2+2y_1y_2$，其中\n\\[C=\\begin{pmatrix}1&2&1\\\\0&1&2\\\\0&1&0\\end{pmatrix},\\]\n$A,B$ 均为实对称矩阵。\n（I）求 $a$ 的值；\n（II）求正交变换 $x=Qz$ 与可逆线性变换 $y=Pz$ 分别将二次型 $f$ 与 $g$ 化为同一标准形。",
+      "sources": [
+        {
+          "source_id": "R-LECTURE",
+          "page_start": 174,
+          "page_end": 174,
+          "printed_page_start": 170,
+          "printed_page_end": 170
+        }
+      ],
+      "primary_node": "A4C",
+      "related_nodes": [
+        "A1",
+        "A2C",
+        "B2"
+      ],
+      "classification_reason": "给定合同变换求参数；f正交对角化，g取P=C^{-1}Q可化成相同标准形。",
+      "solution_reference": [
+        {
+          "source_id": "F0287",
+          "page_start": 5,
+          "page_end": 7,
+          "match_status": "仅方法参考",
+          "note": "例6.6形式类似但目标y3系数4而本题3，非同题。"
+        }
+      ],
+      "math_checks": [
+        "C^TA(a)C=[[1,2+2a,1+2a],[2+2a,6+10a,4+8a],[1+2a,4+8a,5+4a]]。",
+        "a=-1/2代回完整目标B=[[1,1,0],[1,1,0],[0,0,3]]各项全部相容；detC=-2，原题无冲突。",
+        "A谱3/2,3/2,0；令Q正交对角化A，P=C^{-1}Q则P^TBP=Q^TAQ，可逆。"
+      ],
+      "notes": [
+        "已独立代数确认自洽，不能沿用检查点中的待检验担忧为“原题错误”。"
+      ],
+      "disposition": "included",
+      "transcription_status": "完整原题与全部小问已回原页核对",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-09",
+      "printed_node": "A4C",
+      "display_number": "Q30"
+    },
+    {
+      "id": "S-01",
+      "original_label": "保100 第1题",
+      "body_latex": "求一个正交变换化二次型\\[f=x_1^2+4x_2^2+4x_3^2-4x_1x_2+4x_1x_3-8x_2x_3\\]成标准形。",
+      "sources": [
+        {
+          "source_id": "SPC-Q",
+          "page_start": 1,
+          "page_end": 1
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [],
+      "classification_reason": "Kira详解写出实对称矩阵，求0重根与9单根的单位正交特征向量，再以列向量组成正交矩阵并给出标准形，是正交变换法的完整直接考法。",
+      "solution_reference": [
+        {
+          "source_id": "SPC-K",
+          "page_start": 1,
+          "page_end": 2,
+          "match_status": "同题完整",
+          "matched_label": "1"
+        }
+      ],
+      "math_checks": [
+        "原题全部六项系数及交叉项正负已回看原页；矩阵为[[1,-2,2],[-2,4,-4],[2,-4,4]]。",
+        "独立检查特征值0,0,9；取未归一向量(2,1,0),(2,-4,-5),(1,-2,2)，精确整数计算AQ=QΛ、两两内积为0，平方范数为5,45,9，通过。",
+        "讲义答案与板书第二列正负相反，属于同根特征向量变号，不是题目或解析冲突。"
+      ],
+      "notes": [
+        "标准形与正交矩阵的列顺序须对应；来源不要求唯一正交矩阵。",
+        "题干与解法核读完成，不代表学习者掌握。"
+      ],
+      "disposition": "included",
+      "alternative_formulations": [],
+      "canonical_id": "S-01",
+      "printed_node": "A1",
+      "display_number": "Q15"
+    },
+    {
+      "id": "S-02",
+      "original_label": "保100 第2题",
+      "body_latex": "已知二次型\\[f(x_1,x_2,x_3)=2x_1^2+3x_2^2+3x_3^2+2ax_2x_3\\quad(a>0),\\]通过正交变换化为标准\\[f=y_1^2+2y_2^2+5y_3^2,\\]求参数 \\(a\\) 及所用的正交变换矩阵。",
+      "sources": [
+        {
+          "source_id": "SPC-Q",
+          "page_start": 2,
+          "page_end": 2
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [],
+      "classification_reason": "已知正交标准形先给出矩阵特征值，再由特征值积反求参数，最后按题目已固定的系数顺序计算正交矩阵。主动作仍是正交标准化，不是由给定变换矩阵反求原二次型的A3。",
+      "solution_reference": [
+        {
+          "source_id": "SPC-K",
+          "page_start": 2,
+          "page_end": 3,
+          "match_status": "同题完整",
+          "matched_label": "2"
+        }
+      ],
+      "math_checks": [
+        "原题a>0与标准形系数顺序1,2,5均已回原页核对。矩阵右下块为[[3,a],[a,3]]。",
+        "独立代数检查2(9-a^2)=1·2·5，结合a>0得到a=2。",
+        "a=2时未归一特征向量(0,1,-1),(1,0,0),(0,1,1)对应特征值1,2,5；精确AQ=QΛ与正交内积计算通过，平方范数2,1,2。"
+      ],
+      "notes": [
+        "不能任意交换正交矩阵列后仍沿用原题固定的标准形系数顺序。"
+      ],
+      "disposition": "included",
+      "alternative_formulations": [],
+      "canonical_id": "S-02",
+      "printed_node": "A1",
+      "display_number": "Q16"
+    },
+    {
+      "id": "S-03",
+      "original_label": "保100 第3题",
+      "body_latex": "设二次型\\[f(x_1,x_2,x_3)=X^TAX=ax_1^2+2x_2^2-2x_3^2+2bx_1x_3\\quad(b>0),\\]其中二次型的矩阵 \\(A\\) 的特征值之和为 \\(1\\)，特征值之积为 \\(-12\\)。\\par (1) 求 \\(a,b\\) 的值；\\par (2) 利用正交变换将二次型 \\(f\\) 化为标准型，并写出所用的正交变换和对应的正交矩阵。",
+      "sources": [
+        {
+          "source_id": "SPC-Q",
+          "page_start": 3,
+          "page_end": 3
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [],
+      "classification_reason": "第(1)问用迹与行列式求参数，第(2)问在所得实对称矩阵上求单位正交特征向量、正交变换和标准形；保留共享条件及两个小问，整体属于正交标准化。",
+      "solution_reference": [
+        {
+          "source_id": "SPC-K",
+          "page_start": 3,
+          "page_end": 5,
+          "match_status": "同题完整",
+          "matched_label": "3"
+        }
+      ],
+      "math_checks": [
+        "两个小问、b>0、特征值和1及积-12均已回原页核对。",
+        "独立计算tr(A)=a、det(A)=2(-2a-b^2)，得到a=1,b=2。",
+        "未归一特征向量(1,0,-2),(2,0,1),(0,1,0)对应-3,2,2；精确AQ=QΛ与两两正交检查通过，平方范数5,5,1。",
+        "讲义答案标准形-3y_1^2+2y_2^2+2y_3^2与板书2y_1^2+2y_2^2-3y_3^2分别匹配各自正交矩阵列顺序，等价而非冲突。"
+      ],
+      "notes": [
+        "完整板书从第3页底部题干开始，跨第4页计算至第5页顶部标准形，不应只链接第4页。"
+      ],
+      "disposition": "included",
+      "alternative_formulations": [],
+      "canonical_id": "S-03",
+      "printed_node": "A1",
+      "display_number": "Q17"
+    },
+    {
+      "id": "S-04",
+      "original_label": "保100 第4题",
+      "body_latex": "二次型\\[f(x_1,x_2,x_3)=(x_1+x_2)^2+(x_2-x_3)^2+(x_3+x_1)^2\\]的秩为 \\underline{\\hspace{2cm}}。",
+      "sources": [
+        {
+          "source_id": "SPC-Q",
+          "page_start": 4,
+          "page_end": 4
+        }
+      ],
+      "primary_node": "PRE",
+      "related_nodes": [],
+      "classification_reason": "Kira详解先将平方和展开为二次型矩阵求秩，也给出写成B^TB后用r(B^TB)=r(B)的解法。本题不要求标准化、惯性指数或正定；放在原讲义矩阵表示前置，避免强塞强化框架的后续题型。",
+      "solution_reference": [
+        {
+          "source_id": "SPC-K",
+          "page_start": 5,
+          "page_end": 5,
+          "match_status": "同题完整",
+          "matched_label": "4"
+        }
+      ],
+      "math_checks": [
+        "原题三个平方的内部正负号均已回原页核对。",
+        "独立展开矩阵A=[[2,1,1],[1,2,-1],[1,-1,2]]；令B=[[1,1,0],[0,1,-1],[1,0,1]]，精确整数运算核验B^TB=A通过。",
+        "B第三行=第一行-第二行，前两行独立，因此r(B)=2，实数域r(B^TB)=r(B)，二次型秩2。"
+      ],
+      "notes": [
+        "PRE为前置收纳，不声称这是新增的Kira原框架题型。",
+        "不要把三个平方的数量直接当成二次型秩。"
+      ],
+      "disposition": "included",
+      "alternative_formulations": [],
+      "canonical_id": "S-04",
+      "printed_node": "PRE",
+      "display_number": "Q06"
+    },
+    {
+      "id": "S-05",
+      "original_label": "保100 第5题",
+      "body_latex": "已知二次型\\[f(x_1,x_2,x_3)=(1-a)x_1^2+(1-a)x_2^2+2x_3^2+2(1+a)x_1x_2\\]的秩为 \\(2\\)。\\par (1) 求 \\(a\\) 的值；\\par (2) 求正交变换 \\(x=Qy\\)，把 \\(f(x_1,x_2,x_3)\\) 化成标准形；\\par (3) 求方程 \\(f(x_1,x_2,x_3)=0\\) 的解。",
+      "sources": [
+        {
+          "source_id": "SPC-Q",
+          "page_start": 5,
+          "page_end": 5
+        }
+      ],
+      "primary_node": "C",
+      "related_nodes": [
+        "A1",
+        "A2"
+      ],
+      "classification_reason": "第(3)问是f=0的完整解集，第(1)(2)问提供参数和正交标准形。Kira详解既从标准形的零点反变换，也直接配方求零点。父题放C，同时将第(2)问关联A1、配方副解法关联A2，题目本体只保留一份。",
+      "subquestion_nodes": [
+        {
+          "label": "(1)",
+          "nodes": [
+            "C"
+          ]
+        },
+        {
+          "label": "(2)",
+          "nodes": [
+            "A1"
+          ]
+        },
+        {
+          "label": "(3)",
+          "nodes": [
+            "C",
+            "A2"
+          ]
+        }
+      ],
+      "solution_reference": [
+        {
+          "source_id": "SPC-K",
+          "page_start": 6,
+          "page_end": 7,
+          "match_status": "同题完整",
+          "matched_label": "5"
+        }
+      ],
+      "math_checks": [
+        "秩2条件和全部三个小问已回原页核对。",
+        "参数矩阵特征值为2,2,-2a，r(A)=2当且仅当a=0，不遗漏参数情况。",
+        "a=0时未归一正交特征向量(-1,1,0),(1,1,0),(0,0,1)对应0,2,2；精确AQ=QΛ与正交内积检查通过，平方范数2,2,1。",
+        "独立配方f=(x_1+x_2)^2+2x_3^2，所有实数零点满足x_1+x_2=0,x_3=0；标准形反变换与此完整解集相同。"
+      ],
+      "notes": [
+        "跨支引用必须保留父题共同条件，不能仅抠出第(3)问。",
+        "板书与讲义答案的零根特征向量取反、列顺序不同，不构成答案冲突。"
+      ],
+      "disposition": "merged",
+      "alternative_formulations": [],
+      "canonical_id": "R-LONG-01",
+      "merge_reason": "逐页核同一二次型、秩条件及三小问；强化解答1与保100第5题同题。",
+      "display_number": "Q11"
+    },
+    {
+      "id": "S-06",
+      "original_label": "保100 第6题",
+      "body_latex": "设二次型\\[f(x_1,x_2,x_3)=ax_1^2+ax_2^2+(a-1)x_3^2+2x_1x_3-2x_2x_3.\\]\\par (1) 求二次型 \\(f\\) 的矩阵的所有特征值；\\par (2) 若二次型 \\(f\\) 的规范形为 \\(y_1^2+y_2^2\\)，求 \\(a\\) 的值。",
+      "sources": [
+        {
+          "source_id": "SPC-Q",
+          "page_start": 6,
+          "page_end": 6
+        }
+      ],
+      "primary_node": "B1",
+      "related_nodes": [
+        "A1"
+      ],
+      "classification_reason": "第(2)问由规范形识别正惯性指数2、负惯性指数0及一个零特征值，结合第(1)问特征值判参数；不把规范形系数1误作原矩阵特征值。第(1)问关联正交标准形使用的特征值计算。",
+      "subquestion_nodes": [
+        {
+          "label": "(1)",
+          "nodes": [
+            "A1"
+          ]
+        },
+        {
+          "label": "(2)",
+          "nodes": [
+            "B1"
+          ]
+        }
+      ],
+      "solution_reference": [
+        {
+          "source_id": "SPC-K",
+          "page_start": 7,
+          "page_end": 8,
+          "match_status": "同题完整",
+          "matched_label": "6"
+        }
+      ],
+      "math_checks": [
+        "(a-1)x_3^2、两个交叉项正负、两个小问及规范形y_1^2+y_2^2均已回原页核对。",
+        "独立检查A=aI+M，M=[[0,0,1],[0,0,-1],[1,-1,-1]]；其特征向量(1,1,0),(-1,1,2),(1,-1,1)对应M的0,-2,1，故A所有特征值为a,a-2,a+1。",
+        "精确整数程序在a=0,1核验上述特征向量及正交内积，结合A对a为仿射矩阵和人工代入关系检查，可得对任意a的同一特征向量恒等式。",
+        "a-2<a<a+1；规范形要求两个正根和一个零根，只能a-2=0，即a=2。a=0或-1虽也有零根，但惯性指数不符，应排除。"
+      ],
+      "notes": [
+        "完整题干跨板书第7页底部至第8页顶部；完整推导在第8页。"
+      ],
+      "disposition": "included",
+      "alternative_formulations": [],
+      "canonical_id": "S-06",
+      "printed_node": "B1",
+      "display_number": "Q38"
+    },
+    {
+      "id": "S-07",
+      "original_label": "保100 第7题",
+      "body_latex": "设二次型\\[f(x_1,x_2,x_3)=x_1^2-x_2^2+2ax_1x_3+4x_2x_3\\]的负惯性指数为 \\(1\\)，则 \\(a\\) 的取值范围是 \\underline{\\hspace{2cm}}。",
+      "sources": [
+        {
+          "source_id": "SPC-Q",
+          "page_start": 7,
+          "page_end": 7
+        }
+      ],
+      "primary_node": "B1",
+      "related_nodes": [
+        "A2"
+      ],
+      "classification_reason": "Kira主要采用配方法化成可直接读惯性指数的标准形；求的是负惯性指数所对应的参数范围，主节点B1，配方法为A2副关联。另有特征多项式实根符号的副解法，不改变Kira主框架。",
+      "solution_reference": [
+        {
+          "source_id": "SPC-K",
+          "page_start": 8,
+          "page_end": 9,
+          "match_status": "同题完整",
+          "matched_label": "7"
+        }
+      ],
+      "math_checks": [
+        "负惯性指数为1和全部交叉项已回原页核对。",
+        "独立展开f=(x_1+ax_3)^2-(x_2-2x_3)^2+(4-a^2)x_3^2，变换矩阵T=[[1,0,a],[0,1,-2],[0,0,1]]行列式恒为1，可逆。",
+        "精确矩阵运算在a=-3,-2,0,2,3核验T^Tdiag(1,-1,4-a^2)T=A，另人工逐项展开证明恒等式。",
+        "负惯性指数为1当且仅当4-a^2>=0；a=±2时零系数不贡献负惯性指数，必须包含两个端点。",
+        "独立行列式展开特征多项式λ^3-(5+a^2)λ+4-a^2，与板书副解法一致。"
+      ],
+      "notes": [
+        "不能把非负条件误抄成严格正，从而漏掉端点。"
+      ],
+      "disposition": "included",
+      "alternative_formulations": [],
+      "canonical_id": "S-07",
+      "printed_node": "B1",
+      "display_number": "Q39"
+    },
+    {
+      "id": "S-08",
+      "original_label": "保100 第8题",
+      "body_latex": "设二次型 \\(f(x_1,x_2,x_3)\\) 在正交变换 \\(x=Py\\) 下的标准形为\\[2y_1^2+y_2^2-y_3^2,\\]其中 \\(P=(e_1,e_2,e_3)\\)。若 \\(Q=(e_1,-e_3,e_2)\\)，则 \\(f(x_1,x_2,x_3)\\) 在正交变换 \\(x=Qy\\) 下的标准形为（\\hspace{1em}）。\\par A. \\(2y_1^2-y_2^2+y_3^2\\)\\qquad B. \\(2y_1^2+y_2^2-y_3^2\\)\\par C. \\(2y_1^2-y_2^2-y_3^2\\)\\qquad D. \\(2y_1^2+y_2^2+y_3^2\\)",
+      "sources": [
+        {
+          "source_id": "SPC-Q",
+          "page_start": 7,
+          "page_end": 7
+        }
+      ],
+      "primary_node": "A1",
+      "related_nodes": [],
+      "classification_reason": "正交变换矩阵的列是与标准形系数对应的单位特征向量；换列与列变号影响顺序而不改变相应特征值。本题仍是正交标准形，不要求重建原矩阵或原二次型，故不放A3。",
+      "solution_reference": [
+        {
+          "source_id": "SPC-K",
+          "page_start": 9,
+          "page_end": 10,
+          "match_status": "同题完整",
+          "matched_label": "8"
+        }
+      ],
+      "math_checks": [
+        "P和Q的全部列、Q第二列负号以及四个选项已回原页核对。",
+        "独立写Q=PT，T=[[1,0,0],[0,0,1],[0,-1,0]]；精确整数程序验算T^Tdiag(2,1,-1)T=diag(2,-1,1)，通过。",
+        "列变号不改变对应特征值，所得标准形对应选项A；不误把-e_3对应系数改成+1。"
+      ],
+      "notes": [
+        "第10页顶部保留列非零倍数不改变特征值的续讲，完整参考范围用9-10页。"
+      ],
+      "disposition": "included",
+      "alternative_formulations": [],
+      "canonical_id": "S-08",
+      "printed_node": "A1",
+      "display_number": "Q18"
+    },
+    {
+      "id": "S-09",
+      "original_label": "保100 第9题 [2025年数三]",
+      "body_latex": "[2025 年数三] 设矩阵\\[A=\\begin{pmatrix}1&2\\\\-2&-a\\end{pmatrix},\\qquad B=\\begin{pmatrix}1&0\\\\1&a\\end{pmatrix},\\]若 \\(f(x,y)=\\lvert xA+yB\\rvert\\) 为正定二次型，则 \\(a\\) 的取值范围是（\\hspace{1em}）。\\par A. \\((0,2-\\sqrt{3})\\)\\qquad B. \\((2-\\sqrt{3},2+\\sqrt{3})\\)\\par C. \\((2+\\sqrt{3},4)\\)\\qquad D. \\((0,4)\\)",
+      "sources": [
+        {
+          "source_id": "SPC-Q",
+          "page_start": 7,
+          "page_end": 7
+        }
+      ],
+      "primary_node": "E2",
+      "related_nodes": [],
+      "classification_reason": "展开2阶行列式得到具体二次型矩阵，再以顺序主子式判断正定，属于正定二次型的具体型。原题明确2025年数三，但所用矩阵正定判据与二次型计算是公共方法；保留真实来源考种标签，不改称数二真题。",
+      "exam_scope": {
+        "original": "2025年数三",
+        "method_scope": "二次型与具体矩阵正定公共方法",
+        "included_in_default_math2_material": "以公共方法参考题身份收录，保留数三标签"
+      },
+      "solution_reference": [
+        {
+          "source_id": "SPC-K",
+          "page_start": 10,
+          "page_end": 11,
+          "match_status": "同题完整",
+          "matched_label": "9 [2025年数三]"
+        }
+      ],
+      "math_checks": [
+        "两矩阵八个元素、原文行列式绝对竖线、全部区间选项与三个根号3已回原页核对；竖线表示行列式，不是数值绝对值。",
+        "独立展开|xA+yB|=(x+y)(-ax+ay)-2x(-2x+y)=(4-a)x^2+ay^2-2xy。",
+        "独立程序在四组整数(a,x,y)精确验证2阶行列式展开，同时人工给出全参数代数恒等式，不以取样代替证明。",
+        "具体二次型矩阵H=[[4-a,-1],[-1,a]]；顺序主子式要求4-a>0且a(4-a)-1>0，最终区间(2-√3,2+√3)，与选项B相容。"
+      ],
+      "notes": [
+        "不得省略[2025年数三]标签或改称数二历年原题。",
+        "完整解析收尾在第11页顶部，第11页不是可直接省略的全空白页。"
+      ],
+      "disposition": "included",
+      "alternative_formulations": [],
+      "canonical_id": "S-09",
+      "printed_node": "E2",
+      "display_number": "Q68"
+    }
+  ],
+  "entries": [
+    {
+      "node_id": "PRE",
+      "representative_id": "R-EX-01",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        85
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0296",
+          "page_start": 18,
+          "page_end": 18,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "A1",
+      "representative_id": "R-EX-02",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        85,
+        86,
+        87
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0296",
+          "page_start": 22,
+          "page_end": 24,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "A1C",
+      "representative_id": "R-EX-02",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        86,
+        87
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0296",
+          "page_start": 22,
+          "page_end": 24,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "A2",
+      "representative_id": "R-EX-05",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        89,
+        90,
+        91
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0287",
+          "page_start": 1,
+          "page_end": 5,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "A2N",
+      "representative_id": "R-EX-05",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        86,
+        89,
+        90,
+        91
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0287",
+          "page_start": 1,
+          "page_end": 5,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "A2C",
+      "representative_id": "R-EX-05",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        90,
+        91
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0287",
+          "page_start": 1,
+          "page_end": 5,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "A3",
+      "representative_id": "R-EX-04",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        89
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0296",
+          "page_start": 25,
+          "page_end": 26,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "A4O",
+      "representative_id": "R-EX-03",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        88
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0296",
+          "page_start": 25,
+          "page_end": 25,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "A4C",
+      "representative_id": "R-EX-06",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        89,
+        91
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0287",
+          "page_start": 5,
+          "page_end": 7,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "B1",
+      "representative_id": "R-EX-10",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        93,
+        94
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0287",
+          "page_start": 11,
+          "page_end": 12,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "B2",
+      "representative_id": "R-EX-11",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        94,
+        95
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0287",
+          "page_start": 12,
+          "page_end": 13,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "C",
+      "representative_id": "R-EX-07",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        92
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0287",
+          "page_start": 7,
+          "page_end": 9,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "D",
+      "representative_id": "R-EX-02",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        87
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0296",
+          "page_start": 22,
+          "page_end": 24,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "E1",
+      "representative_id": "R-EX-12",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        95,
+        96
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0287",
+          "page_start": 14,
+          "page_end": 15,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "node_id": "E2",
+      "representative_id": "R-EX-07",
+      "method_source_id": "R-LECTURE",
+      "method_pages": [
+        95,
+        96
+      ],
+      "same_question_boards": [
+        {
+          "source_id": "F0287",
+          "page_start": 7,
+          "page_end": 9,
+          "match_status": "同题完整",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "candidate_dispositions": [
+    {
+      "candidate_source": "B0",
+      "page": 84,
+      "original_label": "例 6.1",
+      "disposition": "included",
+      "question_id": "B-EX-01",
+      "reason": "写出实对称二次型矩阵，再由秩为2求参数；矩阵与秩是前置内容，不另造强化分支。",
+      "canonical_id": "B-EX-01"
+    },
+    {
+      "candidate_source": "BV",
+      "page": 53,
+      "original_label": "例 6.1",
+      "disposition": "merged",
+      "merged_into": "B-EX-01",
+      "reason": "逐页视觉对比，题干、条件、矩阵、所有问法一致；仅排版不同，保留出处，不计新题。",
+      "canonical_id": "B-EX-01"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 86,
+      "original_label": "例 6.2",
+      "disposition": "included",
+      "question_id": "B-EX-02",
+      "reason": "原小节正交变换化标准形；矩阵特征值与正交特征向量构造Q。",
+      "canonical_id": "B-EX-02"
+    },
+    {
+      "candidate_source": "BV",
+      "page": 53,
+      "original_label": "例 6.2",
+      "disposition": "merged",
+      "merged_into": "B-EX-02",
+      "reason": "逐页视觉对比，题干、条件、矩阵、所有问法一致；仅排版不同，保留出处，不计新题。",
+      "canonical_id": "B-EX-02"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 87,
+      "original_label": "例 6.3",
+      "disposition": "included",
+      "question_id": "B-EX-03",
+      "reason": "原小节配方法化标准形，要求逆向写x=Cy的可逆变换。",
+      "canonical_id": "B-EX-03"
+    },
+    {
+      "candidate_source": "BV",
+      "page": 54,
+      "original_label": "例 6.3",
+      "disposition": "merged",
+      "merged_into": "B-EX-03",
+      "reason": "逐页视觉对比，题干、条件、矩阵、所有问法一致；仅排版不同，保留出处，不计新题。",
+      "canonical_id": "B-EX-03"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 88,
+      "original_label": "例 6.4",
+      "disposition": "included",
+      "question_id": "B-EX-04",
+      "reason": "所问是规范形、秩与正负惯性指数；完整解析同时用配方和特征值验证惯性。",
+      "canonical_id": "B-EX-04"
+    },
+    {
+      "candidate_source": "BV",
+      "page": 54,
+      "original_label": "例 6.4",
+      "disposition": "merged",
+      "merged_into": "B-EX-04",
+      "reason": "逐页视觉对比，题干、条件、矩阵、所有问法一致；仅排版不同，保留出处，不计新题。",
+      "canonical_id": "B-EX-04"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 88,
+      "original_label": "例 6.5",
+      "disposition": "included",
+      "question_id": "B-EX-05",
+      "reason": "由秩、特征值和正负惯性指数分别判定等价、相似、合同。",
+      "canonical_id": "B-EX-05"
+    },
+    {
+      "candidate_source": "BV",
+      "page": 55,
+      "original_label": "例 6.5",
+      "disposition": "merged",
+      "merged_into": "B-EX-05",
+      "reason": "逐页视觉对比，题干、条件、矩阵、所有问法一致；仅排版不同，保留出处，不计新题。",
+      "canonical_id": "B-EX-05"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 89,
+      "original_label": "例 6.6",
+      "disposition": "included",
+      "question_id": "B-EX-06",
+      "reason": "具体矩阵用必要条件筛选及顺序主子式判正定。",
+      "canonical_id": "B-EX-06"
+    },
+    {
+      "candidate_source": "BV",
+      "page": 56,
+      "original_label": "例 6.6",
+      "disposition": "merged",
+      "merged_into": "B-EX-06",
+      "reason": "逐页视觉对比，题干、条件、矩阵、所有问法一致；仅排版不同，保留出处，不计新题。",
+      "canonical_id": "B-EX-06"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 89,
+      "original_label": "例 6.7",
+      "disposition": "included",
+      "question_id": "B-EX-07",
+      "reason": "抽象实对称矩阵多项式条件，证明所有特征值正。",
+      "canonical_id": "B-EX-07"
+    },
+    {
+      "candidate_source": "BV",
+      "page": 57,
+      "original_label": "例 6.7",
+      "disposition": "merged",
+      "merged_into": "B-EX-07",
+      "reason": "逐页视觉对比，题干、条件、矩阵、所有问法一致；仅排版不同，保留出处，不计新题。",
+      "canonical_id": "B-EX-07"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 151,
+      "original_label": "选择 1",
+      "disposition": "included",
+      "question_id": "B-MC-01",
+      "reason": "对比等价与相似/正交对角化，不以可逆代替实对称条件。",
+      "canonical_id": "B-MC-01"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 151,
+      "original_label": "选择 2",
+      "disposition": "included",
+      "question_id": "B-MC-02",
+      "reason": "先用转置验证BAB为实对称，从而可正交对角化。",
+      "canonical_id": "B-MC-02"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 151,
+      "original_label": "选择 3",
+      "disposition": "included",
+      "question_id": "B-MC-03",
+      "reason": "标准形与规范形的唯一性、惯性指数，而非具体求变换。",
+      "canonical_id": "B-MC-03"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 152,
+      "original_label": "选择 4",
+      "disposition": "included",
+      "question_id": "B-MC-04",
+      "reason": "实对称矩阵以特征值判断相似、以惯性判断合同。",
+      "canonical_id": "B-MC-04"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 152,
+      "original_label": "选择 5",
+      "disposition": "included",
+      "question_id": "B-MC-05",
+      "reason": "合同的等价判据与传递性，比较同秩、同行列式、相似的条件强弱。",
+      "canonical_id": "B-MC-05"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 152,
+      "original_label": "选择 6",
+      "disposition": "included",
+      "question_id": "B-MC-06",
+      "reason": "具体矩阵的对称性、对角元及顺序主子式正定判据。",
+      "canonical_id": "B-MC-06"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 153,
+      "original_label": "选择 7",
+      "disposition": "included",
+      "question_id": "B-MC-07",
+      "reason": "配对交换写C=Eij^T A Eij，同时为相似与等价；主要问三种关系，关联成对初等变换。",
+      "canonical_id": "B-MC-07"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 153,
+      "original_label": "选择 8",
+      "disposition": "included",
+      "question_id": "B-MC-08",
+      "reason": "秩条件给重复特征值-b，行列式求第三根，抽象判断正定。",
+      "canonical_id": "B-MC-08"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 153,
+      "original_label": "选择 9",
+      "disposition": "included",
+      "question_id": "B-MC-09",
+      "reason": "抽象矩阵与伴随矩阵的正定关系，以特征值乘积和反例判断；保留阶数边界提示。",
+      "canonical_id": "B-MC-09"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 154,
+      "original_label": "填空 1",
+      "disposition": "included",
+      "question_id": "B-FB-01",
+      "reason": "展开后交叉项系数均分，写矩阵；纯矩阵表示前置。",
+      "canonical_id": "B-FB-01"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 154,
+      "original_label": "填空 2",
+      "disposition": "included",
+      "question_id": "B-FB-02",
+      "reason": "具体参数矩阵以顺序主子式均正确定参数范围。",
+      "canonical_id": "B-FB-02"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 154,
+      "original_label": "填空 3",
+      "disposition": "included",
+      "question_id": "B-FB-03",
+      "reason": "合同要求正负惯性指数相同，由A特征值符号与B标准形符号确定参数。",
+      "canonical_id": "B-FB-03"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 155,
+      "original_label": "填空 4",
+      "disposition": "included",
+      "question_id": "B-FB-04",
+      "reason": "二次型秩转矩阵秩，用三阶行列式为0及二阶子式非0；前置题。",
+      "canonical_id": "B-FB-04"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 155,
+      "original_label": "填空 5",
+      "disposition": "included",
+      "question_id": "B-FB-05",
+      "reason": "实Gram矩阵秩等于A秩，以范德蒙德子式非0判秩；前置题。",
+      "canonical_id": "B-FB-05"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 155,
+      "original_label": "填空 6",
+      "disposition": "excluded",
+      "question_id": "B-FB-06",
+      "reason": "原注明数一，问椭球面，整题隔离于默认数二域。",
+      "canonical_id": "B-FB-06"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 156,
+      "original_label": "解答 1",
+      "disposition": "included",
+      "question_id": "B-SA-01",
+      "reason": "求特征值、单位正交特征向量，以x=Qy化标准形。",
+      "canonical_id": "B-SA-01"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 156,
+      "original_label": "解答 2",
+      "disposition": "included",
+      "question_id": "B-SA-02",
+      "reason": "配方先化标准形，再缩放非零系数到±1化规范形；完整父题只保留一份。",
+      "canonical_id": "B-SA-02"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 157,
+      "original_label": "解答 3",
+      "disposition": "excluded",
+      "question_id": "B-SA-03",
+      "reason": "原注明数一且含二次曲面辨认小问，完整父题隔离，不割掉数一小问。",
+      "canonical_id": "B-SA-03"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 157,
+      "original_label": "解答 4",
+      "disposition": "included",
+      "question_id": "B-SA-04",
+      "reason": "正定实对称矩阵的特征值正，与正交特征值模1合用推出A=E。",
+      "canonical_id": "B-SA-04"
+    },
+    {
+      "candidate_source": "B0",
+      "page": 158,
+      "original_label": "解答 5",
+      "disposition": "included",
+      "question_id": "B-SA-05",
+      "reason": "抽象实对称矩阵由多项式推出全部特征值在1、2中，故正定。",
+      "canonical_id": "B-SA-05"
+    },
+    {
+      "candidate_source": "BB",
+      "page_start": 104,
+      "page_end": 105,
+      "disposition": "excluded",
+      "reason": "原页标题向量空间（数一专项），题号3.14/3.15，非第六章二次型题域。"
+    },
+    {
+      "candidate_source": "BB",
+      "page_start": 96,
+      "page_end": 96,
+      "disposition": "method_reference_only",
+      "reason": "上方正交变换标准形求行列式为老师口述方法示例，非选定讲义编号例题/习题；不凭板书扩大题源。"
+    },
+    {
+      "question_id": "R-EX-01",
+      "status": "included",
+      "reason": "原讲义考点一二次型的概念；系数由双重求和直接识别为对称矩阵。",
+      "canonical_id": "R-EX-01"
+    },
+    {
+      "question_id": "R-EX-02",
+      "status": "included",
+      "reason": "原讲义题型2求最值；完整父题兼有正交对角化与利用谱构造正定平方根。",
+      "canonical_id": "R-EX-02"
+    },
+    {
+      "question_id": "R-EX-03",
+      "status": "included",
+      "reason": "原讲义题型3正交变换化非标准形；两边同谱后用各自正交对角化矩阵拼接。",
+      "canonical_id": "R-EX-03"
+    },
+    {
+      "question_id": "R-EX-04",
+      "status": "included",
+      "reason": "原讲义题型4已知正交标准形反求二次型；重根为1和已知零特征向量给A=E-qq^T。",
+      "canonical_id": "R-EX-04"
+    },
+    {
+      "question_id": "R-EX-05",
+      "status": "included",
+      "reason": "原讲义配方法题型5；板书完整配方、反解变换、三问法及成对初等变换。",
+      "canonical_id": "R-EX-05"
+    },
+    {
+      "question_id": "R-EX-06",
+      "status": "included",
+      "reason": "原讲义仍在配方法题型5；先合同惯性确定参数，再分别配方到公共标准形并反解P。",
+      "canonical_id": "R-EX-06"
+    },
+    {
+      "question_id": "R-EX-07",
+      "status": "included",
+      "reason": "原讲义题型6；平方和为零转为齐次方程组，系数矩阵满列秩与正定性联动。",
+      "canonical_id": "R-EX-07"
+    },
+    {
+      "question_id": "R-EX-08",
+      "status": "included",
+      "reason": "新版例题是同时合同标准化；先配方把正定f化为单位阵，再正交对角化变换后的g。不是给单独新框架造节点。",
+      "canonical_id": "R-EX-08"
+    },
+    {
+      "question_id": "R-EX-09",
+      "status": "included",
+      "reason": "原讲义求惯性指数规范形题型1；利用A作用于alpha±beta确定正负谱及零空间。",
+      "canonical_id": "R-EX-09"
+    },
+    {
+      "question_id": "R-EX-10",
+      "status": "included",
+      "reason": "原讲义惯性题型1；三线性形式相关，不能把三个平方项当可逆变换。板书给特征值符号判别。",
+      "canonical_id": "R-EX-10"
+    },
+    {
+      "question_id": "R-EX-11",
+      "status": "included",
+      "reason": "原讲义等价相似合同考点；不同特征值确保可对角化，等价看秩，相似看谱，实对称合同看惯性。",
+      "canonical_id": "R-EX-11"
+    },
+    {
+      "question_id": "R-EX-12",
+      "status": "included",
+      "reason": "原讲义抽象正定题型1；以x^TB^TABx=(Bx)^TA(Bx)结合满列秩定义。",
+      "canonical_id": "R-EX-12"
+    },
+    {
+      "question_id": "R-EX-13",
+      "status": "excluded",
+      "reason": "原件明确考点八二次曲面（数一），不纳数二练习。",
+      "canonical_id": "R-EX-13"
+    },
+    {
+      "question_id": "R-MC-01",
+      "status": "included",
+      "reason": "可逆变量代入得B=C^TAC，是合同定义，不要求谱保持。",
+      "canonical_id": "R-MC-01"
+    },
+    {
+      "question_id": "R-MC-02",
+      "status": "included",
+      "reason": "判别实对称合同看惯性；左上二阶行列式为-1给一正一负，第三方向正。",
+      "canonical_id": "R-MC-02"
+    },
+    {
+      "question_id": "R-MC-03",
+      "status": "included",
+      "reason": "平方和用线性形式共同零点或系数阵列满秩判正定。",
+      "canonical_id": "R-MC-03"
+    },
+    {
+      "question_id": "R-MC-04",
+      "status": "included",
+      "reason": "矩阵多项式给特征值1,-3，rank(A-E)给-3重数1；标准形平方系数是谱。",
+      "canonical_id": "R-MC-04"
+    },
+    {
+      "question_id": "R-MC-05",
+      "status": "included",
+      "reason": "相似在减标量阵下保持；等价/合同一般不保持此操作，用实对称标量阵反例。",
+      "canonical_id": "R-MC-05"
+    },
+    {
+      "question_id": "R-MC-06",
+      "status": "included",
+      "reason": "平方和对应系数阵T满秩iffT^TT正定。",
+      "canonical_id": "R-MC-06"
+    },
+    {
+      "question_id": "R-MC-07",
+      "status": "included",
+      "reason": "规范形固定惯性不固定特征值数值；合同只要求正负惯性一致。",
+      "canonical_id": "R-MC-07"
+    },
+    {
+      "question_id": "R-MC-08",
+      "status": "included",
+      "reason": "父题横跨秩与方程组，但正定AA^T是本章主要入口；保留完整六条不拆条件。",
+      "canonical_id": "R-MC-08"
+    },
+    {
+      "question_id": "R-MC-09",
+      "status": "included",
+      "reason": "惯性与多项式联立先得完整谱，再判断平移矩阵正定、秩、零空间。",
+      "canonical_id": "R-MC-09"
+    },
+    {
+      "question_id": "R-MC-10",
+      "status": "included",
+      "reason": "正定在可逆合同、逆/伴随及求和下保持，作差不保证正定。",
+      "canonical_id": "R-MC-10"
+    },
+    {
+      "question_id": "R-FILL-01",
+      "status": "included",
+      "reason": "矩阵多项式根为3,-1且无零特征值，惯性由给定p与阶数确定。",
+      "canonical_id": "R-FILL-01"
+    },
+    {
+      "question_id": "R-FILL-02",
+      "status": "included",
+      "reason": "合同保持惯性，先从B的二阶块读取一正一负及额外正方向。",
+      "canonical_id": "R-FILL-02"
+    },
+    {
+      "question_id": "R-FILL-03",
+      "status": "included",
+      "reason": "显式构造合同阵：正交对角化A后按目标对角数值缩放特征向量，或配方。",
+      "canonical_id": "R-FILL-03"
+    },
+    {
+      "question_id": "R-FILL-04",
+      "status": "included",
+      "reason": "矩阵取外积对称部分；非零且系数向量正交后，正负方向各一。",
+      "canonical_id": "R-FILL-04"
+    },
+    {
+      "question_id": "R-LONG-01",
+      "status": "included",
+      "reason": "参数由矩阵秩确定；正交标准化之后从非负标准形求零点。",
+      "canonical_id": "R-LONG-01"
+    },
+    {
+      "question_id": "R-LONG-02",
+      "status": "included",
+      "reason": "与抽象正定例6.12同方法，方向为满行秩；不是同一道题。",
+      "canonical_id": "R-LONG-02"
+    },
+    {
+      "question_id": "R-LONG-03",
+      "status": "included",
+      "reason": "第一问是原非对称矩阵可对角化，第二问必须改用二次型的对称矩阵再做正交变换；完整父题保留。",
+      "canonical_id": "R-LONG-03"
+    },
+    {
+      "question_id": "R-LONG-04",
+      "status": "included",
+      "reason": "给惯性即秩1半正定；由秩确定参数，再正交对角化。",
+      "canonical_id": "R-LONG-04"
+    },
+    {
+      "question_id": "R-LONG-05",
+      "status": "included",
+      "reason": "完整父题沿谱分解连通正交标准形、单位球最值和平移矩阵正定；归最值分支。",
+      "canonical_id": "R-LONG-05"
+    },
+    {
+      "question_id": "R-LONG-06",
+      "status": "included",
+      "reason": "对称、零对角与特征向量先确定A；正交对角化和正定平方根由同一谱。",
+      "canonical_id": "R-LONG-06"
+    },
+    {
+      "question_id": "R-LONG-07",
+      "status": "included",
+      "reason": "两个非标准形分别配方到共同规范形可合同；是否正交需检查谱，迹不同即否。",
+      "canonical_id": "R-LONG-07"
+    },
+    {
+      "question_id": "R-LONG-08",
+      "status": "included",
+      "reason": "完整配方到单位阵同时获得正定判别和A=D^TD矩阵分解。",
+      "canonical_id": "R-LONG-08"
+    },
+    {
+      "question_id": "R-LONG-09",
+      "status": "included",
+      "reason": "给定合同变换求参数；f正交对角化，g取P=C^{-1}Q可化成相同标准形。",
+      "canonical_id": "R-LONG-09"
+    },
+    {
+      "candidate_id": "SPC-Q:1",
+      "status": "included",
+      "question_id": "S-01",
+      "reason": "正交变换标准化原题",
+      "canonical_id": "S-01"
+    },
+    {
+      "candidate_id": "SPC-Q:2",
+      "status": "included",
+      "question_id": "S-02",
+      "reason": "带参数的正交标准化，条件与原标准形系数顺序保留",
+      "canonical_id": "S-02"
+    },
+    {
+      "candidate_id": "SPC-Q:3",
+      "status": "included",
+      "question_id": "S-03",
+      "reason": "参数及正交标准化两问完整收录",
+      "canonical_id": "S-03"
+    },
+    {
+      "candidate_id": "SPC-Q:4",
+      "status": "included",
+      "question_id": "S-04",
+      "reason": "矩阵表示和秩前置，不增设Kira框架节点",
+      "canonical_id": "S-04"
+    },
+    {
+      "candidate_id": "SPC-Q:5",
+      "status": "merged",
+      "question_id": "S-05",
+      "reason": "f=0父题完整收录，跨支只关联不复制",
+      "canonical_id": "R-LONG-01",
+      "source_disposition_original": "included",
+      "disposition": "merged",
+      "merged_into": "R-LONG-01"
+    },
+    {
+      "candidate_id": "SPC-Q:6",
+      "status": "included",
+      "question_id": "S-06",
+      "reason": "规范形与惯性指数两问完整收录",
+      "canonical_id": "S-06"
+    },
+    {
+      "candidate_id": "SPC-Q:7",
+      "status": "included",
+      "question_id": "S-07",
+      "reason": "负惯性指数，保留取值边界",
+      "canonical_id": "S-07"
+    },
+    {
+      "candidate_id": "SPC-Q:8",
+      "status": "included",
+      "question_id": "S-08",
+      "reason": "正交标准形列顺序选择题，选项完整",
+      "canonical_id": "S-08"
+    },
+    {
+      "candidate_id": "SPC-Q:9",
+      "status": "included",
+      "question_id": "S-09",
+      "reason": "数三原题公共正定方法，保留真实标签",
+      "canonical_id": "S-09"
+    },
+    {
+      "candidate_id": "SPC-Q_ALIAS:1",
+      "status": "same_question_merge",
+      "question_id": "S-01",
+      "reason": "完整SHA-256相同的讲义副本，保留来源别名，不新计题",
+      "canonical_id": "S-01"
+    },
+    {
+      "candidate_id": "SPC-Q_ALIAS:2",
+      "status": "same_question_merge",
+      "question_id": "S-02",
+      "reason": "完整SHA-256相同的讲义副本",
+      "canonical_id": "S-02"
+    },
+    {
+      "candidate_id": "SPC-Q_ALIAS:3",
+      "status": "same_question_merge",
+      "question_id": "S-03",
+      "reason": "完整SHA-256相同的讲义副本",
+      "canonical_id": "S-03"
+    },
+    {
+      "candidate_id": "SPC-Q_ALIAS:4",
+      "status": "same_question_merge",
+      "question_id": "S-04",
+      "reason": "完整SHA-256相同的讲义副本",
+      "canonical_id": "S-04"
+    },
+    {
+      "candidate_id": "SPC-Q_ALIAS:5",
+      "status": "merged",
+      "question_id": "S-05",
+      "reason": "完整SHA-256相同的讲义副本",
+      "canonical_id": "R-LONG-01",
+      "source_disposition_original": "same_question_merge",
+      "disposition": "merged",
+      "merged_into": "R-LONG-01"
+    },
+    {
+      "candidate_id": "SPC-Q_ALIAS:6",
+      "status": "same_question_merge",
+      "question_id": "S-06",
+      "reason": "完整SHA-256相同的讲义副本",
+      "canonical_id": "S-06"
+    },
+    {
+      "candidate_id": "SPC-Q_ALIAS:7",
+      "status": "same_question_merge",
+      "question_id": "S-07",
+      "reason": "完整SHA-256相同的讲义副本",
+      "canonical_id": "S-07"
+    },
+    {
+      "candidate_id": "SPC-Q_ALIAS:8",
+      "status": "same_question_merge",
+      "question_id": "S-08",
+      "reason": "完整SHA-256相同的讲义副本",
+      "canonical_id": "S-08"
+    },
+    {
+      "candidate_id": "SPC-Q_ALIAS:9",
+      "status": "same_question_merge",
+      "question_id": "S-09",
+      "reason": "完整SHA-256相同的讲义副本",
+      "canonical_id": "S-09"
+    }
+  ],
+  "source_stage_gaps": [
+    {
+      "kind": "original_question_boundary",
+      "question_id": "B-MC-09",
+      "detail": "伴随矩阵正定关系原题未限定n的奇偶，教师用三阶反例得A，固定偶数阶却为充要；需保留边界提示，不假称无歧义。"
+    },
+    {
+      "kind": "强化习题同题讲解缺口",
+      "question_ids": [
+        "R-MC-01",
+        "R-MC-02",
+        "R-MC-03",
+        "R-MC-04",
+        "R-MC-05",
+        "R-MC-06",
+        "R-MC-07",
+        "R-MC-08",
+        "R-MC-09",
+        "R-MC-10",
+        "R-FILL-01",
+        "R-FILL-02",
+        "R-FILL-03",
+        "R-FILL-04",
+        "R-LONG-01",
+        "R-LONG-02",
+        "R-LONG-03",
+        "R-LONG-04",
+        "R-LONG-05",
+        "R-LONG-06",
+        "R-LONG-07",
+        "R-LONG-08",
+        "R-LONG-09"
+      ],
+      "detail": "没有定位到专门强化第六章习题完整答案/板书；已参考真实读过的Kira对应方法页，并独立数学归类。逐题solution_reference标“仅方法参考”而不冒充同题讲解。跨来源若发现真同题，可由主代理合并出处和对应讲解。"
+    },
+    {
+      "kind": "原题措辞边界",
+      "question_ids": [
+        "R-MC-10"
+      ],
+      "detail": "D为不保证正定，非恒非正定；保留原问法并审计说明。"
+    },
+    {
+      "type": "cross_source_deduplication",
+      "status": "parent_integration_required",
+      "detail": "本文件仅完成保100内部同字节副本合并；尚须与基础、强化、配套习题逐题比对，不把专项9题全称新增题。"
+    },
+    {
+      "type": "xiaohua_solution_reference",
+      "status": "not_checked_in_this_subtask",
+      "detail": "本子任务的9道题均已核同题完整Kira专项详解，但未查小荷花/小河花同题板书；不能伪造其配套入口。"
+    },
+    {
+      "type": "framework_and_representative_entry",
+      "status": "parent_owned",
+      "detail": "归位依据根代理已核框架节点清单。强化框架原件定位和最终代表例题由根代理整合，不由专项独自替换。"
+    },
+    {
+      "type": "publication_layout",
+      "status": "not_done_here",
+      "detail": "题干已经回原页核读并转为LaTeX正文；本子任务未做最终PDF排版、全页渲染验收。"
+    },
+    {
+      "type": "exam_scope",
+      "status": "preserved",
+      "detail": "第9题明确数三，其余专项原题未逐题标明考种。以题意公共二次型方法归位，不猜写其他题的真题年份与考种。"
+    }
+  ],
+  "remaining_limits": [
+    {
+      "kind": "original_question_boundary",
+      "question_id": "B-MC-09",
+      "detail": "伴随矩阵正定关系原题未限定n的奇偶，教师用三阶反例得A，固定偶数阶却为充要；需保留边界提示，不假称无歧义。"
+    },
+    {
+      "kind": "强化习题同题讲解缺口",
+      "question_ids": [
+        "R-MC-01",
+        "R-MC-02",
+        "R-MC-03",
+        "R-MC-04",
+        "R-MC-05",
+        "R-MC-06",
+        "R-MC-07",
+        "R-MC-08",
+        "R-MC-09",
+        "R-MC-10",
+        "R-FILL-01",
+        "R-FILL-02",
+        "R-FILL-03",
+        "R-FILL-04",
+        "R-LONG-02",
+        "R-LONG-03",
+        "R-LONG-04",
+        "R-LONG-05",
+        "R-LONG-06",
+        "R-LONG-07",
+        "R-LONG-08",
+        "R-LONG-09"
+      ],
+      "detail": "没有定位到专门强化第六章习题完整答案/板书；已参考真实读过的Kira对应方法页，并独立数学归类。逐题solution_reference标“仅方法参考”而不冒充同题讲解。跨来源若发现真同题，可由主代理合并出处和对应讲解。"
+    },
+    {
+      "kind": "原题措辞边界",
+      "question_ids": [
+        "R-MC-10"
+      ],
+      "detail": "D为不保证正定，非恒非正定；保留原问法并审计说明。"
+    },
+    {
+      "kind": "小河花同题讲解未找到",
+      "scope": "本次二次型全部所选题源",
+      "detail": "已查相关目录，没有可匹配的线代二次型原件；不将高数板书作为配套。"
+    }
+  ],
+  "counts": {
+    "source_question_records_before_copy_merge": 88,
+    "canonical_source_parent_records": 72,
+    "included_independent_parent_questions": 68,
+    "merged_parent_records": 1,
+    "excluded_parent_questions": 3,
+    "pending_parent_questions": 0
+  },
+  "merge_review": "仅人工确认完整题干、共享条件与全部小问相同后合并；同表达式不同问法保留。",
+  "transport": {
+    "github_commit": "73c697b99279ba782542b7258f7837845250481b",
+    "cloud_task_id": "6aca37b9-21d4-83ea-8ca9-599e276175c7",
+    "cloud_input_verification": "云端已回报11份PDF字节、页数及完整SHA匹配；这不是数学全文核验。"
+  }
+}

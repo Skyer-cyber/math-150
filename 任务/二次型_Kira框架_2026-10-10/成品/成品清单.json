@@ -1,0 +1,36 @@
+{
+  "status": "本地成品已完成，云端仅同步备份不重复制作",
+  "completed_date": "2026-10-11",
+  "pdf_pages": 27,
+  "independent_parent_questions": 68,
+  "representative_entries": 15,
+  "source_input_commit": "73c697b99279ba782542b7258f7837845250481b",
+  "files": [
+    {
+      "path": "任务/二次型_Kira框架_2026-10-10/成品/二次型_Kira框架题库.pdf",
+      "bytes": 436146,
+      "sha256": "58028e1ddd3c0c5b9c970af41d5777f01fbc17ca956764da29ecadb40c1c4552"
+    },
+    {
+      "path": "任务/二次型_Kira框架_2026-10-10/成品/二次型_Kira框架题库.tex",
+      "bytes": 93671,
+      "sha256": "ab9a20454954e6862c655c4849203c446dfc056b94aacb35952f0444d4d4e5ac"
+    },
+    {
+      "path": "任务/二次型_Kira框架_2026-10-10/成品/学习导航.md",
+      "bytes": 19161,
+      "sha256": "ce4c33ed4f492bc23f8cd7afdb41d21325f6a4681cfdd231135011adcf68f5d8"
+    },
+    {
+      "path": "任务/二次型_Kira框架_2026-10-10/成品/来源与归位.json",
+      "bytes": 166612,
+      "sha256": "9787128ae24152d8764c3c72d572af333caf5c0944fa8c170303252e069c4386"
+    },
+    {
+      "path": "任务/二次型_Kira框架_2026-10-10/成品/核查与覆盖.md",
+      "bytes": 5943,
+      "sha256": "c6c66b096922c80412775bafa92a0d126c645b80330c37cfa02f624a1514a307"
+    }
+  ],
+  "verification": "11份源文件哈希页数、框架原层级、全部题目归位和代表入口、27页实际渲染检查；原解边界和22题缺同题完整讲解见核查与覆盖。"
+}
