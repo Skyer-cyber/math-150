@@ -9,7 +9,14 @@ import sys
 def verify(root):
     manifest = json.loads((root / 'MANIFEST.json').read_text())
     failures = []
-    for entry in manifest['files']:
+    entries = list(manifest['files'])
+    economics_path = root / '经济学150' / 'MANIFEST.json'
+    if economics_path.is_file():
+        economics = json.loads(economics_path.read_text())
+        for source in economics['sources']:
+            for part in source['parts']:
+                entries.append({'path': part['repository_path'], 'bytes': part['bytes'], 'sha256': part['sha256']})
+    for entry in entries:
         path = root / entry['path']
         if not path.is_file():
             failures.append({'path': entry['path'], 'error': 'missing'})
@@ -21,9 +28,9 @@ def verify(root):
             'git_blob_sha1': hashlib.sha1(f'blob {len(data)}\0'.encode() + data).hexdigest(),
         }
         for key, value in actual.items():
-            if entry[key] != value:
+            if key in entry and entry[key] != value:
                 failures.append({'path': entry['path'], 'error': key})
-    expected = {e['path'] for e in manifest['files']}
+    expected = {e['path'] for e in entries}
     found = {p.relative_to(root).as_posix() for p in root.rglob('*.pdf') if '.git' not in p.parts}
     if expected != found:
         failures.append({'inventory_difference': sorted(expected ^ found)})

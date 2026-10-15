@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-15",
+  "status": "complete",
+  "source_files": 11,
+  "source_pdf_pages": 2670,
+  "pdf_files": 68,
+  "searchable_text_pages": 2670,
+  "ocr_pages": 2246,
+  "native_text_pages": 424,
+  "text_chunks": 139,
+  "all_pdf_sha256_verified": true,
+  "split_page_visual_verification": "All 1588 split PDF pages matched source rendered pixels locally",
+  "assembly_workflow_run": "https://github.com/Skyer-cyber/math-150/actions/runs/38718065872"
+}

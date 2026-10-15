@@ -1,0 +1,2048 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "repository": "Skyer-cyber/math-150",
+  "repository_directory": "经济学150",
+  "source_directory_name": "经济学 150",
+  "pdf_page_numbering": "1-based physical PDF pages; printed page labels may differ",
+  "sources": [
+    {
+      "name": "01_消费者_两遍练习.pdf",
+      "bytes": 1433048,
+      "sha256": "09377aacd3c96d3f9281ea031cab81f3ea7cfcee4a060b1967b3ea3e430fe2af",
+      "pages": 68,
+      "storage": "original",
+      "parts": [
+        {
+          "repository_path": "经济学150/原件/01_消费者_两遍练习.pdf",
+          "source_page_start": 1,
+          "source_page_end": 68,
+          "pages": 68,
+          "bytes": 1433048,
+          "sha256": "09377aacd3c96d3f9281ea031cab81f3ea7cfcee4a060b1967b3ea3e430fe2af",
+          "verification": "byte-identical original"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 68,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 68,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/01_消费者_两遍练习/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/01_消费者_两遍练习/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 16451,
+            "sha256": "5176807c39a63d5312fb9d3e08ee41ce6dbcadeece6090a9b2a70090df55d62d"
+          },
+          {
+            "repository_path": "经济学150/检索文本/01_消费者_两遍练习/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 15910,
+            "sha256": "28db5b4e1facfd3c8f19e5b92a9d91feaaed70d59c1895acf9a5bc217acfa785"
+          },
+          {
+            "repository_path": "经济学150/检索文本/01_消费者_两遍练习/P0041-P0060.md",
+            "source_page_start": 41,
+            "source_page_end": 60,
+            "bytes": 16312,
+            "sha256": "0b106d84936d8056d36716cf67e1b13900ec4538bde7ecc75e4ae4ff007133e3"
+          },
+          {
+            "repository_path": "经济学150/检索文本/01_消费者_两遍练习/P0061-P0068.md",
+            "source_page_start": 61,
+            "source_page_end": 68,
+            "bytes": 6294,
+            "sha256": "ee66ea1564d7c1ef65095acaf6aea8846d5a79f8d1f5f2efe39814d6c0eca547"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/原件/01_消费者_两遍练习.pdf"
+    },
+    {
+      "name": "02_不确定性_两遍练习.pdf",
+      "bytes": 1201498,
+      "sha256": "e2e7e5ea9879a67e836bd85b76e9d239d395f1ac0500481d8eddbf6a4d46fc7e",
+      "pages": 42,
+      "storage": "original",
+      "parts": [
+        {
+          "repository_path": "经济学150/原件/02_不确定性_两遍练习.pdf",
+          "source_page_start": 1,
+          "source_page_end": 42,
+          "pages": 42,
+          "bytes": 1201498,
+          "sha256": "e2e7e5ea9879a67e836bd85b76e9d239d395f1ac0500481d8eddbf6a4d46fc7e",
+          "verification": "byte-identical original"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 42,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 42,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/02_不确定性_两遍练习/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/02_不确定性_两遍练习/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 17970,
+            "sha256": "d73dec608fb3add87a71dc9719d3a6e3266fe9e84fb9cdf20bcd4efaea2372c0"
+          },
+          {
+            "repository_path": "经济学150/检索文本/02_不确定性_两遍练习/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 18586,
+            "sha256": "e018a62279d45e3ff3e1c94085fd8c9395572e713a45e7b84f545dac64ac6d32"
+          },
+          {
+            "repository_path": "经济学150/检索文本/02_不确定性_两遍练习/P0041-P0042.md",
+            "source_page_start": 41,
+            "source_page_end": 42,
+            "bytes": 2291,
+            "sha256": "4243406a237aec8a2ac78e7e805440f1e0f12d5eb3b91a806b9c3f0b41e761cf"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/原件/02_不确定性_两遍练习.pdf"
+    },
+    {
+      "name": "03_厂商_两遍练习.pdf",
+      "bytes": 1077645,
+      "sha256": "b0aec28f12f371647783f43000359bdeb5bb050429785c0ad79c4fbd8d7f8459",
+      "pages": 56,
+      "storage": "original",
+      "parts": [
+        {
+          "repository_path": "经济学150/原件/03_厂商_两遍练习.pdf",
+          "source_page_start": 1,
+          "source_page_end": 56,
+          "pages": 56,
+          "bytes": 1077645,
+          "sha256": "b0aec28f12f371647783f43000359bdeb5bb050429785c0ad79c4fbd8d7f8459",
+          "verification": "byte-identical original"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 56,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 56,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/03_厂商_两遍练习/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/03_厂商_两遍练习/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 13254,
+            "sha256": "4dc3c29ea6dbbd6c6fe5f95598b25c1934347180dafad6a85fa7dd6b72a51ff0"
+          },
+          {
+            "repository_path": "经济学150/检索文本/03_厂商_两遍练习/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 15983,
+            "sha256": "c8521e78f357490b53dbf2fe3aebc2d922adef000a1ba8f5352442db5eda2d0b"
+          },
+          {
+            "repository_path": "经济学150/检索文本/03_厂商_两遍练习/P0041-P0056.md",
+            "source_page_start": 41,
+            "source_page_end": 56,
+            "bytes": 12533,
+            "sha256": "f8317c50eced9180a77c185da882a9ec330cf13e8e355210b6c6087139d6b623"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/原件/03_厂商_两遍练习.pdf"
+    },
+    {
+      "name": "04_一般均衡_两遍练习.pdf",
+      "bytes": 1284335,
+      "sha256": "b5dc46843197ca7050ff38b28dc92d3f69a0c3f04906444f91f938ed6592bec3",
+      "pages": 38,
+      "storage": "original",
+      "parts": [
+        {
+          "repository_path": "经济学150/原件/04_一般均衡_两遍练习.pdf",
+          "source_page_start": 1,
+          "source_page_end": 38,
+          "pages": 38,
+          "bytes": 1284335,
+          "sha256": "b5dc46843197ca7050ff38b28dc92d3f69a0c3f04906444f91f938ed6592bec3",
+          "verification": "byte-identical original"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 38,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 38,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/04_一般均衡_两遍练习/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/04_一般均衡_两遍练习/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 20635,
+            "sha256": "1e0a6923c608711aa026f0f89b3ba3cfb8637490329c3a622c0e6ce80d3abf49"
+          },
+          {
+            "repository_path": "经济学150/检索文本/04_一般均衡_两遍练习/P0021-P0038.md",
+            "source_page_start": 21,
+            "source_page_end": 38,
+            "bytes": 16235,
+            "sha256": "3b33d394d66d86ae0ac4ed8b0e02c8c9e3bc64fe24186b6f062cd62d7cf51366"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/原件/04_一般均衡_两遍练习.pdf"
+    },
+    {
+      "name": "05_局部均衡_两遍练习.pdf",
+      "bytes": 2222903,
+      "sha256": "2a19af32da694f588cbb20eae195bd95cbaa969cc20a2b8be60c249187607d67",
+      "pages": 53,
+      "storage": "original",
+      "parts": [
+        {
+          "repository_path": "经济学150/原件/05_局部均衡_两遍练习.pdf",
+          "source_page_start": 1,
+          "source_page_end": 53,
+          "pages": 53,
+          "bytes": 2222903,
+          "sha256": "2a19af32da694f588cbb20eae195bd95cbaa969cc20a2b8be60c249187607d67",
+          "verification": "byte-identical original"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 53,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 53,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/05_局部均衡_两遍练习/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/05_局部均衡_两遍练习/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 27796,
+            "sha256": "a425e7700a5c9b00310880ef80efbe1b456a1bf746e5f04c191d8b660e654461"
+          },
+          {
+            "repository_path": "经济学150/检索文本/05_局部均衡_两遍练习/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 19719,
+            "sha256": "e0fdcf43543854c7a0a20880a5210bf9472c9e432b0a8be5db37d07b692e1cab"
+          },
+          {
+            "repository_path": "经济学150/检索文本/05_局部均衡_两遍练习/P0041-P0053.md",
+            "source_page_start": 41,
+            "source_page_end": 53,
+            "bytes": 13101,
+            "sha256": "4d93e1e508f8bfbdd23b4335854976731ee8912b1c9e8664a74ea05e9ec43a7e"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/原件/05_局部均衡_两遍练习.pdf"
+    },
+    {
+      "name": "06_博弈论（第六部分暂定）_两遍练习.pdf",
+      "bytes": 1967473,
+      "sha256": "8a9a76504ce4680d8372d9bb91ce44f520c349fe3c58b0ae72d6c0c89d89f4a5",
+      "pages": 49,
+      "storage": "original",
+      "parts": [
+        {
+          "repository_path": "经济学150/原件/06_博弈论（第六部分暂定）_两遍练习.pdf",
+          "source_page_start": 1,
+          "source_page_end": 49,
+          "pages": 49,
+          "bytes": 1967473,
+          "sha256": "8a9a76504ce4680d8372d9bb91ce44f520c349fe3c58b0ae72d6c0c89d89f4a5",
+          "verification": "byte-identical original"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 49,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 49,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/06_博弈论（第六部分暂定）_两遍练习/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/06_博弈论（第六部分暂定）_两遍练习/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 25656,
+            "sha256": "41d866c7d176b87e49fad37f0e08785d2ef33c4185d29900e9804601d882b898"
+          },
+          {
+            "repository_path": "经济学150/检索文本/06_博弈论（第六部分暂定）_两遍练习/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 23682,
+            "sha256": "fd577b3b6be3656dc13e020a53ac16a994431cc7a5f9719e7f24ffbed824ee96"
+          },
+          {
+            "repository_path": "经济学150/检索文本/06_博弈论（第六部分暂定）_两遍练习/P0041-P0049.md",
+            "source_page_start": 41,
+            "source_page_end": 49,
+            "bytes": 10215,
+            "sha256": "192199d9416df5815c610e2414a5ce8a8aa92a483a6750953bd48cc0ddf46a6b"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/原件/06_博弈论（第六部分暂定）_两遍练习.pdf"
+    },
+    {
+      "name": "圣才曼昆11版.pdf",
+      "bytes": 12764338,
+      "sha256": "ec64c656fe4bbc00f3afe8112247818aeaa11918178ac0fbc1d2823a753b7fb0",
+      "pages": 424,
+      "storage": "original",
+      "parts": [
+        {
+          "repository_path": "经济学150/原件/圣才曼昆11版.pdf",
+          "source_page_start": 1,
+          "source_page_end": 424,
+          "pages": 424,
+          "bytes": 12764338,
+          "sha256": "ec64c656fe4bbc00f3afe8112247818aeaa11918178ac0fbc1d2823a753b7fb0",
+          "verification": "byte-identical original"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 422,
+      "searchable_text": {
+        "method": "native",
+        "page_count": 424,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/圣才曼昆11版/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 47332,
+            "sha256": "0ee0f1e6417ab5e89c9338692f987b5e9a6c83f7b951395bffad5db9a1541ab4"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 39962,
+            "sha256": "e5aab23cdd90dc58a33c6b791aae0ae8196904d7bb0c565f4c992f7d4bfeb56d"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0041-P0060.md",
+            "source_page_start": 41,
+            "source_page_end": 60,
+            "bytes": 43741,
+            "sha256": "738cce923c0c541ff4b8df8c8937aea5f5631626d55da108f98adc759c6fc183"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0061-P0080.md",
+            "source_page_start": 61,
+            "source_page_end": 80,
+            "bytes": 44858,
+            "sha256": "a58f48b9213fbe4a7c60fd5a9c92f55ff39b2bec36ea2410a520573bf945436c"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0081-P0100.md",
+            "source_page_start": 81,
+            "source_page_end": 100,
+            "bytes": 41879,
+            "sha256": "f429deaa7c3db62d4f62903efae618e3f046af1b2001a950ca606a2d0cd8ca36"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0101-P0120.md",
+            "source_page_start": 101,
+            "source_page_end": 120,
+            "bytes": 31387,
+            "sha256": "588c45d1fb2aff9b0b93697c128a1aca6ef3039fd56b614e5fa37847172717bd"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0121-P0140.md",
+            "source_page_start": 121,
+            "source_page_end": 140,
+            "bytes": 30485,
+            "sha256": "c78fca5868e9999d38cba103b123f400e94da4b89ccb3eedb40300c3e8cef6e3"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0141-P0160.md",
+            "source_page_start": 141,
+            "source_page_end": 160,
+            "bytes": 40519,
+            "sha256": "2e6d7ac9bd372598ca0ffac93c4676a8c4b0e00c4f8219825c0e0df76a2f6cb6"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0161-P0180.md",
+            "source_page_start": 161,
+            "source_page_end": 180,
+            "bytes": 37093,
+            "sha256": "d140ed26491745ebb38ad9a18b2c16acd303ebd039b69d100bb41e211a52b364"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0181-P0200.md",
+            "source_page_start": 181,
+            "source_page_end": 200,
+            "bytes": 39777,
+            "sha256": "a2604d6a79896bb6d53afe47539b839f697acd3d80c521ef08de2f89e3f0ad00"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0201-P0220.md",
+            "source_page_start": 201,
+            "source_page_end": 220,
+            "bytes": 34222,
+            "sha256": "f4bd5ec6c273b93ca9d86dc038e5e7dc9c23a70900ccadd663b04051398dfe27"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0221-P0240.md",
+            "source_page_start": 221,
+            "source_page_end": 240,
+            "bytes": 37798,
+            "sha256": "4454e2badb282b12a950acba509ab2ffd7e8abc07744028b750c8e95272a0482"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0241-P0260.md",
+            "source_page_start": 241,
+            "source_page_end": 260,
+            "bytes": 33051,
+            "sha256": "b012227abf4bc36589a0d5eaea3c0fd950b4db167b5f465b399fafb79ba3fb8e"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0261-P0280.md",
+            "source_page_start": 261,
+            "source_page_end": 280,
+            "bytes": 29514,
+            "sha256": "02803e64b7451a180bfed39adeea33386905cc10bfb7a443b359ab5b2a56e754"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0281-P0300.md",
+            "source_page_start": 281,
+            "source_page_end": 300,
+            "bytes": 30434,
+            "sha256": "3f0160745ef14008991e3d93fad78f048370298f84753967a4710ec9c4cdf361"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0301-P0320.md",
+            "source_page_start": 301,
+            "source_page_end": 320,
+            "bytes": 35741,
+            "sha256": "02c28ec958412f4f45a6d79bfa33a645e81678b44c6a1fb4fecc5258759c7b68"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0321-P0340.md",
+            "source_page_start": 321,
+            "source_page_end": 340,
+            "bytes": 32963,
+            "sha256": "8863d9b0af14014845bcb3ae487c08051b97c92927136919a4e086186391c3be"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0341-P0360.md",
+            "source_page_start": 341,
+            "source_page_end": 360,
+            "bytes": 40172,
+            "sha256": "e8c1691e25c6d5ae9a9018d1e25b2eb402f28819d6321df4485e806a7a78860a"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0361-P0380.md",
+            "source_page_start": 361,
+            "source_page_end": 380,
+            "bytes": 42199,
+            "sha256": "e0ced44eb619c42d008551c712bb1b3f0b53e32da0af9afdb8b6e3ddba860849"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0381-P0400.md",
+            "source_page_start": 381,
+            "source_page_end": 400,
+            "bytes": 33473,
+            "sha256": "eaef87121f3bc463a3185b6012833e2a8ef81d1f060c7f89835751dd51b71563"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0401-P0420.md",
+            "source_page_start": 401,
+            "source_page_end": 420,
+            "bytes": 43162,
+            "sha256": "d48c0c135ab2ecfafcf16ef8489f0fcbf961d903178105a49814cc623420da46"
+          },
+          {
+            "repository_path": "经济学150/检索文本/圣才曼昆11版/P0421-P0424.md",
+            "source_page_start": 421,
+            "source_page_end": 424,
+            "bytes": 6060,
+            "sha256": "7f5f396d7b2e128adbefe5a7fb1800e0a2c2494d29cbb58effa5988049fd00a8"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/原件/圣才曼昆11版.pdf"
+    },
+    {
+      "name": "尼克尔森12版.pdf",
+      "bytes": 606230915,
+      "sha256": "9c7f7b3a19a11320addac09058f9176e69197d2869677fbade874720c9879401",
+      "pages": 650,
+      "storage": "lossless_page_parts",
+      "parts": [
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0001-P0020.pdf",
+          "source_page_start": 1,
+          "source_page_end": 20,
+          "pages": 20,
+          "bytes": 18583373,
+          "sha256": "ccfb81aaeba6cac4714a4b0cdbedb9573c886addc1454e54120744719196c71b",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0021-P0040.pdf",
+          "source_page_start": 21,
+          "source_page_end": 40,
+          "pages": 20,
+          "bytes": 17306210,
+          "sha256": "a999456a23ac44d84c73a5e9fce827183335cebf3392483bd662c92c4e57438a",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0041-P0060.pdf",
+          "source_page_start": 41,
+          "source_page_end": 60,
+          "pages": 20,
+          "bytes": 16737808,
+          "sha256": "7c50adebdce3acce10b15c4610919b4fdc16a7e66193859cce9737dc48fc7794",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0061-P0080.pdf",
+          "source_page_start": 61,
+          "source_page_end": 80,
+          "pages": 20,
+          "bytes": 17455092,
+          "sha256": "1347e8c7cfacb41e9763dc34fd4d0e489e412ba487f5d79709aab50659f0072c",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0081-P0100.pdf",
+          "source_page_start": 81,
+          "source_page_end": 100,
+          "pages": 20,
+          "bytes": 19196663,
+          "sha256": "0ad35200f2f2c13344c76a6daf9842e271a6b380b03fbe1dd2fc50c458a99991",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0101-P0120.pdf",
+          "source_page_start": 101,
+          "source_page_end": 120,
+          "pages": 20,
+          "bytes": 17859729,
+          "sha256": "2627f004f50fef4157162d5a79b5e6fa675fab04bf20f66e9427fea81defe3de",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0121-P0140.pdf",
+          "source_page_start": 121,
+          "source_page_end": 140,
+          "pages": 20,
+          "bytes": 18220011,
+          "sha256": "16c6f97fdd02532fb2e6ef10169cfeebc2e519cd8e6cbadd0308dc89484b4d3a",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0141-P0160.pdf",
+          "source_page_start": 141,
+          "source_page_end": 160,
+          "pages": 20,
+          "bytes": 18727811,
+          "sha256": "8ce01679837e2595edeef01d4634f0b8743589deb2915f7e9b945bf542385532",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0161-P0180.pdf",
+          "source_page_start": 161,
+          "source_page_end": 180,
+          "pages": 20,
+          "bytes": 17335589,
+          "sha256": "05e33bcec6a8498e414309e98f196ab2c3c20e426abc4d8a15779672d5d48fbc",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0181-P0200.pdf",
+          "source_page_start": 181,
+          "source_page_end": 200,
+          "pages": 20,
+          "bytes": 19908596,
+          "sha256": "947647eb1b7681070e36144d53e1980f3594dbcf4b5e8d87226ded10a3c96ca7",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0201-P0220.pdf",
+          "source_page_start": 201,
+          "source_page_end": 220,
+          "pages": 20,
+          "bytes": 21058652,
+          "sha256": "3ee4be787f234ebc224e19ca999a1b5754be48e5b154d8afabf329fec5f224c9",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0221-P0240.pdf",
+          "source_page_start": 221,
+          "source_page_end": 240,
+          "pages": 20,
+          "bytes": 19514640,
+          "sha256": "83c31cbae99d87dd37f6c2ba5009f134c170ec69980cbdc1b997170875a3a3d0",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0241-P0260.pdf",
+          "source_page_start": 241,
+          "source_page_end": 260,
+          "pages": 20,
+          "bytes": 17952986,
+          "sha256": "5a3d698b302cf333d8b169183fbb5753b0a5b296c764f08423b876c17711786a",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0261-P0280.pdf",
+          "source_page_start": 261,
+          "source_page_end": 280,
+          "pages": 20,
+          "bytes": 18178948,
+          "sha256": "5b74aebc00739f46eb2dccf605b391c33ba2e73a9895a081c9b50caf5523c9b9",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0281-P0300.pdf",
+          "source_page_start": 281,
+          "source_page_end": 300,
+          "pages": 20,
+          "bytes": 17914472,
+          "sha256": "4f078f8ccb650df26b0b8a434b5fb5c0fad7c50e3fdd28ffd49637b4351b7ae9",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0301-P0320.pdf",
+          "source_page_start": 301,
+          "source_page_end": 320,
+          "pages": 20,
+          "bytes": 18317206,
+          "sha256": "ea19b54548c96d902048a07c6dedfe6a06d08649f9599d81e3de50225b9de47c",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0321-P0340.pdf",
+          "source_page_start": 321,
+          "source_page_end": 340,
+          "pages": 20,
+          "bytes": 20705024,
+          "sha256": "b151eef14dd3a408c64b93623dd72c762b70cb681bf152f12c8679e108606c6e",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0341-P0360.pdf",
+          "source_page_start": 341,
+          "source_page_end": 360,
+          "pages": 20,
+          "bytes": 17856204,
+          "sha256": "2c99aeacf53e2b212a01667af1239ae8444935eb8f06f2666c59bf0008cb203b",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0361-P0380.pdf",
+          "source_page_start": 361,
+          "source_page_end": 380,
+          "pages": 20,
+          "bytes": 19143510,
+          "sha256": "f917c8972f9cddefe70e5808179b7d6dc5ac6b886c8d63aea4c4a278832dbdfb",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0381-P0400.pdf",
+          "source_page_start": 381,
+          "source_page_end": 400,
+          "pages": 20,
+          "bytes": 18338651,
+          "sha256": "9541573800d08b124209b681c117aa8c348ef63d1ba98bd5fee5b2f2cfad1261",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0401-P0420.pdf",
+          "source_page_start": 401,
+          "source_page_end": 420,
+          "pages": 20,
+          "bytes": 19301980,
+          "sha256": "7791d7d8d159ac6d5d212f69d0e8e8958b42741f82c4032fd3545b540e11bdb9",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0421-P0440.pdf",
+          "source_page_start": 421,
+          "source_page_end": 440,
+          "pages": 20,
+          "bytes": 19142660,
+          "sha256": "3d9fc0dc481e2ee888ef8760b7ee9c03f8f1edae18e91d5d6e99f5a8245deaf0",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0441-P0460.pdf",
+          "source_page_start": 441,
+          "source_page_end": 460,
+          "pages": 20,
+          "bytes": 19182815,
+          "sha256": "ed2e48911f4fe3597d86875eaca852accb59f9a6b61f67c43ed56be2e8cdcf6b",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0461-P0480.pdf",
+          "source_page_start": 461,
+          "source_page_end": 480,
+          "pages": 20,
+          "bytes": 20655531,
+          "sha256": "837fa9a741db49c260b26e88716f1f1fd5757f160a214a202e9f9c50406b685d",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0481-P0500.pdf",
+          "source_page_start": 481,
+          "source_page_end": 500,
+          "pages": 20,
+          "bytes": 18461913,
+          "sha256": "bf65bd72f70251f38e1db56d8f55e3e83430527d972236c9195a9ea3cebbacce",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0501-P0520.pdf",
+          "source_page_start": 501,
+          "source_page_end": 520,
+          "pages": 20,
+          "bytes": 18533425,
+          "sha256": "8a1c6085bd0074121d30f183f320361d00d7670ec783660c3323e149bc6dfc9d",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0521-P0540.pdf",
+          "source_page_start": 521,
+          "source_page_end": 540,
+          "pages": 20,
+          "bytes": 16378964,
+          "sha256": "97dbac6b7395b9c62493bf9e9c4d8222c01904d2616812ad5b5494cce5c178ec",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0541-P0560.pdf",
+          "source_page_start": 541,
+          "source_page_end": 560,
+          "pages": 20,
+          "bytes": 20842025,
+          "sha256": "71718f6c21d62657d1089d8a10c8703b33074c0053f606736c64841465a21596",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0561-P0580.pdf",
+          "source_page_start": 561,
+          "source_page_end": 580,
+          "pages": 20,
+          "bytes": 21636896,
+          "sha256": "599cb3bde61eca6cb51003c2755e019a5b3349f4a2c0a59fd1d5e255162aa863",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0581-P0600.pdf",
+          "source_page_start": 581,
+          "source_page_end": 600,
+          "pages": 20,
+          "bytes": 19284830,
+          "sha256": "fb51a82bd65a07639c1e0476dafcbe6a76fd68374f6f3c3b58120a4cb1d87575",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0601-P0620.pdf",
+          "source_page_start": 601,
+          "source_page_end": 620,
+          "pages": 20,
+          "bytes": 18768572,
+          "sha256": "fa7926f6b3d1371756b5ecee82f4c77e5eddfcdc7a63cd830e3ae92f58df955a",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0621-P0640.pdf",
+          "source_page_start": 621,
+          "source_page_end": 640,
+          "pages": 20,
+          "bytes": 15481148,
+          "sha256": "147bdcff94382a22b9c9b24dd6d6a7f1d118a695e3f01fcfe82c121f241008e2",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/尼克尔森12版/尼克尔森12版_P0641-P0650.pdf",
+          "source_page_start": 641,
+          "source_page_end": 650,
+          "pages": 10,
+          "bytes": 8243733,
+          "sha256": "c01164ad321f25b18273d438c9b8e2c117eb675ebe0792b7625d36720e78fc3c",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 0,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 650,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/尼克尔森12版/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 57820,
+            "sha256": "8868622b9e1f02e18a84f9f8bc03ea6536eaf44bbbe232ba626e508094e17813"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 55122,
+            "sha256": "d099567991b3e9424a7aeb47565712c49983da16473b45bcaa9d9250f3cd99f5"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0041-P0060.md",
+            "source_page_start": 41,
+            "source_page_end": 60,
+            "bytes": 52662,
+            "sha256": "cbbd5017998fbdabb938e109c042823f9c6df9c7111baf516275bb63d1d02f7f"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0061-P0080.md",
+            "source_page_start": 61,
+            "source_page_end": 80,
+            "bytes": 56529,
+            "sha256": "b6e013b4220bddde05c538de8f2324b84974a32d124e2591bd6b0bbdad68fefe"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0081-P0100.md",
+            "source_page_start": 81,
+            "source_page_end": 100,
+            "bytes": 59354,
+            "sha256": "9db3f964ee38ab2d8753902695e49a2564d830ce5e8baf31f3e5e16af45be705"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0101-P0120.md",
+            "source_page_start": 101,
+            "source_page_end": 120,
+            "bytes": 58534,
+            "sha256": "eb7939c0b352699f6e06a9cd806e791c23a1aaf5fe0360faf27a66387fa5d202"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0121-P0140.md",
+            "source_page_start": 121,
+            "source_page_end": 140,
+            "bytes": 57977,
+            "sha256": "6bc26a876a1b8aec7efdd957a44a142fe35203739a98ee4c09f0ea7e5863fd0c"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0141-P0160.md",
+            "source_page_start": 141,
+            "source_page_end": 160,
+            "bytes": 60861,
+            "sha256": "1a9714f03d1bb74023663f7c190ec55316aa4fe058606038213d98679fe663fb"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0161-P0180.md",
+            "source_page_start": 161,
+            "source_page_end": 180,
+            "bytes": 55267,
+            "sha256": "014e3f830428c06a30450cfcb43e23e4779dfc1920b8bb57bf694e6db6609c18"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0181-P0200.md",
+            "source_page_start": 181,
+            "source_page_end": 200,
+            "bytes": 66862,
+            "sha256": "723b78454232b7c747496aabb651b57152903e572b9b52fc6cb4bf25a0af4733"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0201-P0220.md",
+            "source_page_start": 201,
+            "source_page_end": 220,
+            "bytes": 71273,
+            "sha256": "4d71e82581f7070f118a44930cf85b6775e652c9fc882e94e0ca089415ce29ca"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0221-P0240.md",
+            "source_page_start": 221,
+            "source_page_end": 240,
+            "bytes": 65238,
+            "sha256": "866627aebe1c3c169305446fd3641f7c8ab0bca4df01b784596461cf73e02689"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0241-P0260.md",
+            "source_page_start": 241,
+            "source_page_end": 260,
+            "bytes": 57928,
+            "sha256": "0eae9ca8b90bdcc5dac09efe675bb90e392684a8e66a21b48e5afa136eda4328"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0261-P0280.md",
+            "source_page_start": 261,
+            "source_page_end": 280,
+            "bytes": 59099,
+            "sha256": "5dae4e3b5983a56719d4ee10c1af0941a93e8457d9a88bd35de3a1ad729ef877"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0281-P0300.md",
+            "source_page_start": 281,
+            "source_page_end": 300,
+            "bytes": 58636,
+            "sha256": "09667f0aa09535a2f7187f35e31d25752834336dc1a22faf221afba84d510d5d"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0301-P0320.md",
+            "source_page_start": 301,
+            "source_page_end": 320,
+            "bytes": 59556,
+            "sha256": "533c781d46fb181e046923bbd728dc60ed115b5b5925ad174b8ac9c0d0af680b"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0321-P0340.md",
+            "source_page_start": 321,
+            "source_page_end": 340,
+            "bytes": 70384,
+            "sha256": "07156c671b1436be40624097b1acb80f7ee938bc889ef26703a4d620ed31dc58"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0341-P0360.md",
+            "source_page_start": 341,
+            "source_page_end": 360,
+            "bytes": 57938,
+            "sha256": "476d66da84fd031c2a9228dc01643872c7d0d37a0502e8c538bf61a824ce90cf"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0361-P0380.md",
+            "source_page_start": 361,
+            "source_page_end": 380,
+            "bytes": 63713,
+            "sha256": "f0306f6a2c024f880f30c2dc9fd16c6a2d6f1e211d0b112cfcdfcc0ea20e21bd"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0381-P0400.md",
+            "source_page_start": 381,
+            "source_page_end": 400,
+            "bytes": 61210,
+            "sha256": "0b2aee50a60dc68fcfff33d88109c793b4568701b036b899d597076476e56105"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0401-P0420.md",
+            "source_page_start": 401,
+            "source_page_end": 420,
+            "bytes": 63296,
+            "sha256": "f29f85ad9155f23c635df608ac6d070099c266db1902793023de278e244a30cc"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0421-P0440.md",
+            "source_page_start": 421,
+            "source_page_end": 440,
+            "bytes": 62452,
+            "sha256": "54750ebaba7e1c46c6a25b379e1f30ff6eea8a5bd0ca1d5c604c775a1d2d51c0"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0441-P0460.md",
+            "source_page_start": 441,
+            "source_page_end": 460,
+            "bytes": 65847,
+            "sha256": "5b79dabc5cbcf9bff3e3409086a407e03e7bd7f64425afa1195f02cb0301bab2"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0461-P0480.md",
+            "source_page_start": 461,
+            "source_page_end": 480,
+            "bytes": 71463,
+            "sha256": "9738bb9c2a72355618aee51ffc2b70814947b14d91e738b6fb4ab20750128a92"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0481-P0500.md",
+            "source_page_start": 481,
+            "source_page_end": 500,
+            "bytes": 62791,
+            "sha256": "477cec25c0feb9176dcfe19b991c81d40c1c6864e058f465f4da9e081a91c17c"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0501-P0520.md",
+            "source_page_start": 501,
+            "source_page_end": 520,
+            "bytes": 62525,
+            "sha256": "8338f0559d8db237f4858bc4018b87dfffbb3ffc00803b42df0ea4e42360be78"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0521-P0540.md",
+            "source_page_start": 521,
+            "source_page_end": 540,
+            "bytes": 53621,
+            "sha256": "a1b5b90569460d880bfcc4d076aed53f4d7fbfd332997477e8610b2ecf977365"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0541-P0560.md",
+            "source_page_start": 541,
+            "source_page_end": 560,
+            "bytes": 68990,
+            "sha256": "58111970e97ad620d9c9f07efe3791ce9cced3602f1130da67aa713b6525a3b8"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0561-P0580.md",
+            "source_page_start": 561,
+            "source_page_end": 580,
+            "bytes": 73715,
+            "sha256": "c7056551bffc620ee122baa337089a58cf88e4e832ec8f0ff5482b6d1dd9f99c"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0581-P0600.md",
+            "source_page_start": 581,
+            "source_page_end": 600,
+            "bytes": 64122,
+            "sha256": "8c49b22033d2f576364b9bf67685f8cb962f8c938042bbbd2f7cc8078a4ce856"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0601-P0620.md",
+            "source_page_start": 601,
+            "source_page_end": 620,
+            "bytes": 62122,
+            "sha256": "89e1dbe5f5117309fa38f8060027baa6d196542b399ebec9f62e266fecfaef20"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0621-P0640.md",
+            "source_page_start": 621,
+            "source_page_end": 640,
+            "bytes": 50336,
+            "sha256": "0b7efb00ea63211838d4480bba880cbb62f2028d0e6693197b0f875ac6fe74ac"
+          },
+          {
+            "repository_path": "经济学150/检索文本/尼克尔森12版/P0641-P0650.md",
+            "source_page_start": 641,
+            "source_page_end": 650,
+            "bytes": 29512,
+            "sha256": "15406a318fb3ca4c25d0208f5a9005d18dfe02ca1b311211ec6da05ea50fa283"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/分卷/尼克尔森12版/README.md"
+    },
+    {
+      "name": "曼昆11版.pdf",
+      "bytes": 320376683,
+      "sha256": "fe22becb4aa5820b977667123a5eb7ebcd3b1611c68d29203204aa287b69999a",
+      "pages": 544,
+      "storage": "lossless_page_parts",
+      "parts": [
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0001-P0032.pdf",
+          "source_page_start": 1,
+          "source_page_end": 32,
+          "pages": 32,
+          "bytes": 18935458,
+          "sha256": "382151e5ebebdd717f78ef4756d98646f7abac7b0d516156f20229b75248be7e",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0033-P0064.pdf",
+          "source_page_start": 33,
+          "source_page_end": 64,
+          "pages": 32,
+          "bytes": 18740729,
+          "sha256": "ef87eb9e7750ed54d90e5ba1590ea98528612883335423991696f6ae5eea9b5a",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0065-P0096.pdf",
+          "source_page_start": 65,
+          "source_page_end": 96,
+          "pages": 32,
+          "bytes": 19228963,
+          "sha256": "0e4a1166b947731a41098475749c221f3c0eb22141844f59811c731566c39d84",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0097-P0128.pdf",
+          "source_page_start": 97,
+          "source_page_end": 128,
+          "pages": 32,
+          "bytes": 18143314,
+          "sha256": "6e869dd9d6a7aaeae1ae2366db1fccc6753f6cc17a710e877ccc05c9104ee8de",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0129-P0160.pdf",
+          "source_page_start": 129,
+          "source_page_end": 160,
+          "pages": 32,
+          "bytes": 17088446,
+          "sha256": "21a169f1dd7f3cdb315b5f1dbd71e1181611c2e81c9c2b46edf091ddf1b20dc4",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0161-P0192.pdf",
+          "source_page_start": 161,
+          "source_page_end": 192,
+          "pages": 32,
+          "bytes": 17703211,
+          "sha256": "a0df6b12dcbd198687dd2b4aa562fe232f9848879c404f20faeea3332976a4d5",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0193-P0224.pdf",
+          "source_page_start": 193,
+          "source_page_end": 224,
+          "pages": 32,
+          "bytes": 18275352,
+          "sha256": "1814c3dd6eaa1b7134fc40410ff33edce4545129274297d1d65f44d6641dd92c",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0225-P0256.pdf",
+          "source_page_start": 225,
+          "source_page_end": 256,
+          "pages": 32,
+          "bytes": 21162950,
+          "sha256": "8c267eaa3c901ff8e44fb76f6616bdd22116698e4fd0d586b0a0ae77e93a4c4a",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0257-P0288.pdf",
+          "source_page_start": 257,
+          "source_page_end": 288,
+          "pages": 32,
+          "bytes": 20491383,
+          "sha256": "730c16a2914d4c5f392484ee3518a89af6a17a35a103581b3c6ba2ccf56661fe",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0289-P0320.pdf",
+          "source_page_start": 289,
+          "source_page_end": 320,
+          "pages": 32,
+          "bytes": 19334152,
+          "sha256": "06b12b2ce73d8eecf29322105458524f532ceaa3537822793e8955de49e4d360",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0321-P0352.pdf",
+          "source_page_start": 321,
+          "source_page_end": 352,
+          "pages": 32,
+          "bytes": 18713461,
+          "sha256": "e22c7ae812723b3e4a031fecac1af274382082ee010a12807a95694ebb44e7ff",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0353-P0384.pdf",
+          "source_page_start": 353,
+          "source_page_end": 384,
+          "pages": 32,
+          "bytes": 18559741,
+          "sha256": "dc405801613b455f00a07f80f1082e23805149f10578cb8dbc0485e7f5970e38",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0385-P0416.pdf",
+          "source_page_start": 385,
+          "source_page_end": 416,
+          "pages": 32,
+          "bytes": 19205401,
+          "sha256": "457d46fc2f863a6b6c6535011cd82d375e03079a4b9f05557aad2ca4672a900f",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0417-P0448.pdf",
+          "source_page_start": 417,
+          "source_page_end": 448,
+          "pages": 32,
+          "bytes": 20171050,
+          "sha256": "2f1f4c5a96daf315ffdf27fd2e303e160c7ff6c726960aa11d2e865054340202",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0449-P0480.pdf",
+          "source_page_start": 449,
+          "source_page_end": 480,
+          "pages": 32,
+          "bytes": 20915462,
+          "sha256": "2c4366f52331d76c04d686db3d52c5c1f01657a8da53ab2d39016c06455d40a3",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0481-P0512.pdf",
+          "source_page_start": 481,
+          "source_page_end": 512,
+          "pages": 32,
+          "bytes": 16859427,
+          "sha256": "18cbe5b5b054fb5595b14511266528c1a79a4eb818a85d819cc433c4cd867e3b",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆11版/曼昆11版_P0513-P0544.pdf",
+          "source_page_start": 513,
+          "source_page_end": 544,
+          "pages": 32,
+          "bytes": 16762210,
+          "sha256": "85fe8ddec0c15feaf7009eddf52a09aebce64d2158d18fabd1f59b6ad4bf89ff",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 0,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 544,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/曼昆11版/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 43277,
+            "sha256": "dccb24b48f960d518a2055ddb7b34dc0ea35eb810db99a4a3cc55c187f86a909"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 58851,
+            "sha256": "b01d2a8baad98a663c009361095e3b7a18c4080023ae55918bb7a6de7e0e651f"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0041-P0060.md",
+            "source_page_start": 41,
+            "source_page_end": 60,
+            "bytes": 52546,
+            "sha256": "a68c502b29e836e8147c2eec70c6ddb887fab498d641fcaef2c0bdcc476a948e"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0061-P0080.md",
+            "source_page_start": 61,
+            "source_page_end": 80,
+            "bytes": 56792,
+            "sha256": "cb7a1598938651df50a80a6531f12931956b19b5b06c8e5a1cfa4b0fa01fec9f"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0081-P0100.md",
+            "source_page_start": 81,
+            "source_page_end": 100,
+            "bytes": 60761,
+            "sha256": "025361b9e42d95aa025520d34020348155196861e11d15e1afada42724ca7b88"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0101-P0120.md",
+            "source_page_start": 101,
+            "source_page_end": 120,
+            "bytes": 56027,
+            "sha256": "f3884b5d38e0d04ee799fe597be121c05ea11b5f337fa1db08cb9e9b3c456d1e"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0121-P0140.md",
+            "source_page_start": 121,
+            "source_page_end": 140,
+            "bytes": 60243,
+            "sha256": "8fcecfa05310d05ee62db1e9637a6b62f62ad716196384f48a9bdc3142c8d2a5"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0141-P0160.md",
+            "source_page_start": 141,
+            "source_page_end": 160,
+            "bytes": 53621,
+            "sha256": "c13896bff8a78fa2a179de9a2abaaf79f8aa55c7a436be92fefb7f93dd879991"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0161-P0180.md",
+            "source_page_start": 161,
+            "source_page_end": 180,
+            "bytes": 50787,
+            "sha256": "63c8cb3cd1da39b6a5bcdd8370fb0e478fd4736b77c492e1f43b63ff8633d3a8"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0181-P0200.md",
+            "source_page_start": 181,
+            "source_page_end": 200,
+            "bytes": 51443,
+            "sha256": "44fab3900932f4bd52d3fe7527454ec7e5c7ec889c68cf42b161b2b240bb3cb4"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0201-P0220.md",
+            "source_page_start": 201,
+            "source_page_end": 220,
+            "bytes": 51247,
+            "sha256": "113aa925c2c9ba31a0160c99c61aeff9e59acae6ad4c49e381d3f11e56ff2984"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0221-P0240.md",
+            "source_page_start": 221,
+            "source_page_end": 240,
+            "bytes": 60722,
+            "sha256": "8b924c8534df7c81e4136f6179c010f87f1787bfc11f950501bec448c3c67756"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0241-P0260.md",
+            "source_page_start": 241,
+            "source_page_end": 260,
+            "bytes": 56979,
+            "sha256": "8c7e9e85b0d31e0a9312699e4dd378960ed425d1ec2b5c89b3427c29619d1c6f"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0261-P0280.md",
+            "source_page_start": 261,
+            "source_page_end": 280,
+            "bytes": 54950,
+            "sha256": "2f9928b1b23f33c478c43a2ff3e00d208408a3dfa4be5095561ac67e36a7ef09"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0281-P0300.md",
+            "source_page_start": 281,
+            "source_page_end": 300,
+            "bytes": 52237,
+            "sha256": "a8c6463bd950b013b7a450c2f07067ae6e2b7aae4fceee0e248b9d8c95f3b128"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0301-P0320.md",
+            "source_page_start": 301,
+            "source_page_end": 320,
+            "bytes": 54195,
+            "sha256": "36e818b6ba10ec1d8bf1a236b56f3c3eda3b7aca0320a4356f12e13aa0e31017"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0321-P0340.md",
+            "source_page_start": 321,
+            "source_page_end": 340,
+            "bytes": 54310,
+            "sha256": "ea626018edc99512ee9b5c2e5d2ff5f0c21c547fb3f8228c42c9268e1cf613a0"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0341-P0360.md",
+            "source_page_start": 341,
+            "source_page_end": 360,
+            "bytes": 55452,
+            "sha256": "745964c4ea23ea4e339ebff18a094103714d2cc75464255ba8e40378d82df6d3"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0361-P0380.md",
+            "source_page_start": 361,
+            "source_page_end": 380,
+            "bytes": 56292,
+            "sha256": "00c3b3ad5478042891175c0e092dbcb4ab1591159461855c7d4a7ef8810e3527"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0381-P0400.md",
+            "source_page_start": 381,
+            "source_page_end": 400,
+            "bytes": 54621,
+            "sha256": "95b8359faa798d23816560c37db9f7b69880710e1c126022eabb9a4401e6c1f3"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0401-P0420.md",
+            "source_page_start": 401,
+            "source_page_end": 420,
+            "bytes": 54089,
+            "sha256": "5efbee23bd3b559875080aac2a94fd125b126607cf69f6c1681f10fcc439b8dd"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0421-P0440.md",
+            "source_page_start": 421,
+            "source_page_end": 440,
+            "bytes": 61723,
+            "sha256": "40e4fe2a79f51b0ad7dcefe9836d4c2ee2ba46e2d8770a96cda70775993f1142"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0441-P0460.md",
+            "source_page_start": 441,
+            "source_page_end": 460,
+            "bytes": 61500,
+            "sha256": "dfe3af42da8dfd24e9ecefd243c95e5eeb8fa00e5cb7e7f176824fd6b9f04865"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0461-P0480.md",
+            "source_page_start": 461,
+            "source_page_end": 480,
+            "bytes": 64118,
+            "sha256": "957c507419189a861d9d035e97494d552610c14831c7a0215afbd5b98a98a069"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0481-P0500.md",
+            "source_page_start": 481,
+            "source_page_end": 500,
+            "bytes": 60346,
+            "sha256": "8b988556175c465df7aa078963b3d01abf257eafd4c7f9d2f6571e47aa5bd3b8"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0501-P0520.md",
+            "source_page_start": 501,
+            "source_page_end": 520,
+            "bytes": 60379,
+            "sha256": "a58a65211f0a3e3cec657f640f83eed5473404f82ce8ee56ef933a72e852ba8a"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0521-P0540.md",
+            "source_page_start": 521,
+            "source_page_end": 540,
+            "bytes": 57029,
+            "sha256": "7346e89be9f811245b142d2a693a45ec6abe63ce6cc3b9aebb203a86fa2ddf96"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆11版/P0541-P0544.md",
+            "source_page_start": 541,
+            "source_page_end": 544,
+            "bytes": 5646,
+            "sha256": "415660df10b24dc991416b1ef84e1f80266ea8f6f17991018613e2748e3cfb90"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/分卷/曼昆11版/README.md"
+    },
+    {
+      "name": "曼昆课后题官方答案.pdf",
+      "bytes": 186018336,
+      "sha256": "909315ef922367f5e9d6e232f3a8fb8c45b37a45fad690493cc690db02a7fd66",
+      "pages": 394,
+      "storage": "lossless_page_parts",
+      "parts": [
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0001-P0041.pdf",
+          "source_page_start": 1,
+          "source_page_end": 41,
+          "pages": 41,
+          "bytes": 22536090,
+          "sha256": "e8449141284802b01b65397dc85222f8e9cec721c327889d7839f0ece9e4c195",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0042-P0082.pdf",
+          "source_page_start": 42,
+          "source_page_end": 82,
+          "pages": 41,
+          "bytes": 18294059,
+          "sha256": "7f7105f489e4ac204599723fe2a1064c8bb485e83d59d1dc7ea8f311fe3de776",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0083-P0123.pdf",
+          "source_page_start": 83,
+          "source_page_end": 123,
+          "pages": 41,
+          "bytes": 17535414,
+          "sha256": "a3979ba1c7888dedb18cdf1585531c0b583722834945f4c4c3537441766bc66c",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0124-P0164.pdf",
+          "source_page_start": 124,
+          "source_page_end": 164,
+          "pages": 41,
+          "bytes": 19760316,
+          "sha256": "ab7050a373a36b30ac621a42f01d7189220642da30d12e47c5699e1836941ba2",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0165-P0205.pdf",
+          "source_page_start": 165,
+          "source_page_end": 205,
+          "pages": 41,
+          "bytes": 18740085,
+          "sha256": "b02f63efc9547636468137fe0c00bb554876f56f2b1161534bec371cd5278a4f",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0206-P0246.pdf",
+          "source_page_start": 206,
+          "source_page_end": 246,
+          "pages": 41,
+          "bytes": 18442183,
+          "sha256": "a321c5ddff1f5a4648b8760185097fa6b8fb60ebceb0d352e56d462e352d7d10",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0247-P0287.pdf",
+          "source_page_start": 247,
+          "source_page_end": 287,
+          "pages": 41,
+          "bytes": 18940409,
+          "sha256": "4f41fbc412f8c62f2e355b774924fc8ad8599a019134d8ab323eb2ecccf02e1d",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0288-P0328.pdf",
+          "source_page_start": 288,
+          "source_page_end": 328,
+          "pages": 41,
+          "bytes": 19369576,
+          "sha256": "ff670ea23f109f6adf30ac81e6ddeef15325dbc8b57a1b8763c6f2eecc2c9ca6",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0329-P0369.pdf",
+          "source_page_start": 329,
+          "source_page_end": 369,
+          "pages": 41,
+          "bytes": 20011736,
+          "sha256": "9f0473fc662b11d5cb4392f5781982a796d085f975f2c63b66489d0bb7808c93",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        },
+        {
+          "repository_path": "经济学150/分卷/曼昆课后题官方答案/曼昆课后题官方答案_P0370-P0394.pdf",
+          "source_page_start": 370,
+          "source_page_end": 394,
+          "pages": 25,
+          "bytes": 12488365,
+          "sha256": "427087538bdb56e8d4cb05894de903a846738d939d25faad4e0edac3531b73bb",
+          "verification": "all page dimensions; first/middle/last rendered pixels match source"
+        }
+      ],
+      "outline": [],
+      "native_text_pages": 0,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 394,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/曼昆课后题官方答案/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 43357,
+            "sha256": "ac6978998676de7d9fa1afd91679e0843ea414d1669dc8bf5fe1ef108492a076"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 63772,
+            "sha256": "93a2d467090f7de0c431669ab4d8e96d466b467410c4762dccb99ca6ce54e6ce"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0041-P0060.md",
+            "source_page_start": 41,
+            "source_page_end": 60,
+            "bytes": 52077,
+            "sha256": "e45cced47325ec3789ef3fccba5c7e61fd24c098b8e7f46aa6d00be6e931b5b9"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0061-P0080.md",
+            "source_page_start": 61,
+            "source_page_end": 80,
+            "bytes": 55662,
+            "sha256": "c01ea9d06beea38206dbbe9316f86007861871348bf0170eb43fb1c70399481f"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0081-P0100.md",
+            "source_page_start": 81,
+            "source_page_end": 100,
+            "bytes": 48288,
+            "sha256": "2418e5c40e5e3a8cd054172b5c9cd53572d883358b69db5a84f8bffcd563b6d8"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0101-P0120.md",
+            "source_page_start": 101,
+            "source_page_end": 120,
+            "bytes": 49005,
+            "sha256": "727f19f6a72b8aa19687f463e48d3d8059933649edbdbeb64276379456d0c6fe"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0121-P0140.md",
+            "source_page_start": 121,
+            "source_page_end": 140,
+            "bytes": 60713,
+            "sha256": "66d0abb58e914df3ec3b6114c8adaf98d94ebaf4265c5faacb4a209c7e7d56c7"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0141-P0160.md",
+            "source_page_start": 141,
+            "source_page_end": 160,
+            "bytes": 59233,
+            "sha256": "608732106b13a9720e46303343e1a2d3400c4b78bb582db234b4f7c5619d61a1"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0161-P0180.md",
+            "source_page_start": 161,
+            "source_page_end": 180,
+            "bytes": 58420,
+            "sha256": "bc6bbc29a137c2db62b6f3cda46993477ef11ad34e6ec9dee7e7aa54676d01d5"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0181-P0200.md",
+            "source_page_start": 181,
+            "source_page_end": 200,
+            "bytes": 55851,
+            "sha256": "33c0a38b16967da1e2822ddcff4babaecae9a4864078dd4702f82cbffe9466c7"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0201-P0220.md",
+            "source_page_start": 201,
+            "source_page_end": 220,
+            "bytes": 58358,
+            "sha256": "b28ca6f2acff80e5aa2cbeaa4eab94e47b5713777168c4e926194317fe275d3c"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0221-P0240.md",
+            "source_page_start": 221,
+            "source_page_end": 240,
+            "bytes": 49377,
+            "sha256": "2e7e8a638b407d2369a93ff0f70a7fa9f720f4f3aa227069522d6b307a7ae759"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0241-P0260.md",
+            "source_page_start": 241,
+            "source_page_end": 260,
+            "bytes": 60414,
+            "sha256": "474869603547c20d0a4e1f074e7370d374457418f5a34973cdd2634439d51bda"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0261-P0280.md",
+            "source_page_start": 261,
+            "source_page_end": 280,
+            "bytes": 56429,
+            "sha256": "c3b30c52a0906dd0d1280f64ff01e9f392047fbf66e20e0a3cca9f0a0e61d268"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0281-P0300.md",
+            "source_page_start": 281,
+            "source_page_end": 300,
+            "bytes": 53864,
+            "sha256": "8181692c6114fe115cb74d36b3e53a3ba72110cf1d5ef842224266bf567a29dc"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0301-P0320.md",
+            "source_page_start": 301,
+            "source_page_end": 320,
+            "bytes": 61614,
+            "sha256": "35bf37fcf27f9869dc194285b22cd2a1ea09adce5e0bd64ab843898eec99f5d8"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0321-P0340.md",
+            "source_page_start": 321,
+            "source_page_end": 340,
+            "bytes": 55572,
+            "sha256": "5745294033f37cfe75e4e4a0e6f53f0f37b33b5bc47af6e805af7ef8dc27b194"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0341-P0360.md",
+            "source_page_start": 341,
+            "source_page_end": 360,
+            "bytes": 60862,
+            "sha256": "8e48c8a8a977b4f46be294f01f3aff76cfeb45f8e446c9b2b7f66c1bf0691964"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0361-P0380.md",
+            "source_page_start": 361,
+            "source_page_end": 380,
+            "bytes": 59828,
+            "sha256": "56756df6453aede825185d1c94f043639c4356a0c340ad7428c7419ecc7fa749"
+          },
+          {
+            "repository_path": "经济学150/检索文本/曼昆课后题官方答案/P0381-P0394.md",
+            "source_page_start": 381,
+            "source_page_end": 394,
+            "bytes": 48086,
+            "sha256": "457382291a0712c55afee4c38dd4411b9e53e31ef0e59d962772d5228ddd378f"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/分卷/曼昆课后题官方答案/README.md"
+    },
+    {
+      "name": "高微吴汉洪.pdf",
+      "bytes": 23126784,
+      "sha256": "1c410088c6dbac84019af160837de6bcc846e0848d2bc3bdfa1087c96e6085d5",
+      "pages": 352,
+      "storage": "original",
+      "parts": [
+        {
+          "repository_path": "经济学150/原件/高微吴汉洪.pdf",
+          "source_page_start": 1,
+          "source_page_end": 352,
+          "pages": 352,
+          "bytes": 23126784,
+          "sha256": "1c410088c6dbac84019af160837de6bcc846e0848d2bc3bdfa1087c96e6085d5",
+          "verification": "byte-identical original"
+        }
+      ],
+      "outline": [
+        [
+          1,
+          "封面",
+          1
+        ],
+        [
+          1,
+          "书名",
+          3
+        ],
+        [
+          1,
+          "版权",
+          4
+        ],
+        [
+          1,
+          "前言",
+          5
+        ],
+        [
+          1,
+          "目录",
+          6
+        ],
+        [
+          1,
+          "第一单元  消费者行为理论",
+          8
+        ],
+        [
+          1,
+          "    一、例题",
+          8
+        ],
+        [
+          1,
+          "    二、习题",
+          13
+        ],
+        [
+          1,
+          "    三、习题参考答案",
+          22
+        ],
+        [
+          1,
+          "第二单元  不确定性下的选择",
+          63
+        ],
+        [
+          1,
+          "    一、例题",
+          63
+        ],
+        [
+          1,
+          "    二、习题",
+          66
+        ],
+        [
+          1,
+          "    三、习题参考答案",
+          71
+        ],
+        [
+          1,
+          "第三单元  生产者行为理论",
+          96
+        ],
+        [
+          1,
+          "  一、例题",
+          96
+        ],
+        [
+          1,
+          "  二、习题",
+          99
+        ],
+        [
+          1,
+          "  三、习题参考答案",
+          105
+        ],
+        [
+          1,
+          "第四单元  博弈论",
+          134
+        ],
+        [
+          1,
+          "    一、例题",
+          134
+        ],
+        [
+          1,
+          "    二、习题",
+          141
+        ],
+        [
+          1,
+          "    三、习题参考答案",
+          151
+        ],
+        [
+          1,
+          "第五单元  局部市场均衡",
+          173
+        ],
+        [
+          1,
+          "    一、例题",
+          173
+        ],
+        [
+          1,
+          "    二、习题",
+          180
+        ],
+        [
+          1,
+          "    三、习题参考答案",
+          190
+        ],
+        [
+          1,
+          "第六单元  一般市场均衡",
+          226
+        ],
+        [
+          1,
+          "    一、例题",
+          226
+        ],
+        [
+          1,
+          "    二、习题",
+          231
+        ],
+        [
+          1,
+          "    三、习题参考答案",
+          236
+        ],
+        [
+          1,
+          "第七单元  外部性与公共物品",
+          257
+        ],
+        [
+          1,
+          "    一、例题",
+          257
+        ],
+        [
+          1,
+          "    二、习题",
+          263
+        ],
+        [
+          1,
+          "    三、习题参考答案",
+          268
+        ],
+        [
+          1,
+          "第八单元  社会选择与福利",
+          289
+        ],
+        [
+          1,
+          "    一、例题",
+          289
+        ],
+        [
+          1,
+          "    二、习题",
+          291
+        ],
+        [
+          1,
+          "    三、习题参考答案",
+          297
+        ],
+        [
+          1,
+          "第九单元  信息经济学",
+          314
+        ],
+        [
+          1,
+          "    一、例题",
+          314
+        ],
+        [
+          1,
+          "    二、习题",
+          321
+        ],
+        [
+          1,
+          "    三、习题参考答案",
+          328
+        ],
+        [
+          1,
+          "  附录：高级微观经济学考试样题",
+          345
+        ],
+        [
+          1,
+          "  参考文献",
+          352
+        ]
+      ],
+      "native_text_pages": 0,
+      "searchable_text": {
+        "method": "Apple Vision OCR accurate zh-Hans/en-US",
+        "page_count": 352,
+        "reviewed_word_by_word": false,
+        "index_path": "经济学150/检索文本/高微吴汉洪/README.md",
+        "chunks": [
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0001-P0020.md",
+            "source_page_start": 1,
+            "source_page_end": 20,
+            "bytes": 27925,
+            "sha256": "b023dd0265e62b1ea55198df4258047af297077d8995a531bae81f1f8aa314a0"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0021-P0040.md",
+            "source_page_start": 21,
+            "source_page_end": 40,
+            "bytes": 23469,
+            "sha256": "79b6b128ea4490e044c6787c45439b9ccbe5701c125c95d9f3fe60a47060fd13"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0041-P0060.md",
+            "source_page_start": 41,
+            "source_page_end": 60,
+            "bytes": 24347,
+            "sha256": "90ff6de0cf131f67d14a4324214088870455599bba8ff9a9b83c4739827fb6f3"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0061-P0080.md",
+            "source_page_start": 61,
+            "source_page_end": 80,
+            "bytes": 32056,
+            "sha256": "2babce26a9feae088ce69614d8e4c9f3918cbac68eac7127c322fe1de39e5837"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0081-P0100.md",
+            "source_page_start": 81,
+            "source_page_end": 100,
+            "bytes": 26863,
+            "sha256": "1ec9ff19a3dcfa3ec12e6de5614610d0ec9b9be7fec8473a19fc51ee8d1ecb90"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0101-P0120.md",
+            "source_page_start": 101,
+            "source_page_end": 120,
+            "bytes": 29855,
+            "sha256": "79d70d9ab40798dbb7e443fba43212c9620e8b87da54ee8d6bfc736dd0fc1128"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0121-P0140.md",
+            "source_page_start": 121,
+            "source_page_end": 140,
+            "bytes": 29415,
+            "sha256": "341409c1dc112e7431cde0a210ebcd1cd1f23f3e846f96658f47f6a03542fade"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0141-P0160.md",
+            "source_page_start": 141,
+            "source_page_end": 160,
+            "bytes": 44613,
+            "sha256": "13e3764d42ed647ae83af2af0c3e86309abbdb94a263ff22d38572d52f1050b0"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0161-P0180.md",
+            "source_page_start": 161,
+            "source_page_end": 180,
+            "bytes": 44525,
+            "sha256": "0960f8e9877d5bd20449bb7ee2ae581dcf0fa6fbc9c8c498297942dcad64a45c"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0181-P0200.md",
+            "source_page_start": 181,
+            "source_page_end": 200,
+            "bytes": 44641,
+            "sha256": "87e98340f8844595578f0ada68d836bbe70e14bb5c6abcd037329dd88375e1bc"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0201-P0220.md",
+            "source_page_start": 201,
+            "source_page_end": 220,
+            "bytes": 28013,
+            "sha256": "1f055fd19d9535ecc4cc2c8442648148532899ef4d8e5d98c7c2680d61ce1cc3"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0221-P0240.md",
+            "source_page_start": 221,
+            "source_page_end": 240,
+            "bytes": 38818,
+            "sha256": "e97844d601210345eb8ed4097f731d201a04732fdbbff5ba355fe2d713a3c437"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0241-P0260.md",
+            "source_page_start": 241,
+            "source_page_end": 260,
+            "bytes": 30056,
+            "sha256": "49ff3f0a432b7e4df9c76ab016eda8b2569cc94c8d6f4271dba3eb90f92a190f"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0261-P0280.md",
+            "source_page_start": 261,
+            "source_page_end": 280,
+            "bytes": 32249,
+            "sha256": "48bef321b8b77251be9c5b73e60993050b9b1af427e37199f6b1ad90ad8a86b4"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0281-P0300.md",
+            "source_page_start": 281,
+            "source_page_end": 300,
+            "bytes": 37400,
+            "sha256": "e45e2dcfe130fafe5dac63c546f3a4fb3454dc529f43362e1a5072887637e260"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0301-P0320.md",
+            "source_page_start": 301,
+            "source_page_end": 320,
+            "bytes": 32482,
+            "sha256": "30a2bee5bc425d2b9b413c022f237fdba7eca32f013e09ba8acd46b9d669ef25"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0321-P0340.md",
+            "source_page_start": 321,
+            "source_page_end": 340,
+            "bytes": 43307,
+            "sha256": "b54eac1325ae3f66afbf6fdd1cc4aacd2daa318a7b618975887c3110fa008e15"
+          },
+          {
+            "repository_path": "经济学150/检索文本/高微吴汉洪/P0341-P0352.md",
+            "source_page_start": 341,
+            "source_page_end": 352,
+            "bytes": 14971,
+            "sha256": "8e85620c21ea86629a460f8834858a7e22d7e4fa5ce71b59dc602a1c973d7f1a"
+          }
+        ]
+      },
+      "pdf_entry_path": "经济学150/原件/高微吴汉洪.pdf"
+    }
+  ],
+  "source_file_count": 11,
+  "source_pages": 2670,
+  "source_bytes": 1157703958,
+  "uploaded_pdf_count": 68,
+  "searchable_text_summary": {
+    "ocr_pages": 2246,
+    "native_text_pages": 424,
+    "total_pages": 2670,
+    "text_chunks": 139,
+    "ocr_math_may_be_inaccurate": true
+  },
+  "verification": {
+    "split_pdf_pages_verified": 1588,
+    "all_split_page_pixels_match": true,
+    "comparison_render_scale": 0.75,
+    "method": "RGB raster dimensions and SHA-256 of every rendered page"
+  }
+}
