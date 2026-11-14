@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-24",
+  "repository": "https://github.com/Skyer-cyber/math-150/tree/main/经济学150",
+  "questions": 232,
+  "pages": 464,
+  "paper": "A4",
+  "pages_per_question": 2,
+  "regions_per_question": 4,
+  "scope": "本次确认题单，包含曼昆第6章附录第1题；吴汉洪9.9仅第1小问",
+  "source_checks": [
+    {
+      "file": "尼克尔森12版.pdf",
+      "sha256": "9c7f7b3a19a11320addac09058f9176e69197d2869677fbade874720c9879401",
+      "matches_repository_manifest": true
+    },
+    {
+      "file": "曼昆11版.pdf",
+      "sha256": "fe22becb4aa5820b977667123a5eb7ebcd3b1611c68d29203204aa287b69999a",
+      "matches_repository_manifest": true
+    },
+    {
+      "file": "高微吴汉洪.pdf",
+      "sha256": "1c410088c6dbac84019af160837de6bcc846e0848d2bc3bdfa1087c96e6085d5",
+      "matches_repository_manifest": true
+    }
+  ],
+  "source_visual_review": "232道题的原题裁片已逐题检查，引用条件单独标注，不含例题解答",
+  "layout_checks": [
+    {
+      "name": "尼克尔森",
+      "questions": 63,
+      "pages": 126,
+      "rendered_pages": 126,
+      "minimum_writing_height_pt": 186.9
+    },
+    {
+      "name": "曼昆",
+      "questions": 44,
+      "pages": 88,
+      "rendered_pages": 88,
+      "minimum_writing_height_pt": 288.6
+    },
+    {
+      "name": "吴汉洪一轮",
+      "questions": 86,
+      "pages": 172,
+      "rendered_pages": 172,
+      "minimum_writing_height_pt": 360.1
+    },
+    {
+      "name": "吴汉洪二轮非压轴",
+      "questions": 39,
+      "pages": 78,
+      "rendered_pages": 78,
+      "minimum_writing_height_pt": 330.1
+    }
+  ],
+  "layout_visual_review": {
+    "approved_groups": [
+      "nicholson",
+      "mankiw",
+      "wu1",
+      "wu2"
+    ],
+    "result": "passed",
+    "pages_reviewed_in_contact_sheets": 464,
+    "contact_sheets_reviewed": 25,
+    "reviews": [
+      {
+        "group": "nicholson",
+        "pages": 126,
+        "contact_sheets": 7,
+        "split_boundary_sheets": 8,
+        "high_resolution_pdf_pages": [
+          27,
+          31,
+          79,
+          97,
+          105,
+          117
+        ],
+        "record": "work/nicholson-workbook/final_layout_review.json",
+        "resolved_issue": "习题7.8的表格顶部横线原被分至左栏，现已将分栏点从620像素移至585像素；重建后完整表格位于右栏，独立高清复核通过。"
+      },
+      {
+        "group": "mankiw",
+        "pages": 88,
+        "contact_sheets": 5,
+        "split_boundary_sheets": 4,
+        "split_boundaries_reviewed": 28,
+        "high_resolution_pdf_pages": [
+          29,
+          67,
+          77,
+          81
+        ],
+        "record": "work/mankiw-workbook/final-review/review.json"
+      },
+      {
+        "group": "wu1",
+        "pages": 172,
+        "contact_sheets": 9,
+        "high_resolution_pdf_pages": [
+          125
+        ],
+        "record": "work/wu-workbook/final-review/review.json"
+      },
+      {
+        "group": "wu2",
+        "pages": 78,
+        "contact_sheets": 4,
+        "high_resolution_pdf_pages": [
+          17,
+          18,
+          25,
+          27,
+          45,
+          71
+        ],
+        "record": "work/wu-workbook/final-review/review.json"
+      }
+    ],
+    "final_rebuild": {
+      "all_pages_rerendered": 464,
+      "programmatic_errors": [],
+      "unchanged_groups": [
+        "mankiw",
+        "wu1",
+        "wu2"
+      ],
+      "unchanged_rendered_pages": 338,
+      "png_checksums_before_and_after_identical": true,
+      "aggregate_sha256": "af89f956886e73dd17ef7ae6a0ce0d33f5b7d5da9a4d838fe0a303e807c1ffde"
+    },
+    "unresolved_issues": [],
+    "limitations": [
+      "全部页面经过联系表视觉检查，重点长题、断栏、图表、引用条件另作高清检查；不是逐页高清人工检查。",
+      "已完成数字渲染检查，未进行实体纸张试印。"
+    ]
+  },
+  "limitations": [
+    "未进行实体纸张试印；建议先试印一道题的正反两页"
+  ],
+  "files": [
+    {
+      "file": "01_尼克尔森_三次重做与沉淀.pdf",
+      "questions": 63,
+      "pages": 126,
+      "sha256": "6d54f8732ef9f42c281139d425a1c6e3fa7f89c18a1372070a243ac8e297dbb9"
+    },
+    {
+      "file": "02_曼昆_三次重做与沉淀.pdf",
+      "questions": 44,
+      "pages": 88,
+      "sha256": "bc3263ce4ec5933c316b0d21eb8f06c5e9d5b2599fc37fe43e635eef60022832"
+    },
+    {
+      "file": "03_吴汉洪一轮_三次重做与沉淀.pdf",
+      "questions": 86,
+      "pages": 172,
+      "sha256": "c51e008dd6a3719fc6c95984aa443848b9ced4727aaabb86c22913b96708540f"
+    },
+    {
+      "file": "04_吴汉洪二轮非压轴_三次重做与沉淀.pdf",
+      "questions": 39,
+      "pages": 78,
+      "sha256": "16fe00ba67ae023f7b7097b00aa5954abaec3b0c32136cfc44ce23a016cfd74b"
+    }
+  ]
+}
